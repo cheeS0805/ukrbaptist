@@ -1,0 +1,81 @@
+.board-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-bg);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  }
+
+  &__photo-wrapper {
+    width: 100%;
+    aspect-ratio: 250 / 320;
+    background-color: var(--color-bg-alt);
+    overflow: hidden;
+  }
+
+  &__photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  &__info {
+    padding: 16px 12px 20px;
+    text-align: center;
+  }
+
+  &__name-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: 8px;
+  }
+
+  &__honorific {
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--color-text-muted);
+    line-height: 1.2;
+  }
+
+  &__name {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--color-topbar-bg);
+    line-height: 1.2;
+  }
+
+  &__fullname {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--color-topbar-bg);
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+
+  &__title {
+    font-size: 16px;
+    color: var(--color-text-muted);
+    font-weight: 500;
+    margin: 0;
+  }
+
+  &__ministry {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 0.75rem;
+    color: var(--color-accent);
+    background-color: rgba(200, 168, 75, 0.1);
+    border: 1px solid rgba(200, 168, 75, 0.3);
+    border-radius: 20px;
+    padding: 4px 12px;
+  }
+}

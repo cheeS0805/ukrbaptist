@@ -1,0 +1,8 @@
+export type { Article } from './Article.spec'
+export type { Church } from './Church.spec'
+export type { Event } from './Event.spec'
+export type { BoardMember } from './BoardMember.spec'
+export type { Partner } from './Partner.spec'
+export type { NavItem } from './NavItem.spec'
+export type { GarageItem, GarageCategory } from './GarageItem.spec'
+export type { ContactFormData, ContactFormState } from './ContactFormData.spec'

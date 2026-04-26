@@ -1,0 +1,154 @@
+.history-page {
+  position: relative;
+  background-color: var(--color-white);
+  min-height: 100vh;
+
+  &__social {
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    z-index: 10;
+  }
+
+  &__container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 60px 20px 80px;
+    color: var(--color-paragraph);
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  &__title {
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0 0 20px;
+    color: var(--color-topbar-bg);
+  }
+
+  &__subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: var(--color-paragraph);
+    line-height: 1.3;
+    border-left: 4px solid var(--color-topbar-bg);
+    padding-left: 20px;
+  }
+
+  &__content {
+    p {
+      margin-bottom: 1.2em;
+      line-height: 1.65;
+    }
+
+    a {
+      color: var(--color-topbar-bg);
+      text-decoration: none;
+      border-bottom: 1px dotted rgba(73, 133, 181, 0.4);
+      transition: border-color 0.2s ease;
+
+      &:hover {
+        border-bottom-color: var(--color-topbar-bg);
+      }
+    }
+  }
+
+  &__section-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 1.5em 0 0.5em;
+    color: var(--color-topbar-bg);
+    border-bottom: 2px solid var(--color-solid);
+    padding-bottom: 8px;
+  }
+
+  &__image-block {
+    margin: 30px 0;
+    text-align: center;
+  }
+
+  &__image-full {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+
+  &__image-inline {
+    float: right;
+    margin: 0 0 20px 30px;
+    width: 240px;
+    text-align: center;
+  }
+
+  &__image-portrait {
+    width: 100%;
+    height: auto;
+    border-radius: 50%; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  &__image-caption {
+    font-size: 14px;
+    color: var(--color-image-caption, #5b6e8c);
+    margin-top: 8px;
+    font-style: italic;
+    text-align: center; 
+  }
+
+  &__image-block &__image-caption {
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (max-width: 992px) {
+    &__container {
+      padding: 40px 24px;
+    }
+
+    &__title {
+      font-size: 36px;
+    }
+
+    &__subtitle {
+      font-size: 22px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    &__container {
+      padding: 32px 16px;
+    }
+
+    &__title {
+      font-size: 32px;
+    }
+
+    &__subtitle {
+      font-size: 20px;
+      padding-left: 16px;
+    }
+
+    &__section-title {
+      font-size: 24px;
+    }
+
+    &__image-inline {
+      float: none;
+      margin: 20px auto;
+      width: 200px;
+    }
+
+    &__image-block {
+      margin: 20px 0;
+    }
+
+    &__image-full {
+      border-radius: 8px;
+    }
+  }
+}

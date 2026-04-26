@@ -1,0 +1,24 @@
+.contacts-page {
+  padding: var(--space-12) 0;
+  min-height: 60vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  &__inner {
+    max-width: 670px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 var(--space-6);
+  }
+
+  &__heading {
+    font-family: 'Roboto Slab', var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #4985B5;
+    text-align: center;
+    padding-bottom: 40px;
+    margin: 0;
+  }
+}

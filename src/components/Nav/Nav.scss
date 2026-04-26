@@ -1,0 +1,59 @@
+.nav {
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: var(--space-1);
+  }
+
+  &__item {
+    position: relative;
+  }
+
+  &__link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-1);
+    padding: var(--space-2) var(--space-3);
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--color-white);
+    text-decoration: none;
+    border-radius: var(--border-radius-sm);
+    transition: color var(--transition-fast), background-color var(--transition-fast);
+    white-space: nowrap;
+    background: none;
+    border: none;
+    font-family: var(--font-body);
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+
+    &:hover {
+      color: var(--color-yellow-accent);
+      background-color: transparent;
+    }
+
+    &--active {
+      color: var(--color-yellow-accent);
+      font-weight: 300;
+    }
+  }
+
+  &__dropdown-trigger {
+    cursor: pointer;
+  }
+
+  &__dropdown-arrow {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  @include respond-to(lg) {
+    display: none;
+  }
+}

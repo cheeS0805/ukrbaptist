@@ -1,0 +1,25 @@
+.committee-page {
+  padding: 80px 0;
+
+  &__heading {
+    font-family: var(--font-heading);
+    font-size: 40px;
+    color: var(--color-topbar-bg);
+    margin-bottom: 48px;
+    text-align: center;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+
+    @media (max-width: 1024px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 640px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}

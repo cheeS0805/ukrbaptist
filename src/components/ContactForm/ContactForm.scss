@@ -1,0 +1,98 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  &__input,
+  &__textarea {
+    font-family: 'Roboto', var(--font-body);
+    font-size: 13px;
+    font-weight: 400;
+    color: #7a7a7a;
+    background-color: #ffffff;
+    border: 1px solid #d4d4d4;
+    border-radius: 3px;
+    padding: 7px 14px;
+    width: 100%;
+    line-height: 1.4;
+    transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+    box-sizing: border-box;
+
+    &::placeholder {
+      color: #aaaaaa;
+    }
+
+    &:focus {
+      outline: none;
+      border-color: #4985b5;
+      box-shadow: 0 0 0 3px rgba(73, 133, 181, 0.15);
+    }
+  }
+
+  &__textarea {
+    resize: vertical;
+    min-height: 140px;
+  }
+
+  &__status {
+    font-family: 'Roboto', var(--font-body);
+    font-size: 13px;
+    font-weight: 400;
+    padding: 7px 14px;
+    border-radius: 3px;
+
+    &--success {
+      background-color: rgba(56, 142, 60, 0.1);
+      color: var(--color-success);
+      border: 1px solid rgba(56, 142, 60, 0.3);
+    }
+
+    &--error {
+      background-color: rgba(211, 47, 47, 0.1);
+      color: var(--color-error);
+      border: 1px solid rgba(211, 47, 47, 0.3);
+    }
+  }
+
+  &__submit {
+    font-family: 'Roboto', var(--font-body);
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    background-color: #4985b5;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color var(--transition-fast);
+
+    &:hover:not(:disabled) {
+      background-color: #3a75a5;
+    }
+
+    &:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+  }
+}

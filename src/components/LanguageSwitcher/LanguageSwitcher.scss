@@ -1,0 +1,33 @@
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+
+  &__option {
+    background: none;
+    border: none;
+    font-family: var(--font-body);
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--color-topbar-text);
+    cursor: pointer;
+    padding: var(--space-1) var(--space-2);
+    border-radius: var(--border-radius-sm);
+    transition: color var(--transition-fast);
+
+    &:hover {
+      color: var(--color-white);
+    }
+
+    &--active {
+      color: var(--color-yellow-accent);
+      font-weight: 300;
+    }
+  }
+
+  &__divider {
+    color: var(--color-topbar-text);
+    opacity: 0.5;
+    font-size: 16px;
+  }
+}

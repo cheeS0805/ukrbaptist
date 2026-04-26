@@ -1,0 +1,33 @@
+.social-share-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    &__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45px;
+        height: 45px;
+        background-color: var(--color-bg-alt);
+        transition: background-color 0.3s ease;
+        text-decoration: none;
+        border-radius: 0;
+
+        svg {
+            width: 26px;
+            height: 26px;
+            fill: var(--color-topbar-bg);
+            transition: fill 0.3s ease;
+        }
+
+        &:hover {
+            background-color: var(--color-topbar-text);
+
+            svg {
+                fill: var(--color-yellow-accent);
+            }
+        }
+    }
+}
