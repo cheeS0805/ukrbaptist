@@ -264,6 +264,72 @@
       height: auto;
       margin: 24px auto;
       border-radius: 6px;
+
+      &--small {
+        max-width: 360px;
+      }
+    }
+
+    .event-videos {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      margin: 32px 0;
+    }
+
+    .event-video-wrapper {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%;
+      background: #000;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .event-video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .event-gallery-heading {
+      font-size: var(--font-size-xl);
+      font-weight: var(--font-weight-bold);
+      color: var(--color-primary);
+      margin: 2em 0 0.8em;
+      border-bottom: 1px solid var(--color-accent);
+      padding-bottom: 8px;
+    }
+
+    .event-gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin: 24px 0;
+
+      @media (max-width: 768px) { grid-template-columns: repeat(2, 1fr); }
+      @media (max-width: 480px) { grid-template-columns: 1fr; }
+    }
+
+    .event-gallery__item {
+      display: block;
+      overflow: hidden;
+      border-radius: 8px;
+      aspect-ratio: 4 / 3;
+      background: var(--color-bg-alt);
+      cursor: pointer;
+
+      &:hover .event-gallery__image { transform: scale(1.05); }
+    }
+
+    .event-gallery__image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.2s ease;
     }
 
     h2 {
@@ -360,30 +426,35 @@
     }
 
     &>p:last-of-type {
-      background: #d4eaf7; 
+      background: #d4eaf7;
       padding: 16px 20px;
       border-radius: 12px;
       margin-top: 24px;
       font-weight: 500;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
     }
-  }
 
-  .signature-block {
-    background: #d4eaf7;
-    padding: 16px 20px;
-    border-radius: 12px;
-    margin-top: 24px;
-    font-weight: 500;
+    .signature-block {
+      background: #d4eaf7;
+      padding: 16px 20px;
+      border-radius: 12px;
+      margin-top: 24px;
+      font-weight: 500;
 
-    strong,
-    em {
-      display: inline-block;
-    }
+      p {
+        color: var(--color-topbar-bg);
+        margin: 0 0 4px;
+      }
 
-    em {
-      font-weight: normal;
-      margin-top: 4px;
+      strong,
+      em {
+        display: inline-block;
+      }
+
+      em {
+        font-weight: normal;
+        margin-top: 4px;
+      }
     }
   }
 

@@ -4,6 +4,7 @@ export interface Event {
   titleEn: string
   titleUk?: string
   publishedAt: string
+  publishedAtUk?: string
   thumbnailUrl: string
   thumbnailUrlUk?: string
   imageUrl?: string
@@ -15,6 +16,7 @@ export interface Event {
   contentFullUk?: string
   sourceUrl?: string
   authorName?: string
+  authorNameUk?: string
   authorPhotoUrl?: string
   publisherName?: string
   publisherLogoUrl?: string

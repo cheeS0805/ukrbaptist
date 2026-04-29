@@ -12,7 +12,7 @@ interface OutletContext { currentLang: 'en' | 'uk' }
 
 const labels = {
   en: { notFound: 'Page not found.', gallery: 'Image Gallery', langLabel: 'English', more: 'More Events', prev: 'PREV', next: 'NEXT' },
-  uk: { notFound: 'Сторінку не знайдено.', gallery: 'Галерея зображень', langLabel: 'Українська', more: 'More Events', prev: 'PREV', next: 'NEXT' },
+  uk: { notFound: 'Сторінку не знайдено.', gallery: 'Галерея зображень', langLabel: 'Українська', more: 'More Events', prev: 'ПОПЕРЕДНЯ', next: 'НАЗАД' },
 }
 
 export function GarageDetailPage() {
@@ -46,12 +46,9 @@ export function GarageDetailPage() {
 
   const title = currentLang === 'uk' && item.titleUk ? item.titleUk : item.titleEn
 
-  const locale = currentLang === 'uk' ? 'uk-UA' : 'en-US'
-  const date = new Date(item.publishedAt).toLocaleDateString(locale, {
-    year: 'numeric',
-    month: '2-digit',
-    day: '2-digit',
-  })
+  const publishedAt = currentLang === 'uk' && item.publishedAtUk ? item.publishedAtUk : item.publishedAt
+  const d = new Date(publishedAt)
+  const date = `${String(d.getDate()).padStart(2, '0')}/${String(d.getMonth() + 1).padStart(2, '0')}/${d.getFullYear()}`
 
   const prevTitle = prevItem
     ? (currentLang === 'uk' && prevItem.titleUk ? prevItem.titleUk : prevItem.titleEn)
@@ -70,7 +67,7 @@ export function GarageDetailPage() {
           <div className="garage-detail__breadcrumb">
             <Link to="/">{t('nav.home')}</Link>
             <span className="garage-detail__breadcrumb-sep"> &rsaquo; </span>
-            <span>{l.langLabel}</span>
+            <Link to="/garage">{l.langLabel}</Link>
             <span className="garage-detail__breadcrumb-sep"> &rsaquo; </span>
             <span className="garage-detail__breadcrumb-current">{title}</span>
           </div>
@@ -92,7 +89,7 @@ export function GarageDetailPage() {
                 <svg className="garage-detail__date-icon" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                   <path d="M12 192h424c6.6 0 12 5.4 12 12v260c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V204c0-6.6 5.4-12 12-12zm436-44v-36c0-26.5-21.5-48-48-48h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v36c0 6.6 5.4 12 12 12h424c6.6 0 12-5.4 12-12z" />
                 </svg>
-                <time className="garage-detail__date" dateTime={item.publishedAt}>{date}</time>
+                <time className="garage-detail__date" dateTime={publishedAt}>{date}</time>
               </div>
             )
           })()}

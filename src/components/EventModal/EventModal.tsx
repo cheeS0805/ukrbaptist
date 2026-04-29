@@ -15,7 +15,8 @@ export function EventModal({ event, currentLang, onClose }: EventModalProps) {
     ? event.contentUk
     : event.contentEn ?? (currentLang === 'uk' ? event.excerptUk : event.excerptEn)
 
-  const date = new Date(event.publishedAt).toLocaleDateString(
+  const publishedAt = currentLang === 'uk' && event.publishedAtUk ? event.publishedAtUk : event.publishedAt
+  const date = new Date(publishedAt).toLocaleDateString(
     currentLang === 'uk' ? 'uk-UA' : 'en-US',
     { year: 'numeric', month: 'long', day: 'numeric' }
   )
@@ -57,7 +58,7 @@ export function EventModal({ event, currentLang, onClose }: EventModalProps) {
         )}
 
         <div className="event-modal__body">
-          <time className="event-modal__date" dateTime={event.publishedAt}>{date}</time>
+          <time className="event-modal__date" dateTime={publishedAt}>{date}</time>
           <h2 className="event-modal__title" id="event-modal-title">{title}</h2>
 
           {content && (

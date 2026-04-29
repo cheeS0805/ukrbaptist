@@ -7,6 +7,7 @@ export const events: Event[] = [
     id: 'ev-001',
     slug: 'appeal-third-anniversary-russian-invasion-2025',
     titleEn: 'An Appeal of the Ukrainian Baptist Convention in the USA on the third anniversary of the full-scale Russian invasion of Ukraine',
+    titleUk: 'Звернення Обʼєднання Українських Баптистських Церков Америки з нагоди третьої річниці повномасштабного російського вторгнення в Україну',
     publishedAt: '2025-04-09',
     thumbnailUrl: '',
     contentFull: `
@@ -45,13 +46,46 @@ export const events: Event[] = [
   <a href="https://ukrbaptist.org/wp-content/uploads/2024/02/IMG_2338.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2024/02/IMG_2338.jpg" alt="An Appeal of the Ukrainian Baptist Convention in the USA on the third anniversary of the full-scale Russian invasion of Ukraine" class="event-gallery__image" loading="lazy" /></a>
 </div>
 `,
+    contentFullUk: `
+    <div class="letterhead">
+  <p><strong>Ukrainian Evangelical Baptist Convention, USA</strong></p>
+  <p><strong>The Ukrainian Missionary and Bible Society, INC</strong></p>
+  <p><strong>Об'єднання Українських Євангельських Баптистських Церков у США</strong></p>
+  <p><strong>920 Trenton Rd, Fairless Hills, PA 19030 USA</strong></p>
+  <p><strong><a href="https://www.ukrbaptist.org" target="_blank" rel="noopener noreferrer">www.ukrbaptist.org</a></strong></p>
+  <p><strong>Зростати, Збудовувати, Звіщати ~ Grow, Build, Proclaim</strong></p>
+</div>
+
+<p>30 квітня, 2025</p>
+
+<p><strong>Звернення Обʼєднання Українських Баптистських Церков Америки з нагоди третьої річниці повномасштабного російського вторгнення в Україну.</strong></p>
+
+<p>Ми, як християни, продовжуємо молитись до Господа за мир в Україні і надаємо всебічну підтримку і допомогу українському народу і церквам під час війни. Наше серце болить за сотні тисяч українців, хто втратив близьких, хто опинився в полоні, хто отримав фізичні і душевні рани, хто вимушений залишити домівки і тікати від війни.</p>
+
+<div class="convention-highlight">
+  <p>За цей час світ став свідком мужньої стійкості українського народу та церкви і жорстокій агресії з боку Росії. Результатом вторгнення є масові факти геноциду українського народу, переслідування українських християн на окупованих територіях з боку російської влади і армії, примусового вивезення українських дітей в Росію та утримування тисяч українців у полоні. Це Біблія називає гріхом перед Богом і злочином перед людьми.</p>
+  <p>Від імені українського народу, ми вдячні всім американцям, уряду, церквам, організаціям, громадянам, за підтримку і допомогу України в боротьбі за незалежність і свободу. Українці прагнуть миру і платять найдорожчу ціну задля миру, боронячи і вмираючи за мир для своїх рідних на своїй землі.</p>
+  <p>Сотні тисяч українців вдячні за наданий їм притулок в США під час війни. Зараз вони знаходяться в США, тому що втратили свої домівки і багатьом є загроза життю. Особливо звертаємось до уряду США підтримати українців, яким нікуди вертатись, бо їхні міста і села зруйновані і окуповані Росією.</p>
+  <p>Ми, члени українських баптистських церков у США, звертаємось до американського народу і уряду не зупинятись у підтримці України і продовжувати допомогу українському народу в час боротьби за право вільно вірити і поклонятись Богу, право жити на своїй землі, право обирати свій уряд, право голосу і свободи.</p>
+</div>
+
+<p><strong>God bless America! God bless Ukraine!</strong></p>
+
+<div class="signature-block">
+  <p><strong>Управа Об’єднання Церков</strong><br/>
+  Іоанн Устенко, Роман Капран, Анатолій Сахан, Денис Січкар, Олександр Колеснік, Павло Ващишин</p>
+</div>
+`,
     sourceUrl: 'https://ukrbaptist.org/en/an-appeal-of-the-ukrainian-baptist-convention-in-the-usa-on-the-third-anniversary-of-the-full-scale-russian-invasion-of-ukraine/',
   },
   {
     id: 'ev-002', slug: 'carrying-the-torch-legacy-activism-2024',
     titleEn: 'Carrying the torch: How Ukrainian Baptist Convention upholds a legacy of activism',
+    titleUk: 'Презентація Української Навчальної Біблії',
     publishedAt: '2024-10-13',
+    publishedAtUk: '2024-09-05',
     thumbnailUrl: '/images/news/carrying-torch.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2024/10/IMG_1349.jpg',
     imageUrl: '',
     authorName: 'Eddie Priymak',
     contentFull: `
@@ -110,12 +144,34 @@ export const events: Event[] = [
 <p>Olexa Harbuziuk passed away on October 4, 1997, but the legacy he and his contemporaries left endures. “People need to know our earlier history,” Kapran emphasises, “our Ukrainian diaspora was very active… they very clearly spoke out.” This history may be unknown to many within the Ukrainian diaspora, but the Ukrainian Evangelical Baptist Convention has kept it alive.</p>
 <p>Today, a new generation of leaders has taken up the baton, continuing the advocacy for both Christians and Ukraine, building on the legacy of their predecessors.</p>
 `,
+    contentFullUk:`
+  <img src="https://ukrbaptist.org/wp-content/uploads/2024/10/IMG_1349.jpg" alt="Презентація Української Навчальної Біблії" class="article-inline-img" />
+  <div class="letterhead">
+  <p>Слава Богу! Українська Навчальна Біблія була презентована на 78-у з’їзді Об’єднання Українських Баптистських Церков у США.</p>
+  <p>Подяка всім, хто долучився молитовно і фінансово для створення УНБ. Це знакова подія – видавництво першої навчальної Біблії українською мовою, Біблії з коментарями.</p>
+</div>
+
+<div class="convention-highlight">
+  <p>Робота над перекладом, редакцією, корекцією, версткою і друком зайняла 8.5 років.</p>
+</div>
+
+<div class="signature-block">
+  <p>Тепер УНБ є надбанням українського народу!</p>
+</div>
+<img src="https://ukrbaptist.org/wp-content/uploads/2024/10/IMG_1350-768x931.jpg" 
+     alt="Презентація Української Навчальної Біблії (міні-фото)" 
+     class="article-inline-img" 
+     style="max-width: 300px; width: 100%; height: auto; display: block; margin: 20px auto; border-radius: 12px;" />
+    `
   },
   {
     id: 'ev-003', slug: 'ukrainian-weekly-78th-convention-2024',
     titleEn: 'The Ukrainian Weekly – 78th Annual Ukrainian Baptist Convention',
+    titleUk: "Запрошення на 78-й з’їзд Об’єднання Українських Баптистських Церков у США",
     publishedAt: '2024-09-10',
+    publishedAtUk: '2024-08-29',
     thumbnailUrl: '/images/news/78th-convention-coverage.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2024/08/Invitation-for-Convention.jpg',
     imageUrl: '',
     contentFull: `
 <img src="/images/news/78th-convention-coverage.jpg" alt="78th Annual Ukrainian Baptist Convention" class="article-inline-img" />
@@ -125,13 +181,20 @@ export const events: Event[] = [
   </a>
 </p>
 `,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2024/08/Invitation-for-Convention.jpg" alt="Запрошення на 78-й з’їзд Об’єднання Українських Баптистських Церков у США" class="article-inline-img" />
+
+    <p>Більше інформації про з’їзд можна подивитись на сайті – <a href="https://eubc.us" target="_blank" rel="noopener noreferrer">eubc.us</a></p>
+    `,
     sourceUrl: 'https://ukrbaptist.org/en/the-ukrainian-weekly-78th-annual-ukrainian-baptist-convention/',
   },
   {
     id: 'ev-004', slug: '78th-annual-convention-2024',
     titleEn: '78th Annual Ukrainian Baptist Convention',
+    titleUk: "Звернення управи Об’єднання Українських Баптистських Церков у США на другу річницю повномасштабного вторгнення росії в Україну",
     publishedAt: '2024-08-29',
     thumbnailUrl: '/images/news/78th-convention.jpg',
+    thumbnailUrlUk: '',
     imageUrl: '',
     contentFull: `
 <img src="/images/news/78th-convention.jpg" alt="78th Annual Ukrainian Baptist Convention" class="article-inline-img" />
@@ -145,6 +208,17 @@ export const events: Event[] = [
 
 <div class="signature-block">
   <p>September 1, at 11 AM – Bensalem High School, 4319 Hulmeville, Bensalem, PA 19020</p>
+</div>
+`,
+      contentFullUk: `
+<div class="letterhead">
+  <p>Більше інформації про 78-й щорічний з'їзд Української Баптистської Конвенції можна знайти на сайті – <a href="https://eubc.us" target="_blank" rel="noopener noreferrer">eubc.us</a></p>
+</div>
+<div class="convention-highlight">
+  <p>30-31 серпня – Regeneration Church, 920 Trenton Rd, Fairless Hills, PA 19030</p>
+</div>
+<div class="signature-block">
+  <p>1 вересня, об 11:00 – Bensalem High School, 4319 Hulmeville, Bensalem, PA 19020</p>
 </div>
 `,
     sourceUrl: 'https://ukrbaptist.org/en/78th-annual-ukrainian-baptist-convention/',

@@ -11,7 +11,8 @@ export function EventCard({ event, currentLang }: EventCardProps) {
   const title = currentLang === 'uk' && event.titleUk ? event.titleUk : event.titleEn
   const thumbnail = currentLang === 'uk' && event.thumbnailUrlUk ? event.thumbnailUrlUk : event.thumbnailUrl
   const locale = currentLang === 'uk' ? 'uk-UA' : 'en-US'
-  const date = new Date(event.publishedAt).toLocaleDateString(
+  const publishedAt = currentLang === 'uk' && event.publishedAtUk ? event.publishedAtUk : event.publishedAt
+  const date = new Date(publishedAt).toLocaleDateString(
     locale,
     { year: 'numeric', month: 'long', day: 'numeric' }
   )
@@ -29,7 +30,7 @@ export function EventCard({ event, currentLang }: EventCardProps) {
         </Link>
       )}
       <div className="event-card__body">
-        <time className="event-card__date" dateTime={event.publishedAt}>{date}</time>
+        <time className="event-card__date" dateTime={publishedAt}>{date}</time>
         <h3 className="event-card__title">
           <Link to={`/our-events/${event.slug}`} className="event-card__title-link">
             {title}

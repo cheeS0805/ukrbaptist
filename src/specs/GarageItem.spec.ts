@@ -10,6 +10,7 @@ export interface GarageItem {
   thumbnailUrlUk?: string
   category: GarageCategory
   publishedAt: string
+  publishedAtUk?: string
   contentEn?: string
   contentUk?: string
   contentRu?: string
@@ -22,4 +23,5 @@ export interface GarageItem {
   youtubeIds?: string[]
   youtubeIdsUk?: string[]
   externalUrl?: string
+  externalUrlUk?: string
 }

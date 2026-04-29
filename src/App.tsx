@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { MainLayout } from './layouts/MainLayout/MainLayout'
 import { HomePage } from './pages/HomePage/HomePage'
 import { ChurchesPage } from './pages/ChurchesPage/ChurchesPage'
@@ -14,6 +14,7 @@ import { CommitteePage } from './pages/about/CommitteePage/CommitteePage'
 import { CreedPage } from './pages/about/CreedPage/CreedPage'
 import { PartnersPage } from './pages/about/PartnersPage/PartnersPage'
 import { ArticleDetailPage } from './pages/ArticleDetailPage/ArticleDetailPage'
+import { ArticlesPage } from './pages/ArticlesPage/ArticlesPage'
 
 export function App() {
   return (
@@ -21,9 +22,11 @@ export function App() {
       <Routes>
         <Route element={<MainLayout />}>
           <Route path="/" element={<HomePage />} />
+          <Route path="/articles" element={<ArticlesPage />} />
           <Route path="/articles/:slug" element={<ArticleDetailPage />} />
           <Route path="/churches" element={<ChurchesPage />} />
           <Route path="/churches/:slug" element={<ChurchDetailPage />} />
+          <Route path="/blog" element={<Navigate to="/our-events" replace />} />
           <Route path="/our-events" element={<EventsPage />} />
           <Route path="/our-events/:slug" element={<EventDetailPage />} />
           <Route path="/contacts" element={<ContactsPage />} />

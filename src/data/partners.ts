@@ -28,7 +28,7 @@ export const partners: Partner[] = [
   {
     id: 'partner-namb',
     nameEn: 'North American Mission Board',
-    nameUk: 'Місіонерська Рада Північної Америки',
+    nameUk: 'North American Mission Board',
     websiteUrl: 'https://www.namb.net',
   },
 ]

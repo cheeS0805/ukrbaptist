@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import type { Article } from '../../specs'
 import './ArticleCard.scss'
 
@@ -8,9 +9,12 @@ interface ArticleCardProps {
 }
 
 export function ArticleCard({ article, currentLang }: ArticleCardProps) {
+  const { t } = useTranslation('common')
   const title = currentLang === 'uk' && article.titleUk ? article.titleUk : article.titleEn
-  const excerpt = currentLang === 'uk' && article.excerptUk ? article.excerptUk : article.excerptEn
-  const thumbnail = currentLang === 'uk' && article.thumbnailUrlUk ? article.thumbnailUrlUk : article.thumbnailUrl
+  const excerpt = currentLang === 'uk'
+    ? (article.excerptUk !== undefined ? article.excerptUk : article.excerptEn)
+    : article.excerptEn
+  const thumbnail = currentLang === 'uk' && article.thumbnailUrlUk !== undefined ? article.thumbnailUrlUk : article.thumbnailUrl
   const variant = article.cardVariant ?? (thumbnail ? 'thumbnail-left' : 'text-only')
 
   return (
@@ -44,9 +48,9 @@ export function ArticleCard({ article, currentLang }: ArticleCardProps) {
               {title}
             </Link>
           </h3>
-          <p className="article-card__excerpt">{excerpt}</p>
+          {excerpt && <p className="article-card__excerpt">{excerpt}</p>}
           <Link to={`/articles/${article.slug}`} className="article-card__read-more">
-            READ MORE
+            {t('actions.readMore')} »
           </Link>
         </div>
       </div>

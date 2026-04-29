@@ -1,5 +1,6 @@
 export interface ChurchContact {
   name: string
+  nameUk?: string
   phone?: string
 }
 

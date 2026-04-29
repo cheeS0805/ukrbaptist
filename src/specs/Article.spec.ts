@@ -8,7 +8,9 @@ export interface Article {
   thumbnailUrl: string
   thumbnailUrlUk?: string
   publishedAt: string
+  publishedAtUk?: string
   authorName?: string
+  authorNameUk?: string
   authorRole?: string
   contentEn?: string
   contentUk?: string

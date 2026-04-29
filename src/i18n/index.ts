@@ -38,6 +38,12 @@ i18n
             loading: "Loading...",
             loadMore: "Load more",
           },
+          articles: {
+            imageGallery: "Image Gallery",
+            moreEvents: "More Events",
+            prev: "PREV",
+            next: "NEXT",
+          },
           langSwitcher: {
             uk: "Укр",
             en: "Eng",
@@ -108,7 +114,7 @@ i18n
           },
           footer: {
             copyright: "© 1946 — 2026 Об'єднання Українських Баптистських Церков у США. Всі права захищено.",
-            credit: "Створено командою Lagom Pack",
+            credit: "За пiдтримкoю Lagom Pack",
           },
           actions: {
             readMore: "Детальніше",
@@ -117,6 +123,12 @@ i18n
             send: "Надіслати",
             loading: "Завантаження...",
             loadMore: "Завантажити більше",
+          },
+          articles: {
+            imageGallery: "Фото галерея",
+            moreEvents: "Більше подій",
+            prev: "ПОПЕРЕДНЯ",
+            next: "НАСТУПНА",
           },
           langSwitcher: {
             uk: "Укр",
