@@ -1,4 +1,28 @@
 .church-detail {
+
+  &__breadcrumb {
+      font-size: 14px;
+      color: #6c757d;
+      margin-bottom: 20px;
+  
+      a {
+        color: #4985b5;
+        text-decoration: none;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  
+    &__breadcrumb-sep {
+      margin: 0 6px;
+    }
+  
+    &__breadcrumb-current {
+      color: #333;
+    }
+    
   &__panel {
     background: #cce3f5;
     width: 100%;

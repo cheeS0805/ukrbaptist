@@ -85,7 +85,7 @@ export function ArticleDetailPage() {
           <div className="article-detail__breadcrumb">
             <Link to="/">{t('nav.home')}</Link>
             <span className="article-detail__breadcrumb-sep"> &rsaquo; </span>
-            <Link to="/articles">{currentLang === 'uk' ? 'Українська' : 'English'}</Link>
+            <Link to="/archive">{currentLang === 'uk' ? 'Українська' : 'English'}</Link>
             <span className="article-detail__breadcrumb-sep"> &rsaquo; </span>
             <span className="article-detail__breadcrumb-current">{title}</span>
           </div>

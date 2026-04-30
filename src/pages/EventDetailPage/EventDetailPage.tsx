@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect, useLayoutEffect } from 'react'
+import { useRef, useState,  useLayoutEffect } from 'react'
 import { useOutletContext, useParams, Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { events } from '../../data/events'
@@ -87,7 +87,7 @@ export function EventDetailPage() {
           <div className="event-detail__breadcrumb">
             <Link to="/">{t('nav.home')}</Link>
               <span className="event-detail__breadcrumb-sep"> &rsaquo; </span>
-            <Link to="/our-events/archive">{currentLang === 'uk' ? 'Українська' : 'English'}</Link>
+            <Link to="/archive">{currentLang === 'uk' ? 'Українська' : 'English'}</Link>
               <span className="event-detail__breadcrumb-sep"> &rsaquo; </span>
               <span className="event-detail__breadcrumb-current">{title}</span>
           </div>

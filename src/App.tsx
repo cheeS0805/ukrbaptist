@@ -4,7 +4,6 @@ import { HomePage } from './pages/HomePage/HomePage'
 import { ChurchesPage } from './pages/ChurchesPage/ChurchesPage'
 import { ChurchDetailPage } from './pages/ChurchDetailPage/ChurchDetailPage'
 import { EventsPage } from './pages/EventsPage/EventsPage'
-import { EventsArchivePage } from './pages/EventsArchivePage/EventsArchivePage'
 import { EventDetailPage } from './pages/EventDetailPage/EventDetailPage'
 import { ContactsPage } from './pages/ContactsPage/ContactsPage'
 import { DonatePage } from './pages/DonatePage/DonatePage'
@@ -16,6 +15,7 @@ import { CreedPage } from './pages/about/CreedPage/CreedPage'
 import { PartnersPage } from './pages/about/PartnersPage/PartnersPage'
 import { ArticleDetailPage } from './pages/ArticleDetailPage/ArticleDetailPage'
 import { ArticlesPage } from './pages/ArticlesPage/ArticlesPage'
+import { UnifiedArchivePage } from './pages/UnifiedArchivePage/UnifiedArchivePage'
 
 
 export function App() {
@@ -30,7 +30,6 @@ export function App() {
           <Route path="/churches/:slug" element={<ChurchDetailPage />} />
           <Route path="/blog" element={<Navigate to="/our-events" replace />} />
           <Route path="/our-events" element={<EventsPage />} />
-          <Route path="/our-events/archive" element={<EventsArchivePage />} />
           <Route path="/our-events/:slug" element={<EventDetailPage />} />
           <Route path="/contacts" element={<ContactsPage />} />
           <Route path="/donate" element={<DonatePage />} />
@@ -40,6 +39,7 @@ export function App() {
           <Route path="/about-us/committee" element={<CommitteePage />} />
           <Route path="/about-us/creed" element={<CreedPage />} />
           <Route path="/about-us/partners" element={<PartnersPage />} />
+          <Route path="/archive" element={<UnifiedArchivePage />} />
         </Route>
       </Routes>
     </BrowserRouter>

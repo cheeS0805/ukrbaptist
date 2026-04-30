@@ -1,5 +1,14 @@
-.events-archive-page {
+.unified-archive-page {
     padding: 40px 0 80px;
+    
+    &__item-link {
+            color: #4985b5;
+            text-decoration: none;
+    
+            &:hover {
+                text-decoration: underline;
+            }
+        }
 
     &__heading {
         font-size: 32px;
@@ -31,10 +40,22 @@
 
     &__item-meta {
         flex-shrink: 0;
-        width: 160px;
+        width: 180px;
         font-size: 14px;
         color: #6c757d;
         font-family: monospace;
+
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    &__item-type {
+        font-size: 12px;
+        color: #4985b5;
+        font-family: inherit;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
     }
 
     &__item-title {

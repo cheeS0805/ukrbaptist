@@ -67,7 +67,7 @@ export function GarageDetailPage() {
           <div className="garage-detail__breadcrumb">
             <Link to="/">{t('nav.home')}</Link>
             <span className="garage-detail__breadcrumb-sep"> &rsaquo; </span>
-            <Link to="/garage">{l.langLabel}</Link>
+            <Link to="/archive">{l.langLabel}</Link>
             <span className="garage-detail__breadcrumb-sep"> &rsaquo; </span>
             <span className="garage-detail__breadcrumb-current">{title}</span>
           </div>

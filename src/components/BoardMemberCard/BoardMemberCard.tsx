@@ -4,6 +4,7 @@ import './BoardMemberCard.scss'
 interface BoardMemberCardProps {
   member: BoardMember
   currentLang: 'en' | 'uk'
+  onClick?: () => void
 }
 
 const HONORIFICS_UK = ['пастор', 'прот.', 'прот']
@@ -12,11 +13,11 @@ const HONORIFICS_EN = ['rev.', 'rev', 'pastor']
 function extractHonorificAndName(fullName: string, lang: 'en' | 'uk'): { honorific: string | null; restName: string } {
   const words = fullName.trim().split(/\s+/)
   if (words.length === 0) return { honorific: null, restName: '' }
-
+  
   const firstWordLower = words[0].toLowerCase()
   const honorificList = lang === 'uk' ? HONORIFICS_UK : HONORIFICS_EN
   const isHonorific = honorificList.includes(firstWordLower)
-
+  
   if (isHonorific && words.length > 1) {
     return {
       honorific: words[0],
@@ -26,13 +27,13 @@ function extractHonorificAndName(fullName: string, lang: 'en' | 'uk'): { honorif
   return { honorific: null, restName: fullName }
 }
 
-export function BoardMemberCard({ member, currentLang }: BoardMemberCardProps) {
+export function BoardMemberCard({ member, currentLang, onClick }: BoardMemberCardProps) {
   const fullName = currentLang === 'uk' && member.nameUk ? member.nameUk : member.nameEn
   const title = currentLang === 'uk' && member.titleUk ? member.titleUk : member.titleEn
   const { honorific, restName } = extractHonorificAndName(fullName, currentLang)
 
   return (
-    <div className="board-card">
+    <div className={`board-card${onClick ? ' board-card--clickable' : ''}`} onClick={onClick}>
       <div className="board-card__photo-wrapper">
         <img
           src={member.photoUrl}
