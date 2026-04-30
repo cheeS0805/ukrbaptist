@@ -9,7 +9,7 @@ interface EventCardProps {
 
 export function EventCard({ event, currentLang }: EventCardProps) {
   const title = currentLang === 'uk' && event.titleUk ? event.titleUk : event.titleEn
-  const thumbnail = currentLang === 'uk' && event.thumbnailUrlUk ? event.thumbnailUrlUk : event.thumbnailUrl
+ const thumbnail = currentLang === 'uk' ? event.thumbnailUrlUk : event.thumbnailUrl
   const locale = currentLang === 'uk' ? 'uk-UA' : 'en-US'
   const publishedAt = currentLang === 'uk' && event.publishedAtUk ? event.publishedAtUk : event.publishedAt
   const date = new Date(publishedAt).toLocaleDateString(

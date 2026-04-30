@@ -64,10 +64,15 @@
     a {
       color: var(--color-brown);
       text-decoration: none;
-      &:hover { text-decoration: underline; }
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
 
-    span { padding-left: 10px; }
+    span {
+      padding-left: 10px;
+    }
   }
 
   &__breadcrumb-sep {
@@ -133,7 +138,10 @@
     a {
       color: var(--color-accent);
       text-decoration: none;
-      &:hover { text-decoration: underline; }
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
 
     .letterhead {
@@ -166,7 +174,11 @@
       a {
         color: var(--color-primary);
         border-bottom: 1px dotted rgba(73, 133, 181, 0.4);
-        &:hover { border-bottom-color: var(--color-primary); text-decoration: none; }
+
+        &:hover {
+          border-bottom-color: var(--color-primary);
+          text-decoration: none;
+        }
       }
     }
 
@@ -179,7 +191,9 @@
       font-weight: 500;
       margin: 0.4em 0;
 
-      &:hover { background-color: #e6f4fe; }
+      &:hover {
+        background-color: #e6f4fe;
+      }
     }
 
     .signature-block {
@@ -189,7 +203,9 @@
       margin-top: 24px;
       font-weight: 500;
 
-      p { margin: 0 0 4px; }
+      p {
+        margin: 0 0 4px;
+      }
     }
 
     .article-source {
@@ -201,12 +217,21 @@
       margin-bottom: 28px;
       flex-wrap: wrap;
 
-      &__logo { height: 36px; width: auto; display: block; }
+      &__logo {
+        height: 36px;
+        width: auto;
+        display: block;
+      }
 
       &__meta {
         flex: 1;
         min-width: 200px;
-        p { font-size: var(--font-size-xs); color: var(--color-text-muted); margin: 6px 0 0; }
+
+        p {
+          font-size: var(--font-size-xs);
+          color: var(--color-text-muted);
+          margin: 6px 0 0;
+        }
       }
 
       &__author {
@@ -214,8 +239,16 @@
         align-items: center;
         gap: 10px;
         margin-bottom: 6px;
-        div { font-size: var(--font-size-sm); line-height: 1.4; }
-        span { color: var(--color-text-muted); font-size: var(--font-size-xs); }
+
+        div {
+          font-size: var(--font-size-sm);
+          line-height: 1.4;
+        }
+
+        span {
+          color: var(--color-text-muted);
+          font-size: var(--font-size-xs);
+        }
       }
 
       &__headshot {
@@ -252,13 +285,41 @@
       margin: 1.2em 0 0.4em;
     }
 
+    // Стилі для .creed-subsection (ліва рамка, відступ, заголовок)
+    .creed-subsection {
+      padding-left: 24px;
+      border-left: 3px solid var(--color-topbar-bg, #4985b5);
+      margin: 0 0 1.5rem;
+
+      @media (max-width: 640px) {
+        padding-left: 16px;
+      }
+
+      &__heading {
+        font-family: var(--font-heading);
+        font-size: 20px;
+        font-weight: 600;
+        color: #2c5f7a;
+        margin: 0 0 8px;
+      }
+
+      p {
+        margin-bottom: 0.5em;
+      }
+    }
+
     .event-gallery {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 16px;
 
-      @media (max-width: 768px) { grid-template-columns: repeat(2, 1fr); }
-      @media (max-width: 480px) { grid-template-columns: 1fr; }
+      @media (max-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      @media (max-width: 480px) {
+        grid-template-columns: 1fr;
+      }
     }
 
     .event-gallery__item {
@@ -268,7 +329,9 @@
       aspect-ratio: 4 / 3;
       background: var(--color-bg-alt);
 
-      &:hover .event-gallery__image { transform: scale(1.05); }
+      &:hover .event-gallery__image {
+        transform: scale(1.05);
+      }
     }
 
     .event-gallery__image {
@@ -456,8 +519,16 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
 
-    @media (max-width: 1024px) { grid-template-columns: repeat(3, 1fr); }
-    @media (max-width: 768px)  { grid-template-columns: repeat(2, 1fr); }
-    @media (max-width: 480px)  { grid-template-columns: 1fr; }
+    @media (max-width: 1024px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (max-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 480px) {
+      grid-template-columns: 1fr;
+    }
   }
 }

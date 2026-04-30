@@ -90,8 +90,15 @@ export const events: Event[] = [
     authorName: 'Eddie Priymak',
     contentFull: `
 <div class="article-source">
+  <img src="/images/news/ee-logo.png" alt="Emerging Europe" class="article-source__logo" />
   <div class="article-source__meta">
-    <p><strong>Eddie Priymak</strong><br/>Journalist & Researcher</p>
+    <div class="article-source__author">
+      <img src="/images/news/eddie-priymak.jpg" alt="Eddie Priymak" class="article-source__headshot" />
+      <div>
+        <strong>Eddie Priymak</strong><br/>
+        <span>Journalist &amp; Researcher</span>
+      </div>
+    </div>
     <p>Originally published in <em>Emerging Europe</em>, September 28, 2024.<br/>Republished on UkrBaptist.org, October 13, 2024.</p>
   </div>
 </div>
@@ -193,6 +200,7 @@ export const events: Event[] = [
     titleEn: '78th Annual Ukrainian Baptist Convention',
     titleUk: "Звернення управи Об’єднання Українських Баптистських Церков у США на другу річницю повномасштабного вторгнення росії в Україну",
     publishedAt: '2024-08-29',
+    publishedAtUk: '2024-02-25',
     thumbnailUrl: '/images/news/78th-convention.jpg',
     thumbnailUrlUk: '',
     imageUrl: '',
@@ -212,22 +220,49 @@ export const events: Event[] = [
 `,
       contentFullUk: `
 <div class="letterhead">
-  <p>Більше інформації про 78-й щорічний з'їзд Української Баптистської Конвенції можна знайти на сайті – <a href="https://eubc.us" target="_blank" rel="noopener noreferrer">eubc.us</a></p>
+  <p><strong>Ukrainian Evangelical Baptist Convention, USA</strong></p>
+  <p><strong>The Ukrainian Missionary and Bible Society, INC</strong></p>
+  <p><strong>Об’єднання Українських Євангельських Баптистських Церков у США</strong></p>
+  <p><strong>517 Bonsall Road, Ridley Park, PA 19078 USA</strong></p>
+  <p><strong><a href="https://www.ukrbaptist.org" target="_blank" rel="noopener noreferrer">www.ukrbaptist.org</a></strong></p>
+  <p><strong>Зростати, Збудовувати, Звіщати</strong></p>
 </div>
+
+<p>22 лютого 2024 року</p>
+
+<p><strong>Звернення управи Об’єднання Українських Євангельських Баптистських Церков у США з нагоди другої річниці повномасштабного вторгнення Росії в Україну.</strong></p>
+
+<p>24 лютого 2022 року. В цей день «вершник на білому коні», подібно як в 6-у розділі Книги Об’явлення, в’їхав в Україну, щоб перемагати і розділяти, щоб грабувати і руйнувати. За ним слідували три інші вершники: війна, голод і смерть.</p>
+
+<p>Так, цей день призвів до розділення: час розділився на «до» і «після», мир і війну; люди розділились на живих і мертвих; військові розділились на захисників своїх співвітчизників і на агресорів в іншій країні; церкви розділились на ті, які відкрились для біженців і на ті, які закрились для біженців; громадяни розділились на «всім помагаємо» і на «все пропало»; свідомість розділилась на «волю і боротьбу» і на «рабство і залежність»; християни розділились на волонтерів та капеланів і на «внє політікі», на осуджуючих агресію Росії і на оправдуючих СВО в Україні, на молитовних воїнів і на пасивних глядачів. Незважаючи на зусилля «вершника на білому коні» розділити Україну, Бог дав сили і терпіння народу і церкві в Україні не розділитись.</p>
+
+<p>Позаду два роки війни, два роки розділення від сім’ї, розділення від дому та рідного краю, розділення від спокою і миру. А попереду чекає важка праця та наполеглива молитва до Господа, щоб Він зробив нас здатними з’єднувати розділене: витирати сльози, лікувати рани, співчувати в горі, боротися із злом, відбудовувати зруйноване, вселяти надію і проповідувати Євангелію Ісуса Христа.</p>
+
 <div class="convention-highlight">
-  <p>30-31 серпня – Regeneration Church, 920 Trenton Rd, Fairless Hills, PA 19030</p>
+  <p>Книга Об’явлення в 19-у розділі показує іншого «Вершника на білому коні», за Яким слідує військо на білих конях і Який переможе армію агресорів, окупантів і загарбників. Фактично зараз на другому році війни Росії проти України, стало явно, дивлячись на дії як окремих християн так і церков, хто слідує за «вершником» з малої літери, а хто за «Вершником на білому коні» з великої літери: хто підтримує чи мовчить про агресію Росії проти Україна, а хто її засуджує; хто байдуже відноситься до смертей і тортур українських християн, а хто захищає їх і заступається за них; хто приїздить на окуповані території України за дозволом ФСБ Росії, а хто був депортований з окупованих територій України за віру; хто був мобілізований в російську армію на війну проти України, а хто став захисником своєї сім’ї, міста, Батьківщини; хто дав хабаря за нелегальний виїзд з України, а хто донатить для підтримки України; хто слухає неправду про Україну і розносить її, а хто заступається в молитві за Україну. В чому полягає наше слідування за «вершником/Вершником на білому коні»: ми помагаємо руйнувати країну з найбільшою кількістю євангельських церков в Європі і свободою проповіді Євангелії, чи ми боремося разом з християнами в Україні за душі знедолених і церкви?</p>
 </div>
+
+<p>Управа Об’єднання Церков закликає християн доброї волі та церкви до молитви заступництва перед Господом за церкви України і продовження активної підтримки України в її боротьбі за право вільно поклонятися Господу і прославляти Його під мирним небом.</p>
+
 <div class="signature-block">
-  <p>1 вересня, об 11:00 – Bensalem High School, 4319 Hulmeville, Bensalem, PA 19020</p>
+  <p><strong>Ваші брати у Христі</strong></p>
+  <p>Роман Капран, Іоан Устенко, Віктор Кузьменко, Ігор Мельничук, Олександр Колєснік</p>
 </div>
-`,
+<h2>Фото Галерея</h2>
+<div class="event-gallery">
+  <a href="https://ukrbaptist.org/wp-content/uploads/2024/02/%D0%97%D0%B2%D0%B5%D1%80%D0%BD%D0%B5%D0%BD%D0%BD%D1%8F-%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%B8-%D0%9E%D0%B1%D1%94%D0%B4%D0%BD%D0%B0%D0%BD%D0%BD%D1%8F-%D0%B2%D1%96%D0%B4-22-%D0%BB%D1%8E%D1%82%D0%BE%D0%B3%D0%BE-2024-pdf.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2024/02/%D0%97%D0%B2%D0%B5%D1%80%D0%BD%D0%B5%D0%BD%D0%BD%D1%8F-%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%B8-%D0%9E%D0%B1%D1%94%D0%B4%D0%BD%D0%B0%D0%BD%D0%BD%D1%8F-%D0%B2%D1%96%D0%B4-22-%D0%BB%D1%8E%D1%82%D0%BE%D0%B3%D0%BE-2024-pdf.jpg" alt="Звернення управи Об’єднання Українських Баптистських Церков у США на другу річницю повномасштабного вторгнення росії в Україну" class="event-gallery__image" loading="lazy" /></a>
+</div>`,
+      
     sourceUrl: 'https://ukrbaptist.org/en/78th-annual-ukrainian-baptist-convention/',
   },
   {
     id: 'ev-005', slug: 'letter-speaker-johnson-2024',
     titleEn: 'The Letter to the Speaker Johnson from two Ukrainian Baptist Conventions in the U.S.',
+    titleUk: '77-й З’їзд Об’єднання Українських Баптистських Церков у США',
     publishedAt: '2024-03-20',
+    publishedAtUk: '2023-09-11',
     thumbnailUrl: '/images/news/letter-johnson.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9464.jpg',
     imageUrl: '',
     contentFull: `
 <img src="/images/news/letter-johnson.jpg" alt="Letter to Speaker Johnson" class="article-inline-img" />
@@ -286,13 +321,106 @@ export const events: Event[] = [
       <p>6. <a href="https://www.youtube.com/watch?v=v7bUye1CpfE" target="_blank" rel="noopener noreferrer">Ronald Reagan "Evil Empire" speech</a></p>
     </div>
   `,
+    contentFullUk: `
+<img src="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9464.jpg" 
+     alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США" 
+     class="article-inline-img" 
+     style="max-width: 400px; width: 100%; height: auto; display: block; margin: 20px auto; border-radius: 8px;" />
+  <p>1-3 вересня 2023 року понад 1000 християн з різних церков, міст та країн зібралися на 77-й з’їзд Об’єднання Українських Євангельських Баптистських Церков у США. Цього разу з’їзд приймала Regeneration Church (Церква Відродження). Особливо хочеться відмітити гостинність приймаючої церкви в багатьох аспектах: привітності, злагодженості, організованості всіх учасників і смачна їжа.</p>
+  <p><strong>Тема з’їзду:</strong> Церква змін – церква, яка змінюється і яка змінює.</p>
+  <p><strong>Ви – сіль землі, ви – світло світу</strong> (Єв. від Матвія 5:13-14).</p>
+</div>
+
+<div class="convention-highlight">
+  <p>Цей з’їзд став особливим ще й тому, що до спільноти Об’єднання приєдналося три церкви: Баптистська Церква «Слово життя» міста Харрисбург, пастори Ігор Олійник і Петро Бичик, Українська Біблійна Церква міста Спартенбург, пастор Віталій Соколовський, та Українська Біблійна Церква міста Атланта, пастор Роман Максимчук.</p>
+</div>
+
+<div class="letterhead">
+  <p>Програма з’їзду була різноманітною і включала: молитви за Україну, проповіді, пісні та музичне виконання, семінари, молодіжну та дитячу програми, спілкування.</p>
+</div>
+
+<h2>П’ятниця, 1 вересня (засідання та урочисте відкриття)</h2>
+<p>1-го вересня, в п’ятницю, відбулося засідання розширеної управи, на якій виконавчий комітет, пастори та гості ознайомились з життям церков та служінь в Об’єднанні. Під час зустрічі була обрана комісія для вибору наступної управи Об’єднання. Через Zoom приєднався брат Юрій Кирилович Сіпко зі словом привітання.</p>
+<p>Урочисте зібрання розпочалося о 7 вечора в п’ятницю. Основну проповідь виголосив Вадим Дашкевич, пастор Української Церкви «Джерело Життя», місто Сакраменто. Пастор Дашкевич закликав у проповіді любити Бога і людей, прагнути до досконалості, розвивати себе, обирати радість і змінювати світ.</p>
+<p>Проповідь і все зібрання можна подивитись за посиланням: <a href="https://www.youtube.com/watch?v=DGDBnto9_eA" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=DGDBnto9_eA</a></p>
+
+<h2>Субота, 2 вересня (семінари та молодіжне зібрання)</h2>
+<p>У суботу проходили семінари на різноманітні теми для дорослих, а діти мали свою дитячу програму. Після обіду був Q&A, де гості та члени управи Об’єднання провели змістовну розмову про актуальні питання війни в Україні та ситуацію в церквах в еміграції. Семінари та Q&A можна подивитись за посиланнями:</p>
+<ul>
+  <li>Q&A – <a href="https://www.youtube.com/watch?v=kieNtFmp6z4&t=38s" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=kieNtFmp6z4&t=38s</a></li>
+  <li>Геннадій Мохненко – <a href="https://www.youtube.com/watch?v=UCA8R2YxVnU&t=5s" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=UCA8R2YxVnU&t=5s</a></li>
+  <li>Вадим Дашкевич – <a href="https://www.youtube.com/watch?v=pwo9xqfv-e8" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=pwo9xqfv-e8</a></li>
+  <li>Роман Шеремета – <a href="https://www.youtube.com/watch?v=e6QEPfXH93k" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=e6QEPfXH93k</a></li>
+</ul>
+
+<div class="convention-highlight">
+  <p>На вечірньому молодіжному зібранні проповідували гості з’їзду: Роман Шеремета, ректор і засновник Американського Університету в Києві, і Ярослав Стащак, викладач Української Баптистської Теологічної Семінарії у Львові.</p>
+  <p>Брат Шеремета на прикладі пророка Даниїла розповів про великі зміни, які він зробив. Цитата з його проповіді: <em>«Ніхто і ніколи не зможе оцінити і цінувати вас більше, ніж Бог. …Ви можете робити великі справи для Бога та Його царства.»</em></p>
+  <p>Ярослав Стащак говорив про перемогу: <em>«Наша перемога починається, коли я переключаюся з себе на інших людей. …Змінити цінності означає почати цінувати те, що цінує Бог».</em></p>
+  <p>Піснею «Our God is an Awesome God» було завершене молодіжне зібрання. Після цього молодь мала час спілкування. Зібрання дивитись за посиланням: <a href="https://www.youtube.com/watch?v=GC3XFMdd_Ts&t=1654s" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=GC3XFMdd_Ts&t=1654s</a></p>
+</div>
+
+<h2>Неділя, 3 вересня (заключне зібрання)</h2>
+<p>У неділю вранці в аудиторії Pennsbury East High School проходило святкове заключне зібрання 77-го з’їзду, на якому зібралися церкви філадельфійської округи та гості. Пастор Роман Капран, голова Об’єднання Церков, запросив пастора Овдія Хрипчука розпочати зібрання молитвою. Пастор Віталій Сорокун привітав з’їзд від імені Союзу ЄХБ України.</p>
+
+<div class="convention-highlight">
+  <p>Геннадій Мохненко, пастор і капелан з України, один із спікерів з’їзду, проповідував на текст з Листа Ефесянам 3:20 про силу Божу.</p>
+  <p>Всі пастори церков предстали перед Богом з піднятими руками в молитві за Україну. Святкове зібрання завершилось величним виконанням молитви «Боже великий і єдиний», яку виконав об’єднаний хор під керівництвом диригентів Івана Веленчука та д-ра Стівена Бенхама, професора музики Університету Дюкесн у Піттсбурзі.</p>
+</div>
+
+<p>Зібрання можна подивитись за посиланнями:</p>
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=V8xvsFDu1Uk&t=81s" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=V8xvsFDu1Uk&t=81s</a></li>
+  <li><a href="https://www.youtube.com/watch?v=Q5QXSVZLyJ4" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=Q5QXSVZLyJ4</a></li>
+</ul>
+
+<h2>Недільний концерт</h2>
+<p>Новиною цьогорічного з’їзду став недільний вечірній концерт, на якому співали Брія Блессінг та її чоловік Джессі. Під час з’їзду брали участь групи прославлення церков «Regeneration» та «Дім Євангелії», Филип Ющенко (саксофон), група «Вертекс», Наталя Шемчишина, Олег Майовський.</p>
+<p>Посилання на концерт: <a href="https://www.youtube.com/watch?v=fRCuLxvyYhk&t=3791s" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=fRCuLxvyYhk&t=3791s</a></p>
+
+<div class="signature-block">
+  <p>Щиро вдячні церкві «Regeneration» за гостинність у прийнятті 77-го з’їзду Об’єднання Українських Баптистських Церков у США.</p>
+</div>
+<h2>Фото Галерея</h2>
+<div class="event-gallery">
+  <a href="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9464.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9464.jpg" alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США 1" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9461.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9461.jpg" alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США 2" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9478.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9478.jpg" alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США 3" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9497.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9497.jpg" alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США 4" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9508.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9508.jpg" alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США 5" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9503.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9503.jpg" alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США 6" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9500.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9500.jpg" alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США 7" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9528.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9528.jpg" alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США 8" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9514.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9514.jpg" alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США 9" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9540.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9540.jpg" alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США 10" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9555.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9555.jpg" alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США 11" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9523.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9523.jpg" alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США 12" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2023/09/IMG_9538.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2023/09/IMG_9538.jpg" alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США 13" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9467-rotated.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9467-rotated.jpg" alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США 14" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9480.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9480.jpg" alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США 15" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2023/09/Resized_20230903_131716-e1712279213481.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2023/09/Resized_20230903_131716-e1712279213481.jpg" alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США 16" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9559.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9559.jpg" alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США 17" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2023/09/IMG_9570.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2023/09/IMG_9570.jpg" alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США 18" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9624.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9624.jpg" alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США 19" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2023/09/IMG_5503.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2023/09/IMG_5503.jpg" alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США 20" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2023/09/IMG_5512-e1712278969164.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2023/09/IMG_5512-e1712278969164.jpg" alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США 21" class="event-gallery__image" loading="lazy" /></a> 
+  <a href="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9585.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9585.jpg" alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США 22" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9561.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9561.jpg" alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США 23" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9598.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9598.jpg" alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США 24" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9604.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2024/03/IMG_9604.jpg" alt="77-й З’їзд Об’єднання Українських Баптистських Церков у США 25" class="event-gallery__image" loading="lazy" /></a>
+
+</div>`
+,
     sourceUrl: 'https://ukrbaptist.org/en/the-letter-to-the-speaker-johnson-from-two-ukrainian-baptist-conventions-in-the-u-s/',
   },
   {
     id: 'ev-006', slug: 'appeal-two-years-invasion-2024',
     titleEn: 'An appeal by the Ukrainian Baptist Convention in the USA on two years of the full scale invasion of russia in Ukraine',
+    titleUk: "Запрошення на 77-й з’їзд – відео",
     publishedAt: '2024-02-25',
+    publishedAtUk: '2024-08-29',
     thumbnailUrl: '',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2023/08/IMG_9331.jpg',
     contentFull: `
     <div class="letterhead">
       <p>Ukrainian Evangelical Baptist Convention, USA</p>
@@ -328,22 +456,40 @@ export const events: Event[] = [
   <a href="https://ukrbaptist.org/wp-content/uploads/2024/02/IMG_0494.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2024/02/IMG_0494.jpg" alt="Ukrainian Evangelical Baptist Convention, USA" class="event-gallery__image" loading="lazy" /></a>
 </div>
   `,
+     contentFullUk: `
+<img src="https://ukrbaptist.org/wp-content/uploads/2023/08/IMG_9331.jpg" alt="Запрошення на 77-й з’їзд – відео" class="article-inline-img" />
+
+<div class="video-block" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin-top:1.5rem;">
+  <iframe
+    src="https://www.youtube.com/embed/7BSbvVrGiGU"
+    title="Звернення управи на другу річницю вторгнення"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    style="position:absolute;top:0;left:0;width:100%;height:100%;"
+  ></iframe>
+</div>`,
     sourceUrl: 'https://ukrbaptist.org/en/an-appeal-of-the-ukrainian-baptist-convention-in-the-usa-on-two-years-of-the-full-scale-invasion-of-russia-in-ukraine/',
   },
   {
     id: 'ev-007', slug: 'invitation-77th-convention-2023',
     titleEn: 'An Invitation to the 77th Annual Convention',
+    titleUk: 'Запрошення на 77-й З’їзд Об’єднання Церков',
     publishedAt: '2023-08-28',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2023/08/IMG_9425.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2023/08/IMG_9426.jpg',
     imageUrl: '',
     contentFull: `
 <img src="https://ukrbaptist.org/wp-content/uploads/2023/08/IMG_9425.jpg" alt="77th Annual Convention" class="article-inline-img" />
 `,
-    sourceUrl: 'https://ukrbaptist.org/en/an-invitation-to-77th-annual-convention/',
+    contentFullUk: `
+    <img src="https://ukrbaptist.org/wp-content/uploads/2023/08/IMG_9426.jpg" alt="Запрошення на 77-й З’їзд Об’єднання Церков - фото" class="article-inline-img" />
+`,
   },
   {
     id: 'ev-008', slug: 'who-will-god-judge-war-ukraine-2023',
     titleEn: 'Who Will God Judge for the War in Ukraine?',
+    titleUk: 'Кого судитиме Бог за війну в Україні?',
     publishedAt: '2023-05-21',
     thumbnailUrl: '',
     imageUrl: '',
@@ -423,13 +569,132 @@ export const events: Event[] = [
   <p>3. <a href="https://baptist.org.ru/news/main/view/article/1598717" target="_blank" rel="noopener noreferrer">RUECB statement, 2021</a></p>
 </div>
 `,
+    contentFullUk: `<div class="letterhead">
+  <p>Кого судитиме Бог за війну в Україні?</p>
+</div>
+
+<p>Пастор Російської біблійної церкви [“Russian Bible Church”] з Москви Євгеній Бахмутський [Evgeny Bakhmutsky] висловлюється ухильно і невизначено. Він каже: «Я знаю, що Бог судитиме нас усіх». [“I know God is going to judge us all.”] (дивитись публікацію <a href="https://www.thegospelcoalition.org/article/moscow-pastor" target="_blank" rel="noopener noreferrer">The Gospel Coalition</a>)</p>
+
+<p>«Нас» кого? Тільки «нас», рускіх, які розпочали варварську «спеціальну військову операцію» в Україні? Чи «нас» укупі: рускіх, які воюють в Україні, «колективний Запад», який постачає Україні зброю, а заодно і українців, які захищаються?</p>
+
+<div class="convention-highlight">
+  <p>«Усіх» кого? Усіх, хто підтримує війну? Усіх, хто не молиться за мир з Росією? Усіх, хто в Росії займає керівні посади, в тому числі і церковних лідерів та пасторів, які не засуджують війну, розвʼязану Путіним?</p>
+</div>
+
+<p>Пастору Бахмутському, звісно, з Москви видніше, кого Бог судитиме за розвʼязану Росією війну в Україні. Певно, що серед «усіх нас», засуджених, будуть і ті, хто, як Понтій Пилат, «умили руки», думаючи, що вони невинні у пролитій крові, і це стосується євангельських християн Росії.</p>
+
+<h2>Віра і політика</h2>
+<p>«Російський союз євангельських християн-баптистів [Russian Union of Evangelical Christian Baptists] з болем у серці спостерігає за подіями, які відбуваються на території України», — це все, що спромігся сказати президент РС ЕХБ [UECB] Петро Міцкевич [Peter Mitskevich] про війну в Україні. Вони «спостерігають», як руйнуються міста та села в Україні, як гинуть діти, як знущаються над їхніми братами та сестрами солдати руської армії на окупованих територіях, бо, за словами Міцкевича, «військові дії завжди приносять із собою страждання та смерть». (1)</p>
+
+<p>Руські євангельські християни не тільки «з болем в серці» спостерігають за стражданнями та смертю в Україні, але і моляться за мир. «Ми як релігійна організація (Церква Христова), — каже Міцкевич, — виконуючи своє призначення на землі, не даємо політичних оцінок тим чи іншим учасникам конфліктуючих сторін, але закликаємо всіх до миру та людинолюбства. Про це наші церкви посилено моляться».</p>
+
+<p>Яке, з точки зору Міцкевича, призначення Христової Церкви на землі? В першу чергу, очевидно, бути вірними Господу, але, однозначно, не давати політичних оцінок. Війна, розвʼязана Росією в Україні — це конфліктуючі сторони. Давати оцінку вбивствам, катуванням, ґвалтуванням, руйнуванням, знищенням, знущанням на території України — це політика. А що тоді вірність Господу? А вірність Господу — це бути покірними владі.</p>
+
+<div class="convention-highlight">
+  <p>Такий підхід до «свого призначення на землі» — є не чим іншим, як впливом на євангельське християнство руського православʼя, і офіційна позиція рускіх євангельських церков та пасторів на війну в Україні повністю співпадає із позицією руської православної церкви і Москви.</p>
+</div>
+
+<h2>Допомога біженцям</h2>
+<p>В перші тижні і місяці від початку війни руські євангельські віруючі допомагали українцям, які втікали із зони бойових дій. Тоді кордон з Росією перетнуло близько трьох мільйонів українців. Для багатьох українців це був єдиний шлях рятуватись від пекла війни.</p>
+
+<p>«Це були десятки людей, особливо на початку», – розповідає Бахмутський. — Деякі просили нас допомогти їм залишитися в Росії. Багатьом із них ми допомогли потрапити до Європи. Ми купували їм квитки або підвозили їх до російського кордону і давали трохи грошей». [“We had dozens of people… We were buying them tickets or driving them to the Russian border and giving them some money.”] Російська біблійна церква Бахмутського допомогла сотням біженцям з України.</p>
+
+<p>Допомагати біженцям в перші дні війни для багатьох рускіх християн означало бути «милосердним самарянином»: бути на стороні добра, світла і справедливості. Проте, зовсім скоро зʼясувалось, що допомагати, молитись, і, навіть, бути проти війни, — зовсім не означає бути разом із своїми «братами та сестрами» з України.</p>
+
+<h2>Коментарі ненависті</h2>
+<p>Незважаючи на співчуття та дієву допомогу українським біженцям на початку війни, пастор з Росії свідчить, що він кожного дня отримує «коментарі ненависті». [“I get hate comments every day.”]</p>
+
+<p>«Конфлікт всередині церкви дуже хворобливий, — каже Бахмутський. — Можливо, найбільш хворобливий, коли брати та сестри, які разом любили і служили, починають втрачати один одного». [“Conflicts within the church have been very painful… to see the brothers and sisters who love and minister with each other start to lose each other.”]</p>
+
+<p>«Налякані та розлючені українські християни, — пише автор статті Sarah Eekhoff Zylstra, editor of the Gospel Coalition, — критикують Бахмутського за те, що він публічно не засуджує владу Росії, за те, що він не виїхав із країни, і, навіть, за те, що він рускій». [“Furious and scared, Ukrainian Christians have blasted him for not doing more to publicly condemn Russia’s actions, for choosing to stay in Moscow, even for being Russian.”]</p>
+
+<p>Сьогодні, коли війна в Україні тягнеться 420+ днів, за що українські християни критикують Бахмутського, Міцкевича, євангельські союзи та церкви в Росії?</p>
+
+<h2>Під знаком Z</h2>
+<p>Євангельські християни Росії не визнають, що вони живуть під знаком Z (знак Z є символом руського вторгнення в Україну)</p>
+
+<p>Художниця з Росії (проживає в еміграції) Катя Марголіс зробила цікаве зауваження: на фотографії похорон Горбачова стояла велика черга людей, які оплакували не лише Горбачова, але і ті сподівання на демократичний розвиток країни, які в них колись були. Так от, у кадрі — швидше за все, черга гідних і чесних людей. Виявляється, що усі вони стоять під величезним знаком Z, і цей знак Z бачить лише спостерігач. (2)</p>
+
+<p>Сьогодні не існує «хорошої» та «поганої» Росії, а існує хвора «імперія» під знаком Z, де навіть хороші євангельські служителі, не мають імунітету від цього хронічного імперського захворювання.</p>
+
+<p>Будь-яка дозволена діяльність в сьогоднішній Росії, в тому числі і релігійна, — безпосередньо чи опосередковано демонструє нормалізацію ненормального, і намагається переконати кожного, що життя продовжується, і нічого особливого в Бучі, Ірпіні та Ізюмі не відбулося.</p>
+
+<h2>«Русская душа»</h2>
+<p>Євангельські християни Росії бачать війну, розпочату Путіним в сусідній державі, як очищення від «скверни». Хіба Путін не розпочав війну для того, щоб очистити Україну від «гріха» і «нечисті»? Хіба Путін не розпочав війну в Сирії для того, щоб захистити там християн?</p>
+
+<p>28 червня 2021 року в готелі Four Seasons в Москві Російським союзом євангельських християн-баптистів був організований офіційний прийом на честь приїзду в Росію Франкліна Грема. На прийомі президент Євангельської асоціації Біллі Грема подякував Путіна за порятунок християнства в Сирії. «Якби Росія не втрутилася в ситуацію в Сирії, я думаю, що там не залишилося б жодної християнської церкви, і я вдячний російському президенту за прийняте ним рішення». (3)</p>
+
+<p>В той час, коли західні християни несли в Росію Євангеліє після розвалу Совєтського Союзу, руська пропаганда розповсюджувала наратив про «руське месіанство», і спотворені західні «цінності», і євангельські християни купились на цю провокацію.</p>
+
+<p>Західне християнство також не розібралось, що «русская душа» і «русская духовність» — то фейк і ілюзія. Д-р Михайло Черенков, пастор церкви “Revival” із штату Вашингтон каже, що, допомогою Євангелія західні християни намагались відбудувати руську націю і зробити руських кращими, і цивілізованішими. «Євангеліє було принесено в Росію не для спасіння, а для окультурення, і роздмухування руського сакрального «его» західними християнами принесло багато шкоди».</p>
+
+<p>Страх, згідно Святого Письма, — це гріх, і залякування самого себе, безсумнівно, не на користь євангельському християнству.</p>
+
+<h2>Страх і сила проповіді</h2>
+<p>Євангельські віруючі Росії бояться говорити правду про війну і залякують самих себе.</p>
+
+<p>Пастор Бахмутський під час війни перечитує Дітріха Боньгхофера і погоджується з його твердженням, що «найкраща відповідь тоталітаризму — це проповідь Євангелія». [“the best answer to totalitarianism is preaching Christ.”] Здається, що пастор Бахмутський готовий визнати, що в Росії — тоталітаризм.</p>
+
+<p>«Якщо б я міг піти в Кремль, чи на Червону Площу, — каже пастор, — і зробити усе, щоб це зупинити, я б це зробив». [“If I could go to the Kremlin or the Red Square and do anything to stop it, I would.”]</p>
+
+<p>З певних причин пастор Бахмутський не наважився піти в Кремль (чи на Червону Площу), і не це викликає засудження українських віруючих. Не у кожного християнина вистачає сміливості до ризикованих та героїчних вчинків. Проте, важко зрозуміти, чому християни Росії залякують самих себе, і заставляють себе мовчати про війну, коли їм нічого не загрожує, і коли вони можуть продовжувати проповідувати Євангеліє.</p>
+
+<p>За словами Бахмутського, деякі з 400 членів Російської біблійної церкви цього року переосмислили або знову набули свою віру. «Наші церковні служіння ще ніколи не були такими радісними», [“Our church services have never been so joyful.”] каже він.</p>
+
+<p>Про дієвість проповіді Євангелія можна говорити лише тоді, коли істина зробила проповідника вільним, коли він боїться самого себе, коли він не боїшся взяти на себе відповідальність, про що свідчить життя і смерть самого Боньгофера.</p>
+
+<h2>Християнин чи руський?</h2>
+<p>Прикриваючись християнством, євангельські віруючі Росії хочуть зняти з себе відповідальність за війну, яку розвʼязала їхня країна.</p>
+
+<p>Українці почали сприймати себе через призму загарбницької війни Росії з Україною. Те, що раніше ми розуміли, тепер стало очевидним. Стали очевидними наслідки цієї страшної руйнівної війни, яку розвʼязала Росія.</p>
+
+<p>Важливе питання полягає в тому, на чому кожен з євангельських віруючих, розставляє акценти. Бахмутський каже: «Так, я рускій. Але я більше християнин, чим рускій» [“Yes, I am Russian. But I am more Christian than Russian.”]</p>
+
+<div class="convention-highlight">
+  <p>Вираз «більше християнин, чим руський» звучить переконливо і викликає захоплення, проте у кожного завжди є спокуса сказати те, що звучить «духовніше» і «святіше», ніж насправді.</p>
+  <p>Якщо твоє євангельське християнство є пріоритетнішим від національності, то в першу чергу ти повинен називати речі своїми іменами, як навчає Євангеліє: «так, так», або «ні, ні» і не боятися називати істину — істиною, зло — злом, біле — білим, а війну — війною. І по-друге, якщо ти не готовий взяти на себе відповідальність, що і твоя вина є в тому, що твоя країна розіпʼяла війною Україну, і не можеш вимовити: «я молюсь, щоб перемогла Україна», то не кажи, що ти більший християнин чим руській, і не виставляй наперед «своє християнство».</p>
+</div>
+
+<h2>Жертви війни</h2>
+<p>Руські євангельські віруючі позиціонують себе жертвою війни</p>
+
+<p>Російські християни разом з українськими християнами кажуть, що ця війна торкнулась і кожного з них: «ми усі на війні», «ця війна проти кожного з нас», «ми також жертви війни».</p>
+
+<p>Стати жертвою в сьогоднішній Росії — це реальність для кожного громадянина Росії, і потрібно визнати, що ця реальність стала можливою і завдяки компромісам євангельських віруючих із владою Росії.</p>
+
+<p>«Християни Росії, — за словами Михайло Черенкова, — не є жертвою війни, а жертвою великого бажання пристосуватись і малою любові до істини. Бажання пристосуватись завжди розпочинається із малих компромісів, і це лише питання часу, коли перед кожним християнином повстане питання: а що ти готовий віддати за свою істину: благополуччя, свободу чи життя? Так компроміс приводить до страху, а страх — до конформізму, коли ти стаєш жертвою, яка безапеляційно готова прийняти визначені тобі стандарти і безумовно схилитися перед владою».</p>
+
+<h2>«Старший брат»</h2>
+<p>Євангельські християни Росії не бажають усвідомити, що війна змінила стосунки між ними та українськими християнами.</p>
+
+<p>Бахмутський пригадує, як колись «українські і російські церковні лідери проводили разом конференції, мінялися кафедрами та ділились теологічними ресурсами. Вони були настільки близькими, — говориться в інтервʼю, — що якщо зʼявлявся новий теологічний ресурс російською мовою, ледве хто дбав зробити окремий український переклад». [“Ukrainian and Russian church leaders held conferences together… barely anybody bothered to do a separate Ukrainian translation.”]</p>
+
+<p>Хіба могли не змінитись стосунки між українськими служителями і руськими з держави-агресора коли від 2014 року Російська біблійна церква на чолі із Є. Бахмутським (разом з іншими рускіми церквами) почали організовувати та проводити зібрання в анексованому Криму та на окупованих Росією територіях, визнаючи тим самим «законність» такої своєї діяльності?</p>
+
+<h2>Переосмислення</h2>
+<p>Руському євангельському християнству не зашкодить зараз трохи помовчати і переосмислити своє положення. Це нормальне явище, якщо їх сьогодні не запрошують на спільні конференції і не хочуть бути поруч з ними. Звісно, нелегко усвідомлювати, що раптом ти перестав бути «старшим», і більше не є центром.</p>
+
+<p>Не потрібно нікого переконувати, що ви проти Путіна і за Україну. Замість того, допомагайте людям в Україні, бо вони захищають не тільки свою землю, свою волю і своїх дітей, а і світ від злісного загарбника. Як тільки можете — наближайте перемогу!</p>
+
+<p>Відійдіть в сторону і зачекайте. Помовчіть. І прислухайтесь до того, що каже Україна. Український голос зараз вагоміший.</p>
+
+<div class="signature-block">
+  <p><strong>Джерела:</strong><br/>
+  1. <a href="https://baptist.org.ru/news/main/view/article/1647815" target="_blank" rel="noopener noreferrer">baptist.org.ru – офіційна заява</a><br/>
+  2. <a href="https://www.svoboda.org/a/katya-margolis-pora-ponyatj-chto-zhertva-seychas-eto-ne-rossiyane-/32352088.html" target="_blank" rel="noopener noreferrer">Радіо Свобода – Катя Марголіс</a><br/>
+  3. <a href="https://baptist.org.ru/news/main/view/article/1598717" target="_blank" rel="noopener noreferrer">baptist.org.ru – прийом Франкліна Грема</a>
+  </p>
+</div>`,
     sourceUrl: 'https://ukrbaptist.org/en/who-will-god-judge-for-the-war-in-ukraine/',
   },
   {
     id: 'ev-009', slug: '76th-congress-convention-2023',
     titleEn: '76th Congress of the Ukrainian Baptist Convention in the USA',
+    titleUk: '76-й З’їзд Об’єднання Українських Баптистських Церков у США',
     publishedAt: '2023-05-20',
+    publishedAtUk: '2022-09-04',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2023/02/76-C-1.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2023/02/76-C-1-768x576.jpg',
     imageUrl: '',
     contentFull: `
 <img src="https://ukrbaptist.org/wp-content/uploads/2023/02/76-C-1.jpg" alt="76th Congress of the Ukrainian Baptist Convention" class="article-inline-img" />
@@ -482,12 +747,70 @@ export const events: Event[] = [
   <a href="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6716.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6716.jpg" alt="76th Congress 19" class="event-gallery__image" loading="lazy" /></a>
 </div>
 `,
+    contentFullUk: `<img src=" https://ukrbaptist.org/wp-content/uploads/2023/02/76-C-1.jpg" alt="76th Congress of the Ukrainian Baptist Convention" class="article-inline-img" />
+<div class="letterhead">
+  <p>2-4 вересня 2022 року проходив 76-й з’їзд Об’єднання Українських Баптистських Церков у США. Приймала з’їзд Перша Українська Баптистська Церква м. Міннеаполіс, де відповідальним пастором є Руслан Козлюк. Валерій Антонюк, голова Союзу ЄХБ України, був запрошений основним проповідником. <strong>Тема з’їзду – Звіщати Євангелію Ісуса Христа.</strong></p>
+</div>
+
+<div class="convention-highlight">
+  <p>Визначною подією з’їзду є прийняття делегатами від церков поправок до статуту Об’єднання Церков. Управа Об’єднання звернулась до брата Олеся Гарбузюка зробити переклад англійською мовою, що він виконав у найкращому вигляді. За що ми йому дуже дякуємо.</p>
+</div>
+
+<h2>Семінари</h2>
+<p>Під час з’їзду проходили семінари, які проводили:</p>
+<ul>
+  <li><strong>Валерій Антонюк</strong> – Звіщення Євангелії добрими ділами;</li>
+  <li><strong>Mike Golay</strong> – Preaching the Gospel from Jewish Perspective;</li>
+  <li><strong>Сергій Ковальчук</strong> – Основна місія церкви – продовження звіщення Євангелії Ісуса Христа;</li>
+  <li><strong>Михайло Черенков</strong> – Звіщення Євангелії в умовах війни;</li>
+  <li><strong>Валентин Вавринюк</strong> – Звіщення Євангелії Ісуса Христа через соціальні мережі та сучасні технології;</li>
+  <li><strong>Світлана Христенко</strong> – Звіщення Євангелії – основна мета виховання дітей;</li>
+  <li><strong>Євген Константінік</strong> – Церква, яка звіщає Євангелію Ісуса Христа до краю землі.</li>
+</ul>
+
+<div class="signature-block">
+  <p>Дякуємо церкві за гарний прийом з’їзду.</p>
+</div>
+<div class="event-videos">
+  <div class="event-video-wrapper">
+    <iframe src="https://www.youtube.com/embed/pmRARsJ_P2o" title="76-й Зізд Sunday Service" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="event-video" loading="lazy"></iframe>
+  </div>
+  <div class="event-video-wrapper">
+    <iframe src="https://www.youtube.com/embed/R0hDH2aBkoE" title="76 й з'їзд, питання відповіді" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="event-video" loading="lazy"></iframe>
+  </div>
+  <div class="event-video-wrapper">
+    <iframe src="https://www.youtube.com/embed/JatdvYIa4L4" title="76-й Зізд Third Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="event-video" loading="lazy"></iframe>
+  </div>
+</div>
+<h2>Фото Галерея</h2>
+<div class="event-gallery">
+ <a href="https://ukrbaptist.org/wp-content/uploads/2023/02/76-C-2.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2023/02/76-C-2.jpg" alt="76-й З’їзд Об’єднання Українських Баптистських Церков у США фото 1" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_2139-1.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_2139-1.jpg" alt="76-й З’їзд Об’єднання Українських Баптистських Церков у США фото 2" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6558.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6558.jpg" alt="76-й З’їзд Об’єднання Українських Баптистських Церков у США фото 3" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6566.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6566.jpg" alt="76-й З’їзд Об’єднання Українських Баптистських Церков у США фото 4" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6572.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6572.jpg" alt="76-й З’їзд Об’єднання Українських Баптистських Церков у США фото 5" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6604.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6604.jpg" alt="76-й З’їзд Об’єднання Українських Баптистських Церков у США фото 6" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6626.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6626.jpg" alt="76-й З’їзд Об’єднання Українських Баптистських Церков у США фото 7" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6630.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6630.jpg" alt="76-й З’їзд Об’єднання Українських Баптистських Церков у США фото 8" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6634.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6634.jpg" alt="76-й З’їзд Об’єднання Українських Баптистських Церков у США фото 9" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6640.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6640.jpg" alt="76-й З’їзд Об’єднання Українських Баптистських Церков у США фото 10" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6643.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6643.jpg" alt="76-й З’їзд Об’єднання Українських Баптистських Церков у США фото 11" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6644.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6644.jpg" alt="76-й З’їзд Об’єднання Українських Баптистських Церков у США фото 12" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6646.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6646.jpg" alt="76-й З’їзд Об’єднання Українських Баптистських Церков у США фото 13" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6649.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6649.jpg" alt="76-й З’їзд Об’єднання Українських Баптистських Церков у США фото 14" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6656.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6656.jpg" alt="76-й З’їзд Об’єднання Українських Баптистських Церков у США фото 15" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6687.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6687.jpg" alt="76-й З’їзд Об’єднання Українських Баптистських Церков у США фото 16" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6711.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6711.jpg" alt="76-й З’їзд Об’єднання Українських Баптистських Церков у США фото 17" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6716.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2023/02/IMG_6716.jpg" alt="76-й З’їзд Об’єднання Українських Баптистських Церков у США фото 18" class="event-gallery__image" loading="lazy" /></a>
+</div>`,
     sourceUrl: 'https://ukrbaptist.org/en/76th-congress-of-the-ukrainian-baptist-convention-in-the-usa/',
   },
   {
     id: 'ev-010', slug: 'help-ukraine-field-update-2022',
     titleEn: 'Help Ukraine',
+    titleUk: 'Звернення Об’єднання Українських Євангельських Баптистських Церков у США з приводу війни в Україні.',
     publishedAt: '2022-04-08',
+    publishedAtUk: '2022-03-03',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/08/Help-Ukraine-A-12-1_cea737f91fba4cf2a55188b18403ac9f.png',
     imageUrl: '',
     contentFull: `
@@ -526,13 +849,48 @@ export const events: Event[] = [
   <a href="https://ukrbaptist.org/wp-content/uploads/2022/04/Help_Ukraine_A_5.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2022/04/Help_Ukraine_A_5.jpg" alt="Help Ukraine 10" class="event-gallery__image" loading="lazy" /></a>
 </div>
 `,
+    contentFullUk: `
+    <div class="letterhead">
+  <p>2 березня, 2022 року</p>
+  <p><strong>Звернення Об’єднання Українських Євангельських Баптистських Церков у США з приводу війни в Україні.</strong></p>
+  <p><em>Мир вам!</em> Цими словами ми вітаємо усі Церкви Христові.</p>
+</div>
+
+<p>Події останнього тижня на території України є вказівкою на скорий прихід Ісуса Христа, підтверджуючи слова Святої Біблії: «Ви ж про війни почуєте, і про воєнні чутки, глядіть, не лякайтесь, бо статись належить тому. Але це не кінець ще.» (Мтв. 24:6)</p>
+
+<p>Як в період миру, так і в часи війни, нашим обов’язком є проповідь Євангелії Ісуса Христа, заступницька молитва про мир, осудження гріха та протидія злу. Також ми, як християни, на основі вчення Біблії повинні відкрито виражати свою оцінку подіям і вчинкам.</p>
+
+<div class="convention-highlight">
+  <p>З огляду на сьогоднішню ситуацію, ми засуджуємо відкриту агресію Росії проти України, обстріли збройними силами Росії міст України, вбивство військовими Росії мирних жителів України: дітей, жінок і людей похилого віку. Зараз у вільному доступі є достатньо свідчень обстрілів житлових кварталів. Це засуджується Божим Словом як гріх і кваліфікується як злочин проти людяності.</p>
+</div>
+
+<p>Ми засуджуємо війну, в якій вже загинули тисячі російських солдат, гинуть українські воїни, мирні жителі, діти, розбомблені Київ, Харків та інші міста та села України, люди сидять в бомбосховищах, знищуються лікарні та школи.</p>
+
+<p>Ми закликаємо в першу чергу церкви нашого Об’єднання, а також всіх християн, молитись до Господа за припинення агресії та встановлення миру в Україні.</p>
+
+<p>Ми закликаємо виявляти свою громадянську позицію і звертатися до влади США, щоб допомагати Україні в протистоянні агресії та посилити тиск на уряд Росії припинити бойові дії та вивести війська з України.</p>
+
+<p>Закликаємо християн до прояву співчуття і допомоги постраждалим людям в Україні. Також ми, як християни, маємо берегти мир в наших сім’ях та церквах і уникати суперечки, які не збудовують.</p>
+
+<div class="signature-block">
+  <p>Закликаємо вас підняти свій голос на захист України, без страху проповідувати Євангелію Ісуса Христа, проявляти співчуття, прощення, доброту, любов один до одного, зберігати єдність в тілі Христовому – Церкві!</p>
+</div>
+
+<div class="signature-block">
+  <p><strong>Ваші у Христі</strong><br/>
+  Роман Капран, Іоан Устенко, Віктор Кузьменко, Ігор Мельничук, Олександр Колєснік<br/>
+  <em>Управа Об’єднання Українських Євангельських Баптистських Церков у США</em></p>
+</div>`,
     sourceUrl: 'https://ukrbaptist.org/en/help-ukraine-2/',
   },
   {
     id: 'ev-011', slug: 'report-donations-ukraine-march-2022',
     titleEn: 'Report about Donations for Ukraine',
+    titleUk: 'Свято Рукопокладання в Церкві “Дім Євангелії”',
     publishedAt: '2022-03-16',
+    publishedAtUk: '2022-01-14',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/08/Help-Ukraine-17_808d67df00b190a6164d3b2c80c794a0-300x169.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/Ordination_Richland_1-768x828.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/report-about-donations-for-ukraine/',
     contentFull: `
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/08/Help-Ukraine-17_808d67df00b190a6164d3b2c80c794a0.jpg" alt="Report about Donations for Ukraine" class="article-inline-img" />
@@ -561,13 +919,48 @@ export const events: Event[] = [
   <a href="https://ukrbaptist.org/wp-content/uploads/2022/03/Help_Ukraine_14.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2022/03/Help_Ukraine_14.jpg" alt="Help Ukraine 17" class="event-gallery__image" loading="lazy" /></a>
   <a href="https://ukrbaptist.org/wp-content/uploads/2022/03/Help_Ukraine_15.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2022/03/Help_Ukraine_15.jpg" alt="Help Ukraine 18" class="event-gallery__image" loading="lazy" /></a>
 </div>
-`
+`, contentFullUk: `
+<img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Ordination_Richland_1.jpg" alt="Свято Рукопокладання в Церкві “Дім Євангелії”" class="article-inline-img" />
+<div class="letterhead">
+  <p>28 листопада 2021 року, в церкві «Дім Євангелії» відбулося свято рукопокладання на пасторське служіння Давида Летушко та дияконське служіння Давида Данічкіна.</p>
+</div>
+
+<p>Напередодні, 18 жовтня 2021, в приміщенні місцевої церкви пройшла пресвітерія в присутності пасторів Юрія Ковча, Павла Летушка, Романа Капрана, Анатолія Сахана, Анатолія Мошковського. Кандидати Давид Летушко та Давид Данічкін зустрілися з пасторами і пройшли іспит, відповідаючи на питання біблійного та практичного змісту. Свято рукопокладання було визначене на листопад.</p>
+
+<div class="convention-highlight">
+  <p>Недільного дня, 28 листопада, церква мала святкове зібрання, під час якого звершилось посвячення на служіння молодих братів. Акт рукопладання проводив пастор Роман Капран, голова Об’єднання Українських Євангельських Баптистських Церков у США. В рукопокладанні приймали участь пастори місцевої церкви Юрій Ковч, Павло Летушко, а також Роман Капран, Іоан Устенко, Анатолій Сахан, Анатолій Мошковський та Денис Січкар.</p>
+</div>
+
+<div class="signature-block">
+  <p>Після зібрання всі присутні мали гарний час спілкування за столом.</p>
+</div>
+<div class="event-video-wrapper">
+  <iframe 
+    src="https://www.youtube.com/embed/fJHF5E4MhdY" 
+    title="YouTube video" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen 
+    class="event-video" 
+    loading="lazy">
+  </iframe>
+</div>
+<h2>Фото Галерея</h2>
+<div class="event-gallery">
+  <a href="https://ukrbaptist.org/wp-content/uploads/2022/01/Ordination_Richland_2.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2022/01/Ordination_Richland_2.jpg" alt="Свято Рукопокладання в Церкві “Дім Євангелії” фото 1" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2022/01/Ordination_Richland_4.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2022/01/Ordination_Richland_4.jpg" alt="Свято Рукопокладання в Церкві “Дім Євангелії” фото 2" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2022/01/Ordination_Richland_5.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2022/01/Ordination_Richland_5.jpg" alt="Свято Рукопокладання в Церкві “Дім Євангелії” фото 3" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2022/01/Ordination_Richland_6.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2022/01/Ordination_Richland_6.jpg" alt="Свято Рукопокладання в Церкві “Дім Євангелії” фото 4" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2022/01/Ordination_Richland_7.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2022/01/Ordination_Richland_7.jpg" alt="Свято Рукопокладання в Церкві “Дім Євангелії” фото 5" class="event-gallery__image" loading="lazy" /></a>
+</div>` 
   },
   {
     id: 'ev-012', slug: 'donations-help-ukraine-2022',
     titleEn: 'Donations for "Help Ukraine"',
+    titleUk: 'Табір на Закарпатті',
     publishedAt: '2022-03-10',
+    publishedAtUk: '2022-01-05',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/03/Help-Ukraine-7_fab017f1b79123061c0fddc695632315-300x250.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/Lalovo_1-768x432.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/donations-for-help-ukraine/',
     contentFull: `
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/03/Help-Ukraine-7_fab017f1b79123061c0fddc695632315.jpg" alt="Donations for Help Ukraine" class="article-inline-img" />
@@ -603,14 +996,41 @@ export const events: Event[] = [
   <a href="https://ukrbaptist.org/wp-content/uploads/2022/03/Help_Ukraine_14.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2022/03/Help_Ukraine_14.jpg" alt="Help Ukraine 18" class="event-gallery__image" loading="lazy" /></a>
   <a href="https://ukrbaptist.org/wp-content/uploads/2022/03/Help_Ukraine_15.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2022/03/Help_Ukraine_15.jpg" alt="Help Ukraine 18" class="event-gallery__image" loading="lazy" /></a>
 </div>
+`,
+    contentFullUk: `
+    <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Lalovo_1.jpg" alt="Табір на Закарпатті фото 1" class="article-inline-img" />
+    <div class="letterhead">
+  <p>З 5 по 9 липня 2021 року у с. Лалові на Закарпатті відбувся дитячий християнський табір. Учасниками табору стало біля 190 дітей. Головна мета організаторів полягала в донесенні дітям Євангелії у зрозумілій їм формі. Тема табору “Картина світу” вмістила в себе біблійні істини від створення світу до вічності, яку Христос обіцяє тим, хто вірить у Нього.</p>
+</div>
 
+<div class="convention-highlight">
+  <p>Засобами донесення Євангелії були цікаві спортивні змагання, пісні, екстрім, але найголовніше, що діти відчули любов Божу через турботу лідерів та жертовність братів та сестер з США, які зробили цей табір можливим.</p>
+</div>
+
+<div class="signature-block">
+  <p>Вже впродовж років церква «Відродження» у співпраці з іншими церквами Об’єднання Українських Баптистських Церков в США підтримує церкву с. Лалово в досягненні дітей та їхніх батьків Євангелією, надаючи підтримку як матеріально, так і надсилаючи лідерів.</p>
+</div>
+    <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Lalovo_2.jpg" alt="Табір на Закарпатті фото 2" class="article-inline-img" />
+    <div class="event-video-wrapper">
+  <iframe 
+    src="https://www.youtube.com/embed/7CARTuB84Zs" 
+    title="YouTube video" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen 
+    class="event-video" 
+    loading="lazy">
+  </iframe>
+</div>
 `
   },
   {
     id: 'ev-013', slug: 'open-appeal-baptist-associations-usa-2022',
     titleEn: 'Open Appeal of Baptist Associations and Unions in the USA',
+    titleUk: 'Свято рукопокладання в церкві м. Філадельфії',
     publishedAt: '2022-03-06',
+    publishedAtUk: '2021-12-21',
     thumbnailUrl: "",
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/Ordination_1-768x432.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/open-appeal-of-baptist-associations-and-unions-in-the-usa/',
     contentFull: `
     <div class="letterhead">
@@ -643,13 +1063,56 @@ export const events: Event[] = [
   <p><strong>Paul Demyanik</strong> – the Western Ukrainian Evangelical Baptist Convention</p>
   <p><strong>Ivan Mileyev</strong> – the Pacific Coast Slavic Baptist Association</p>
   <p><strong>George Harlov</strong> – the Russian-Ukrainian Evangelical Baptist Union</p>
-</div>`
+</div>`,
+    contentFullUk: `
+    <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Ordination_1.jpg" alt="Свято рукопокладання в церкві м. Філадельфії" class="article-inline-img" />
+    <div class="letterhead">
+  <p>Рукопокладання пасторів відбулося в Першій Українській Євангельській Баптистській Церкві м. Філадельфії 14 листопада, 2021 року. Після випробувального терміну на протязі року, брати Денис Січкар та Павло Немеш були рукопокладені на пасторське служіння.</p>
+</div>
+
+<div class="creed-subsection">
+  <h4 class="creed-subsection__heading">A. Пресвітерія (10 листопада)</h4>
+  <p>10 листопада зібралась пресвітерія у складі Володимира Гонака, Романа Капрана, Іоанна Устенка, Дениса Канчуріна і Анатолія Мошковського, яка мала зустріч з кандидатами на пасторське служіння. Пресвітерія – це група пасторів, зібрана для вивчення і рішення певного питання.</p>
+</div>
+
+<div class="creed-subsection">
+  <h4 class="creed-subsection__heading">B. Іспит кандидатів</h4>
+  <p>Цього разу пастори екзаменували братів Дениса та Павла відносно їхнього поклику, кваліфікації, співпраці, характеру і розуміння контексту служіння. Пастори задавали різноманітні питання практичного і теологічного спрямування. Іспит братів пройшов успішно.</p>
+</div>
+
+<div class="convention-highlight">
+  <p>Недільний день 14 листопада видався сонячний і теплий. Святкова атмосфера церкви відчувалась вже на парковці. Члени церкви і гості стали свідками священнодії рукопокладання на пасторське служіння, яке провів Роман Капран, голова Об’єднання Церков. В рукопокладанні приймали участь пастори: від церкви – Володимир Гонак та Дмитро Логін, від Об’єднання – Роман Капран, Іоанн Устенко і Анатолій Мошковський.</p>
+</div>
+
+<div class="signature-block">
+  <p>Після зібрання всі присутні мали гарний час спілкування за обіднім столом.</p>
+</div>
+<div class="event-video-wrapper">
+  <iframe 
+    src="https://www.youtube.com/embed/QHFO4PNjMJc" 
+    title="YouTube video" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen 
+    class="event-video" 
+    loading="lazy">
+  </iframe>
+</div>
+<h2>Фото Галерея</h2>
+<div class="event-gallery">
+  <a href="https://ukrbaptist.org/wp-content/uploads/2021/12/Ordination_2.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/12/Ordination_2.jpg" alt="Свято рукопокладання в церкві м. Філадельфії фото 1" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2021/12/Ordination_4.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/12/Ordination_4.jpg" alt="Свято рукопокладання в церкві м. Філадельфії фото 2" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2021/12/Ordination_5.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/12/Ordination_5.jpg" alt="Свято рукопокладання в церкві м. Філадельфії фото 3" class="event-gallery__image" loading="lazy" /></a>
+</div>
+  `
   },
   {
     id: 'ev-014', slug: 'appeal-uebc-war-ukraine-2022',
     titleEn: 'Appeal by the Ukrainian Evangelical Baptist Convention Regarding the War in Ukraine',
+    titleUk: 'Хронологія Об’єднання Українських Баптистських Церков у США',
     publishedAt: '2022-03-04',
+    publishedAtUk: '2021-10-21',
     thumbnailUrl: "",
+    thumbnailUrlUk: "",
     sourceUrl: 'https://ukrbaptist.org/en/1003/',
     contentFull: `
     <div class="letterhead">
@@ -687,13 +1150,19 @@ export const events: Event[] = [
   <p>Yours in Christ,</p>
   <p>Roman Kapran, Ioan Ustenko, Viktor Kuzmenko, Igor Melnichuk, Alex Kolesnik</p>
   <p>The board of the Ukrainian Evangelical Baptist Convention in the United States</p>
-</div>`
+</div>`,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Timeline_UKR_1.jpg" alt="Хронологія Об’єднання Українських Баптистських Церков у США" class="article-inline-img" />
+    `
   },
   {
     id: 'ev-015', slug: 'help-ukraine-appeal-2022',
     titleEn: 'Help Ukraine',
+    titleUk: '75-й ювілейний з’їзд Українських Євангельських Баптистських Церков у США',
     publishedAt: '2022-03-01',
+    publishedAtUk: '2021-10-18',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/08/helping-hands_ac0392ec938228800bade2194cd18bda-300x150.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_4070-2-768x512.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/help-ukraine/',
     contentFull: `
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/08/helping-hands_ac0392ec938228800bade2194cd18bda.jpg" alt="Help Ukraine — Appeal for Support" class="article-inline-img" />
@@ -714,16 +1183,101 @@ export const events: Event[] = [
   <p>Donations can be made through this website; in the “Donation purpose” section please write <strong>“Help Ukraine”</strong>.</p>
   <p>Thank you and God bless you!</p>
 </div>
-  `
+  `, 
+    contentFullUk: `
+    <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_4070-2.jpg" alt="75-й ювілейний з’їзд Українських Євангельських Баптистських Церков у США" class="article-inline-img" />
+    <div class="letterhead">
+  <p>По причині обмежень, пов’язаних з COVID-19 в минулому році, з’їзд та святкування 75-тої річниці нашого Об’єднання були перенесені на 2021 рік. Тема 75-го з’їзду взята з нашого бачення: «Зростати, Збудовувати, Звіщати». 74-й з’їзд мав тему: «Зростати в Ісусі Христі» і вказував на важливість духовного росту згідно з вченням Господа. На цьому з’їзді розглядалася тема церкви, а саме активну участь віруючих у збудуванні місцевих церков як духовного храму Господа.</p>
+</div>
+
+<h2>Робоче засідання та відкриття з’їзду</h2>
+<p>По Божій милості, в п’ятницю, 3 вересня 2021 року, 75-й з’їзд розпочався із робочого засідання розширеної управи під проводом пастора Романа Капрана, голови Об’єднання, який привітав присутніх та закликав до спільної молитви. Ця нарада відбулася в приміщенні дому молитви церкви м. Стівенс, де пастором є Андрій Дрібноход. Пастори, диякони та служителі багатьох церков мали можливість заслухати звіти голови Об’єднання, відповідальної за служіння сестер Світлани Христенко та керівника молодіжного служіння Дениса Січкаря. Також була вибрана ревізійна та резолюційна комісії. Управа закінчилася молитвою, братерською спільністю за смачним обідом, який приготували сестри місцевої церкви. Після чого зробили спільне фото на пам’ять.</p>
+
+<div class="convention-highlight">
+  <p>О 7 РМ в приміщенні Бізнес Центру м. Євфрата відбулося офіційне відкриття 75-го ювілейного з’їзду ОУЄБЦ в США. Зібрання проходило в атмосфері поклоніння та подяки Господу. Учасники та гості з’їзду мали можливість прославити Бога разом із братами та сестрами церкви міста Стівенс, яка приймала з’їзд цього разу. Присутні разом поклонялися Господу, слухали проповідь слова Божого пастора Миколи Романюка із України та привітання гостей.</p>
+</div>
+
+<h2>Семінари (4 вересня)</h2>
+<p>Ранок 4 вересня розпочався молитовним сніданком, який залишив незабутні спогади про спільність навколо молитви та слова Божого. На 10-ту годину ранку в приміщенні Бізнес Центру м. Єфрата з’їхалось чимало людей на семінари, які висвітлювали головну тему з’їзду: «Збудовуймо церкву». Одночасно проходило два семінари, а загалом їх було 9.</p>
+
+<div class="convention-highlight">
+  <p>Промовцями на семінарах були як пастори та служителі нашого Об’єднання, так і гості. Серед них: <strong>Микола Романюк</strong>, пастор із м. Ірпінь (Україна), який проводив семінари на теми: «Яка церковна структура найкраще сприяє збудуванню церкви» та «Як знайти своє місце в церкві»; <strong>пастор Іван Мілеєв</strong> мав семінар на тему: «Церковь иммигрантов. Настоящее и будущее»; <strong>Nike Golay</strong> (місія «Behold Israel») виклав два семінари англійською мовою на тему: «Where we are in the prophetic timeline», «Ezekiel’s vision being fulfilled today». <strong>Сестра Леся Водолажська</strong> провела семінар для сестер під назвою: «Дивись та живи. Щоденне застосування Євангелії в житті християнки».</p>
+  <p>Також проводили семінари пастори нашого Об’єднання: <strong>Анатолій Мошковський</strong> – «Створення міцної команди служителів», <strong>Юрій Ковч</strong> з командою – «Братерство в сучасній церкві» та <strong>Іоан Устенко</strong> з командою – «Чесно про церкву», які добре висвітлили теми стосовно збудування церкви.</p>
+</div>
+
+<p>Особливо хочеться відмітити гостинність церкви м. Стівенс в прийомі з’їзду. На семінарах присутні мали багатий стіл духовної їжі, а під час обіду спілкувалися і споживали смачні страви, приготовані сестрами церкви м. Стівенс. Молодь церкви організувала програму для дітей, в той час коли батьки були на семінарах. Нехай Господь винагородить всіх, хто послужив у приготуванні та проведенні з’їзду.</p>
+
+<h2>Молодіжне служіння</h2>
+<p>Суботній день з’їзду завершився молодіжним служінням, на якому молодь Об’єднання прославляла та звеличувала Бога: лунала чудова музика та спів молодіжного хору під проводом Діани Гавлішин, а проповідь слова Божого виголосив пастор Іван Скачко (місто Клівленд).</p>
+
+<h2>Святкове недільне зібрання (5 вересня)</h2>
+<p>5 вересня, в неділю о 11 ранку, в Біблійному коледжі м. Ланкастера розпочалося святкове зібрання, присвячене 75-ій річниці Об’єднання, на якому було до 1000 присутніх. Пастор Анатолій Мошковський, голова Об’єднання в 2011-2018 роках, відкрив зібрання із зверненням в молитві до Господу. Все зібрання приєдналось до прославлення Бога разом із зведеним хором Об’єднання під керівництвом регента Івана Веленчука. Виконання Біблійних Псалмів перенесло слухачів у атмосферу піднесеного поклоніння Богу, як це робив Ізраїль, співаючи Псалми.</p>
+
+<div class="convention-highlight">
+  <p>Слід сказати, що пастор Сергій Савчук та регент Іван Веленчук (церква «Благодать») презентували унікальний збірник Біблійних Псалмів українською мовою. Вперше на музику покладені всі 150 Псалмів для хору і загального співу в церкві. Брати Савчук та Веленчук розповіли про виникнення ідеї написання музики для Псалмів і яким чином Господь допоміг втілити цей задум протягом 4 років. Виконання Псалмів можна подивитись у записі на YouTube.</p>
+  <p>На святковому зібранні лунали дві проповіді про збудування церкви. Першу виголосив пастор Роман Капран, голова Об’єднання Церков. Основну проповідь слова Божого виголосив пастор Микола Романюк, який закликав слухачів до практичного збудування церкви Христової. Проповідь є на YouTube.</p>
+</div>
+
+<p>Під час святкового зібрання голови баптистських об’єднань і союзів звершили молитву подяки Господу за 75-літній провід нашого Об’єднання. Голови баптистських об’єднань Америки, які були на з’їзді і привітали наше Об’єднання: пастор Павло Дем’яник – голова Західного Українського Баптистського Об’єднання, пастор Георгій Харлов – голова Російсько-Українського Союзу ЄХБ у США, пастор Іван Мілеєв – голова Тихоокеанського Об’єднання Церков ЄХБ, пастор Василь Фурта – заступник голови ВСЦ ЄХБ України.</p>
+
+<p>З нагоди святкування 75-ої річниці Об’єднання був показаний відео-кліп про історію виникнення Українського Місійно-Біблійного Товариства в 1946 році, згодом трансформованого в Об’єднання Церков, його розвиток і шлях до сьогодення. Кліп є у записі на YouTube.</p>
+
+<h2>Стипендії та резолюції</h2>
+<p>В нас вже появилась традиція на з’їзді давати стипендію від Об’єднання молодим братам та сестрам, які успішно навчаються і є активними членами в церкві. Цього разу пастор Віктор Кузьменко, заступник голови, вручив 6 стипендій представникам трьох церков: «Відродження», «Дім Євангелії», церква м. Філадельфії.</p>
+
+<p>Пастор Леонід Близнюк, голова ревізійної комісії, зачитав фінансовий звіт та подякував за сумлінну працю брату Олександру Колєсніку, скарбнику Об’єднання. Резолюцію 75-го з’їзду ОУЄБЦ в США прочитав пастор Віктор Щипайло. Також на з’їзді була прийнята спільна резолюція чотирьох братніх баптистських об’єднань (Об’єднання Українських Євангельських Баптистських Церков у США, Західне Українське Баптистське Об’єднання Церков у США, Тихоокеанське Об’єднання Церков ЄХБ та Російсько-Український Союз ЄХБ у США) про сім’ю і стать, в якій наголошується на практичній важливості біблійного тлумачення сім’ї, заснованої Господом, і чоловічої та жіночої статі у світлі нинішньої гендерної політики. Дві резолюції є на сайті Об’єднання.</p>
+
+<div class="signature-block">
+  <p>75-й з’їзд закінчився молитвою, яку звершив пастор Овдій Хрипчук, голова Об’єднання в 2008-2011 роках.</p>
+  <p>Після закінчення святкового зібрання делегати та гості роз’їхались по своїх домівках, сповнені натхнення, радості та сподівань на нові зустрічі один із одним.</p>
+</div>
+<div class="event-videos">
+  <div class="event-video-wrapper">
+    <iframe src="https://www.youtube.com/embed/-yJZQucYhXE" title="YouTube video 1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="event-video" loading="lazy"></iframe>
+  </div>
+  <div class="event-video-wrapper">
+    <iframe src="https://www.youtube.com/embed/aFYLSIqI4DM" title="YouTube video 2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="event-video" loading="lazy"></iframe>
+  </div>
+  <div class="event-video-wrapper">
+    <iframe src="https://www.youtube.com/embed/y8eqiXPr53g" title="YouTube video 3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="event-video" loading="lazy"></iframe>
+  </div>
+  <div class="event-video-wrapper">
+    <iframe src="https://www.youtube.com/embed/Jf7VIk5RGK0" title="YouTube video 4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="event-video" loading="lazy"></iframe>
+  </div>
+</div>
+<h2>Фото Галерея</h2>
+<div class="event-gallery">
+  <a href="https://ukrbaptist.org/wp-content/uploads/2021/10/75__1.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/10/75__1.jpg" alt="75-й ювілейний з’їзд Українських Євангельських Баптистських Церков у США фото 1" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2021/10/75__3.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/10/75__3.jpg" alt="75-й ювілейний з’їзд Українських Євангельських Баптистських Церков у США фото 2" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2021/10/75__6.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/10/75__6.jpg" alt="75-й ювілейний з’їзд Українських Євангельських Баптистських Церков у США фото 3" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2021/10/75__7.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/10/75__7.jpg" alt="75-й ювілейний з’їзд Українських Євангельських Баптистських Церков у США фото 4" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2021/10/75__8.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/10/75__8.jpg" alt="75-й ювілейний з’їзд Українських Євангельських Баптистських Церков у США фото 5" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2021/10/75__9.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/10/75__9.jpg" alt="75-й ювілейний з’їзд Українських Євангельських Баптистських Церков у США фото 6" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2021/10/75__10.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/10/75__10.jpg" alt="75-й ювілейний з’їзд Українських Євангельських Баптистських Церков у США фото  7" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2021/10/75__12.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/10/75__12.jpg" alt="75-й ювілейний з’їзд Українських Євангельських Баптистських Церков у США фото 8" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2021/10/75__13.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/10/75__13.jpg" alt="75-й ювілейний з’їзд Українських Євангельських Баптистських Церков у США фото 9" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2021/10/75__14.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/10/75__14.jpg" alt="75-й ювілейний з’їзд Українських Євангельських Баптистських Церков у США фот 10" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2021/10/75__15.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/10/75__15.jpg" alt="75-й ювілейний з’їзд Українських Євангельських Баптистських Церков у США фото 11" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2021/10/75__16.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/10/75__16.jpg" alt="75-й ювілейний з’їзд Українських Євангельських Баптистських Церков у США фото 12" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2021/10/75__17.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/10/75__17.jpg" alt="75-й ювілейний з’їзд Українських Євангельських Баптистських Церков у США фото 13" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2021/10/75__18.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/10/75__18.jpg" alt="75-й ювілейний з’їзд Українських Євангельських Баптистських Церков у США фото 14" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2021/10/75__20.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/10/75__20.jpg" alt="75-й ювілейний з’їзд Українських Євангельських Баптистських Церков у США фото 15" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2021/10/75__21.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/10/75__21.jpg" alt="75-й ювілейний з’їзд Українських Євангельських Баптистських Церков у США фото 16" class="event-gallery__image" loading="lazy" /></a>
+  <a href="https://ukrbaptist.org/wp-content/uploads/2021/10/75__22.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/10/75__22.jpg" alt="75-й ювілейний з’їзд Українських Євангельських Баптистських Церков у США фото 17" class="event-gallery__image" loading="lazy" /></a>
+</div>
+`
   },
   {
     id: 'ev-016', slug: 'ordination-in-philadelphia-2021',
     titleEn: 'An Ordination in Philadelphia',
+    titleUk: 'Запрошення на 75-й з’їзд Об’єднання',
     publishedAt: '2021-12-16',
+    publishedAtUk: '2021-07-31',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/Ordination_1-300x169.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/75th_Convention_Ukr.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/an-ordination-in-philadelphia/',
     contentFull: `
-    <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Ordination_1.jpg" alt="Help Ukraine — Appeal for Support" class="article-inline-img" />
+    <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Ordination_1.jpg" alt="An Ordination in Philadelphia" class="article-inline-img" />
     <div class="letterhead">
   <p>An ordination of pastors occurred at the First Ukrainian Evangelical Baptist Church of Philadelphia on November 14, 2021.</p>
 </div>
@@ -752,23 +1306,48 @@ export const events: Event[] = [
     <a href="https://ukrbaptist.org/wp-content/uploads/2021/12/Ordination_4.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/12/Ordination_4.jpg" alt="An Ordination in Philadelphia 2" class="event-gallery__image" loading="lazy" /></a>
     <a href="https://ukrbaptist.org/wp-content/uploads/2021/12/Ordination_5.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/12/Ordination_5.jpg" alt="An Ordination in Philadelphia 3" class="event-gallery__image" loading="lazy" /></a>
     </div>
+`, 
+    contentFullUk: `
+  <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/75th_Convention_Ukr.jpg" alt="Запрошення на 75-й з’їзд Об’єднання" class="article-inline-img" />
 `
   },
   {
     id: 'ev-017', slug: 'timeline-ubc-us-2021',
     titleEn: 'Timeline of UBC of the U.S.',
+    titleUk: 'Пасхальне дитяче служіння в Ланкастері',
     publishedAt: '2021-10-21',
+    publishedAtUk: '2021-05-07',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2021/10/Timeline-ENG-1-184x300.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/unnamed-file.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/timeline-of-ubc-of-the-u-s/',
     contentFull: `
       <img src="https://ukrbaptist.org/wp-content/uploads/2021/10/Timeline-ENG-1.jpg" alt="Timeline of UBC of the U.S." class="article-inline-img" />
-    `
+    `,
+    contentFullUk: `
+    <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/unnamed-file.jpg" alt="Пасхальне дитяче служіння в Ланкастері" class="article-inline-img" />
+    <div class="letterhead">
+  <p>11 квітня 2021 року в Українській Євангельсько-Баптистській церкві міста Ланкастера пройшло служіння за участю дітей Української та Недільної школи церкви, яке було присвячене Воскресінню нашого Господа Ісуса Христа. Служіння розпочав пастор церкви Щипайло Віктор, який привітав усіх присутніх із святом Христового Воскресіння. На продовження церковний хор під керівництвом регента сестри Оксани Пуршаги прославив Господа величальним співом.</p>
+</div>
+
+<div class="convention-highlight">
+  <p>Більше ста людей в хвалі та поклонінні разом із дітьми мали можливість не тільки звеличити Христа, але і почути добру звістку про те, що смерть переможена назавжди! Після спільного поклоніння була звершена молитва благословення над дітьми новоутвореної Української та Недільної школи, а також над її викладачами: Марією Микитюк, Людою Ковальчук та Танею Шляхута. Молитву звершили пастори: Щипайло Віктор, Леонід Близнюк та Логін Дмитро.</p>
+</div>
+
+<p>В святковому богослужінні прийняли участь і діти з церкви міста Філадельфія, які доповнили спільне поклоніння віршами, піснями та музичними композиціями на славу Господа Ісуса Христа.</p>
+
+<div class="signature-block">
+  <p>Після заключної молитви подяки, яку звершив пастор Леонід Близнюк, діти і дорослі мали чудову нагоду насолодитися спілкуванням один із одним під час обіду, який із любов’ю приготували сестри церкви. Через декілька годин усі роз’їхалися по своїх домівках з радістю в серці та із надією на швидку зустріч один із одним.</p>
+</div>
+`,
   },
   {
     id: 'ev-018', slug: '75th-jubilee-conference-2021',
     titleEn: '75th Jubilee Conference of the Ukrainian Evangelical Baptist Convention in the USA',
+    titleUk: 'Вакцинація і COVID-19',
     publishedAt: '2021-10-18',
+    publishedAtUk: '2021-05-07',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_4070-2-300x200.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/1-768x459.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/75th-jubilee-conference-of-the-ukrainian-evangelical-baptist-convention-in-the-usa/',
     contentFull: `
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_4070-2.jpg" alt="75th Jubilee Conference of the Ukrainian Evangelical Baptist Convention in the USA" class="article-inline-img" />
@@ -853,23 +1432,94 @@ export const events: Event[] = [
     <a href="https://ukrbaptist.org/wp-content/uploads/2021/10/75__6.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/10/75__6.jpg" alt="75th-jubilee-conference-2021 15" class="event-gallery__image" loading="lazy" /></a>
     <a href="https://ukrbaptist.org/wp-content/uploads/2021/10/75__3.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/10/75__3.jpg" alt="75th-jubilee-conference-2021 16" class="event-gallery__image" loading="lazy" /></a>
     </div>
-    `
+    `,
+    contentFullUk: `
+    <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/1.jpg" alt="Вакцинація і COVID-19" class="article-inline-img" />
+    <div class="letterhead">
+  <p>8 березня 2021 року, в програмі Zoom відбулася зустріч, ініційована нашим Об’єднанням. На ній були присутні 46 служителів, це пастори та диякони із різних церков Америки та Канади. Братерське спілкування розпочав молитвою Роман Капран, голова Об’єднання Українських Баптистських Церков у США. Після короткого знайомства почалось обговорення важливих для суспільства питань, пов’язаних із поширенням в світі COVID-19 та вакцинації.</p>
+</div>
+
+<div class="convention-highlight">
+  <p>Брати Філіп Мошковський (DO, практикуючий лікар-хірург) і Олександр Бабіч (PhD, науковець) в простій та доступній формі розповіли про хворобу та небезпеку, яку вона несе людині, і які є наявні методи протидії за допомогою вакцини. Модератором цього спілкування був пастор Ігор Мельничук із міста Міннеаполіса. Після викладу було жваве обговорення, під час якого учасники Zoom зустрічі мали можливість задавати запитання та отримали кваліфіковану відповідь.</p>
+</div>
+
+<div class="signature-block">
+  <p>По закінченню присутні брати висловили подяку організаторам Zoom зустрічі та спікерам. Зустріч завершилася молитвою, яку звершив Іван Мілеєв, голова Тихоокеанського Баптистського Союзу.</p>
+</div>
+<div class="event-video-wrapper">
+  <iframe 
+    src="https://www.youtube.com/embed/fAvpSyxZGtA" 
+    title="YouTube video" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen 
+    class="event-video" 
+    loading="lazy">
+  </iframe>
+</div>
+`
   },
   {
     id: 'ev-019', slug: 'invitation-to-the-convention-2021',
     titleEn: 'An Invitation to the Convention',
+    titleUk: 'Початок навчання Go and Grow',
     publishedAt: '2021-07-31',
+    publishedAtUk: '2021-05-06',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/75th_Convention_Ukr-300x212.jpg', 
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2021/05/Go_and_Grow_5-300x195.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/an-invitation-to-the-convention/',
     contentFull: `
       <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/75th_Convention_Ukr.jpg" alt="An Invitation to the Convention'" class="article-inline-img" />
+    `,
+    contentFullUk: `
+      <img src="https://ukrbaptist.org/wp-content/uploads/2021/05/Go_and_Grow_5.jpg" alt="Початок навчання Go and Grow фото 1" class="article-inline-img" />
+<div class="letterhead">
+  <p>Go and Grow – це школа для тих, хто хоче ІТИ за ХРИСТОМ і ЗРОСТАТИ в ХРИСТІ. 20 лютого пройшла перша сесія в молитовному будинку Української Баптистської Церкви міста Філадельфії. Було понад 120 молодих людей з різних церков, які виявили бажання прослухати семінари на тематику християнської апологетики.</p>
+</div>
+
+<div class="convention-highlight">
+  <p>Перший семінар проводив Владислав Грунтковський про вплив світських ідей на християнство. Другий семінар викладав Давид Летушко про практичне застосування апологетики. Павло Ващишин і Марк Капран навчали про біблійну основу Трійці на третьому семінарі. А Ерік Ончану розповів як відповідає християнство на виклики атеїстів на четвертому семінарі. Модератором сесії був Денис Січкар, а Александр Муляр відповідав за координаційну частину.</p>
+</div>
+
+<p>Проведенню першої сесії передувала клопітка підготовка команди братів разом з головою Об’єднання Українських Баптистських Церков у США пастором Романом Капраном. Також особлива подяка Мар’яні Немеш, Оксані Ковальчук та всім сестрам, які підготували смачний обід для всіх учасників.</p>
+
+<p>В 2021 році заплановано 4 сесії. Мета Go and Grow полягає в тому, щоб спонукати молодь до особистих стосунків з Ісусом Христом і духовного зростання через вивчення Біблії.</p>
+      <img src="https://ukrbaptist.org/wp-content/uploads/2021/05/Go_and_Grow_7.jpg" alt="Початок навчання Go and Grow фото 2" class="article-inline-img" />
+      <img src="https://ukrbaptist.org/wp-content/uploads/2021/05/Go_and_Grow_6.jpg" alt="Початок навчання Go and Grow фото 3" class="article-inline-img" />
+      <img src="https://ukrbaptist.org/wp-content/uploads/2021/05/Go_and_Grow_1.jpg" alt="Владислав Грунтковсткий викладає перший семінар" class="article-inline-img" />
+  <div class="history-page__image-caption" style="text-align: center; margin-top: 4px;">
+  Владислав Грунтковсткий викладає перший семінар
+  </div>
+      <img src="https://ukrbaptist.org/wp-content/uploads/2021/05/Go_and_Grow_2.jpg" alt="Денис Січкар представляє Давида Летушко перед викладом другого семінару" class="article-inline-img" />
+  <div class="history-page__image-caption" style="text-align: center; margin-top: 4px;">
+  Денис Січкар представляє Давида Летушко перед викладом другого семінару
+  </div>
+    <img src="https://ukrbaptist.org/wp-content/uploads/2021/05/Go_and_Grow_3.jpg" alt="Марк Капран і Павло Ващишин проводять третій семінар" class="article-inline-img" />
+  <div class="history-page__image-caption" style="text-align: center; margin-top: 4px;">
+  Марк Капран і Павло Ващишин проводять третій семінар
+  </div>
+   <img src="https://ukrbaptist.org/wp-content/uploads/2021/05/Go_and_Grow_4.jpg" alt="Ерік Ончану навчає під час четвертого семінару" class="article-inline-img" />
+  <div class="history-page__image-caption" style="text-align: center; margin-top: 4px;">
+  Ерік Ончану навчає під час четвертого семінару
+  </div>
+  <img src="https://ukrbaptist.org/wp-content/uploads/2021/05/Go_and_Grow_5.jpg" alt="Команда GO and GROW" class="article-inline-img" />
+  <div class="history-page__image-caption" style="text-align: center; margin-top: 4px;">
+  Команда GO and GROW
+  </div>
+  <img src="https://ukrbaptist.org/wp-content/uploads/2021/05/Go_and_Grow_8.jpg" alt="Підготовка до обіду" class="article-inline-img" />
+  <div class="history-page__image-caption" style="text-align: center; margin-top: 4px;">
+  Підготовка до обіду
+  </div>
+    <img src="https://ukrbaptist.org/wp-content/uploads/2021/05/Go_and_Grow_flyer.jpg" alt="Go and Grow фото " class="article-inline-img" />
     `
   },
   {
     id: 'ev-020', slug: 'starting-go-and-grow-2021',
     titleEn: 'STARTING of GO and GROW',
+    titleUk: 'Зустріч з місіонером',
     publishedAt: '2021-07-03',
+    publishedAtUk: '2021-03-15',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2021/05/Go_and_Grow_5-300x195.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/3164c23d171bbc4148e139b20b22f32d-768x464.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/starting-of-go-and-grow/',
     contentFull: `
     <img src="https://ukrbaptist.org/wp-content/uploads/2021/05/Go_and_Grow_5.jpg" alt="STARTING of GO and GROW" class="article-inline-img" />
@@ -900,14 +1550,31 @@ export const events: Event[] = [
     <a href="https://ukrbaptist.org/wp-content/uploads/2021/05/Go_and_Grow_2.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/05/Go_and_Grow_2.jpg" alt="STARTING of GO and GROW 7" class="event-gallery__image" loading="lazy" /></a>
     <a href="https://ukrbaptist.org/wp-content/uploads/2021/05/Go_and_Grow_1.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/05/Go_and_Grow_1.jpg" alt="STARTING of GO and GROW 8" class="event-gallery__image" loading="lazy" /></a>
     </div>
- `
+ `,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/3164c23d171bbc4148e139b20b22f32d-1024x618.jpg" alt="Зустріч з місіонером онлайн" class="article-inline-img" />
+        <div class="letterhead">
+  <p>Незважаючи на поширення вірусу та пандемію, пастори та служителі Об’єднання Українських Євангельських Баптистських Церков у США, а також служителі інших церков, мали чудову зустріч по зуму 18 січня, 2021. Цього разу Джордж Роллер (George Roller), місіонер серед конгресменів та сенаторів у місті Вашингтон (столиці США), мав виклад теми «Церква та влада». Він особисто знайомий з президентами та віце-президентами Америки. Модератором зустрічі був пастор Сергій Савчук.</p>
+</div>
+
+<div class="convention-highlight">
+  <p>Загалом 30 братів із різних церков Америки взяли участь у цій зустрічі та мали можливість задати питання і отримати відповіді від місіонера Джорджа Роллера.</p>
+</div>
+
+<div class="signature-block">
+  <p>На закінчення зустрічі пастор Роман Капран, голова Об’єднання Українських Євангельських Баптистських Церков у США, висловив подяку брату Джорджу Роллеру від імені всіх присутніх братів. Зустріч закінчилася молитвою, взаємними привітаннями та оголошеннями.</p>
+</div>
+`
   },
   // PAGE 2
   {
     id: 'ev-021', slug: 'retreat-in-florida-2021',
     titleEn: 'The Retreat in Florida',
+    titleUk: 'Розширена Управа Об’єднання',
     publishedAt: '2021-07-03',
+    publishedAtUk: '2021-01-11',
     thumbnailUrl: '',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/2020_Board_3-768x491.png',
     sourceUrl: 'https://ukrbaptist.org/en/the-retreat-in-florida/',
     contentFull: `
     <div class="letterhead">
@@ -931,13 +1598,50 @@ export const events: Event[] = [
     <a href="https://ukrbaptist.org/wp-content/uploads/2021/07/Florida_retreat_3-1.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/07/Florida_retreat_3-1.jpg" alt="The Retreat in Florida 2" class="event-gallery__image" loading="lazy" /></a>
     <a href="https://ukrbaptist.org/wp-content/uploads/2021/07/Florida_retreat_1-1.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2021/07/Florida_retreat_1-1.jpg" alt="The Retreat in Florida 3" class="event-gallery__image" loading="lazy" /></a>
     </div>
-    `
+    `,
+    contentFullUk: `
+      <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/2020_Board_3.png" alt="Розширена Управа Об’єднання фото 1" class="article-inline-img" />
+      <div class="letterhead">
+  <p>5 грудня 2020 року відбулася розширена управа Об’єднання в приміщенні церкви «Відродження», де пасторами є Іоан Устенко та Денис Канчурін. В засіданні управи приймало участь 33 брата та 2 сестри, з них 22 були присутніми і 13 приєднались через Zoom. Під час ділової частини всі учасники одноголосно підтримали: зміни до статуту Об’єднання, а також обрання нового скарбника Об’єднання – Олександра Колесніка, який є дияконом церкви м. Стівенс (Пенсільванія). Роман Капран, голова Об’єднання, подякував Леоніду Близнюку, попередньому скарбнику, і подарував на добру згадку шофар (ріг, який використовували в якості труби в стародавньому Ізраїлі).</p>
+</div>
+
+<div class="convention-highlight">
+  <p>Подружжя Болтнєвих, Георгій та Богуслава, приймали участь в другій духовно-збудовуючій частині. Брат Георгій виклав тему «Громадяни двох царств», про відношення церкви до політики і політичних рухів. Сестра Богуслава поділилась свідченням про ставлення віруючих до політики і які це має наслідки для церкви.</p>
+</div>
+
+<div class="signature-block">
+  <p>Після засідання розширеної управи Михайло Черенков, представник місії «Євразія», брав участь в конференції і зробив виклад тем «Наша місія і Місія Бога» та «Ізраїль, Церква і Царство Боже».</p>
+</div>
+      <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/2020.png" alt="Ділова частина розширеної управи Об’єднання" class="article-inline-img" />
+        <div class="history-page__image-caption" style="text-align: center; margin-top: 4px;">
+           Ділова частина розширеної управи Об’єднання
+        </div>
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/2020_1.png" alt="Вручення Леоніду Близнюку, почесному скарбнику Об’єднання, пам’ятного “шафара”" class="article-inline-img" />
+        <div class="history-page__image-caption" style="text-align: center; margin-top: 4px;">
+           Вручення Леоніду Близнюку, почесному скарбнику Об’єднання, пам’ятного “шафара”
+        </div>
+         <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/2020_Board_2.png" alt="Георгій Болтнєв та його дружина Богуслава приймали участь в розширеній управі" class="article-inline-img" />
+        <div class="history-page__image-caption" style="text-align: center; margin-top: 4px;">
+           Георгій Болтнєв та його дружина Богуслава приймали участь в розширеній управі
+        </div>
+        <div class="event-videos">
+  <div class="event-video-wrapper">
+    <iframe src="https://www.youtube.com/embed/HsHW_uPfL3E" title="YouTube video 1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="event-video" loading="lazy"></iframe>
+  </div>
+  <div class="event-video-wrapper">
+    <iframe src="https://www.youtube.com/embed/_asK15WrMck" title="YouTube video 2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="event-video" loading="lazy"></iframe>
+  </div>
+</div>
+`
   },
   {
     id: 'ev-022', slug: 'covid-19-and-vaccination-2021',
     titleEn: 'COVID-19 and Vaccination',
+    titleUk: 'Хрищення у Чікаго, 2020',
     publishedAt: '2021-05-21',
+    publishedAtUk: '2020-12-19',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/1.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/Chicago_baptism_2020-768x576.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/covid-19-and-vaccination/',
     contentFull: `
         <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/1.jpg" alt="COVID-19 and Vaccination" class="article-inline-img" />
@@ -960,13 +1664,31 @@ export const events: Event[] = [
     <iframe src="https://www.youtube.com/embed/fAvpSyxZGtA" title="COVID 19 Вакцинація" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="event-video" loading="lazy"></iframe>
   </div>
 </div>
+    `,
+    contentFullUk: `
+      <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Chicago_baptism_2020.jpg" alt="Хрищення у Чікаго, 2020 фото 1" class="article-inline-img" />
+<div class="letterhead">
+  <p>Троє людей приєдналися через хрищення до Української Баптистської Церкви міста Чікаго 22 серпня, 2020, на Round Lake Beach. Звершував хрищення пастор Петро Іванов (праворуч). Допомагав йому диякон Володимир Пилип’юк (ліворуч).</p>
+</div>
+
+<div class="convention-highlight">
+  <p>В служінні під відкритим небом чоловічий хор виконав пісні під керівництвом регента Юрія Голубок. По причині карантинних обмежень кількість присутніх була обмежена до 50 людей.</p>
+</div>
+
+<div class="signature-block">
+  <p>Наступного дня, в неділю, в церкві нові члени приймали участь у Вечері Господній разом зі всіма.</p>
+</div>
+    <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Chicago_baptism_2020_pic2.jpg" alt="Хрищення у Чікаго, 2020 фото 2" class="article-inline-img" />
     `
   },
   {
     id: 'ev-023', slug: 'childrens-easter-service-lancaster-2021',
     titleEn: "Children's Easter Service in Lancaster",
+    titleUk: 'Потрійне свято в Ланкастері',
     publishedAt: '2021-04-12',
+    publishedAtUk: '2020-11-21',
     thumbnailUrl: '',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/Lancaster-5_bdfe5ed0b9612c2d796f3ac2bab891af-768x602.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/children-s-easter-service-in-lancaster/',
     contentFull: `
     <div class="letterhead">
@@ -982,13 +1704,40 @@ export const events: Event[] = [
 
 <div class="signature-block">
   <p>After the closing prayer of thanksgiving offered by Pastor Leonid Bliznyuk, the children and adults had a wonderful opportunity to enjoy fellowship with each other during a meal prepared lovingly by the sisters of the church. A few hours later, everyone left for their homes with joy in their hearts and with the hope of meeting again soon.</p>
-</div>`
+</div>`,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Lancaster-5_bdfe5ed0b9612c2d796f3ac2bab891af-1024x803.jpg" alt="Потрійне свято в Ланкастері" class="article-inline-img" />
+        <div class="letterhead">
+  <p>11 жовтня 2020 року в Українській Євангельсько-Баптистській Церкві міста Ланкастер відбулося потрійне свято: це свято подяки Богу за врожай, 15 років від заснування української церкви в місті Ланкастер та встановлення брата Щипайло Віктора на пасторське служіння в помісній церкві. Служіння почалося із молитви та спільного прославлення Господа. Після цього пастор Леонід Близнюк прочитав історію заснування церкви.</p>
+</div>
+
+<div class="convention-highlight">
+  <p>На святковому богослужінні були присутні пастори навколишніх церков: пастор церкви в м. Ланкастер Леонід Близнюк, пастори Ігор Олійник, Дмитро Логін, Андрій Дрібнохід, Щипайло Віктор та пастор Альберто, представник від Південних Баптистів, і голова Об’єднання Українських Євангельських Баптистських Церков в США пастор Роман Капран. Пастори поділилися Словом Божим, висловили свої побажання та підбадьорили церкву в її служінні. Свято відзначалося не тільки великою присутністю служителів, але і гостей. Близько 150 людей мали можливість разом подякувати та прославити Бога.</p>
+  <p>Чудово співав хор церкви Ланкастер під керівництвом Пуршага Оксани. Також діти і дорослі розповідали вірші на славу Божу. Всі присутні мали можливість почути чудові музичні композиції у виконанні гостей та спів групи прославлення. Пасторами була звершена молитва подяки Богу над дарами землі та молитва благословення над новим пастором В. Щипайло.</p>
+</div>
+
+<div class="signature-block">
+  <p>Служіння закінчилося молитвою та святковим смачним обідом, який приготували сестри помісної церкви. Урочисте зібрання пройшло, а служіння церкви продовжується. Церква в Ланкастері звершує свою працю, використовуючи ті можливості та засоби, які Господь дав їй, щоб поширювати Євангелію та прославляти ім’я Ісуса Христа в околицях Ланкастера і далі. Амінь.</p>
+  <p>Пастори церкви: п. Л. Близнюк та п. В. Щипайло</p>
+</div>
+         <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Lancaster_2-1536x1016.jpg" alt="Молитва подяки за Слово Боже, хліб та воду." class="article-inline-img" />
+        <div class="history-page__image-caption" style="text-align: center; margin-top: 4px;">
+           Молитва подяки за Слово Боже, хліб та воду.
+        </div>
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/lancaster_3-1024x510.jpg" alt="Спільне фото на згадку про свято церкви." class="article-inline-img" />
+        <div class="history-page__image-caption" style="text-align: center; margin-top: 4px;">
+           Спільне фото на згадку про свято церкви.
+        </div>
+    `
   },
   {
     id: 'ev-024', slug: 'missionary-to-congressmen-speaks-2021',
     titleEn: 'Missionary to Congressmen Speaks',
+    titleUk: 'Звернення до Церков',
     publishedAt: '2021-03-15',
+    publishedAtUk: '2020-11-05',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/08/Roller-George-mug_a158ac9e3a9eb5bd37cf75a21f86f9f6.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/Picture1-1_01f5535895083f107992d69882fd572a-768x431.png',
     sourceUrl: 'https://ukrbaptist.org/en/missionary-to-congressmen-speaks/',
     contentFull: `
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/08/Roller-George-mug_a158ac9e3a9eb5bd37cf75a21f86f9f6.jpg" alt="Missionary to Congressmen Speaks" class="article-inline-img" style="max-width:280px;" />
@@ -1004,13 +1753,32 @@ export const events: Event[] = [
 <div class="signature-block">
   <p>At the end of the meeting, Pastor Roman Kapran, president of the church association, thanked Brother Roller on behalf of all the brothers present. The meeting ended with a prayer, mutual greetings and announcements.</p>
 </div>
-   `
+   `,
+    contentFullUk: `
+      <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Picture1-1_01f5535895083f107992d69882fd572a.png" alt="Звернення до Церков Фото" class="article-inline-img"" />
+      <div class="convention-highlight">
+  <p>Звернення від управи до Об’єднання Українських Баптистських Церков у США.</p>
+</div>
+<div class="event-video-wrapper">
+  <iframe 
+    src="https://www.youtube.com/embed/2O-tohAzeV0" 
+    title="YouTube video" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen 
+    class="event-video" 
+    loading="lazy">
+  </iframe>
+</div>
+`
   },
   {
     id: 'ev-025', slug: 'expanded-board-uebc-2021',
     titleEn: 'Expanded Board of the Ukrainian Evangelical Baptist Convention in the U.S.',
+    titleUk: 'Звернення до жінок від Об’єднання Українських Баптистських Церквов США',
     publishedAt: '2021-02-05',
+    publishedAtUk: '2020-05-31',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/2020_Board_3-300x192.png',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_1709_1f0cb4ab7eb46924fc74b680d9fcc304-768x428.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/expanded-board-of-the-ukrainian-evangelical-baptist-convention-in-the-u-s/',
     contentFull: `
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/2020_Board_3.png" alt="Expanded Board of the Ukrainian Evangelical Baptist Convention in the U.S." class="article-inline-img" />
@@ -1033,13 +1801,28 @@ export const events: Event[] = [
     <a href="https://ukrbaptist.org/wp-content/uploads/2022/05/2020_1.png" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2022/05/2020_1.png" alt="Expanded Board of the Ukrainian Evangelical Baptist Convention in the U.S. 2" class="event-gallery__image" loading="lazy" /></a>
     <a href="https://ukrbaptist.org/wp-content/uploads/2022/05/2020_Board_2.png" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2022/05/2020_Board_2.png" alt="Expanded Board of the Ukrainian Evangelical Baptist Convention in the U.S. 3" class="event-gallery__image" loading="lazy" /></a>
     </div>
-`
+`,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_1709_1f0cb4ab7eb46924fc74b680d9fcc304-768x428.jpg" alt="Звернення до жінок від Об’єднання Українських Баптистських Церквов США фото" class="article-inline-img" />
+        <div class="event-video-wrapper">
+  <iframe 
+    src="https://www.youtube.com/embed/3VzhPtVv5Iw" 
+    title="YouTube video" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen 
+    class="event-video" 
+    loading="lazy">
+  </iframe>
+</div>`
   },
   {
     id: 'ev-026', slug: 'triple-holiday-lancaster-2020',
     titleEn: 'Triple Holiday in Lancaster',
+    titleUk: 'Звернення від Управи Об’єднання Українських Баптистських Церков США',
     publishedAt: '2020-12-19',
+    publishedAtUk: '2020-05-31',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/Lancaster-5_bdfe5ed0b9612c2d796f3ac2bab891af-300x235.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_1706_24a94cf0488a23d20efa44fb0a6f2b7b-768x428.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/triple-holiday-in-lancaster/',
     contentFull: `
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Lancaster-5_bdfe5ed0b9612c2d796f3ac2bab891af-1024x803.jpg" alt="Triple Holiday in Lancaster" class="article-inline-img" />
@@ -1062,13 +1845,29 @@ export const events: Event[] = [
     <a href="https://ukrbaptist.org/wp-content/uploads/2022/05/lancaster_3.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2022/05/lancaster_3.jpg" alt="Triple Holiday in Lancaster 1" class="event-gallery__image" loading="lazy" /></a>
     <a href="https://ukrbaptist.org/wp-content/uploads/2022/05/Lancaster_2.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Lancaster_2.jpg" alt="Triple Holiday in Lancaster 2" class="event-gallery__image" loading="lazy" /></a>
     </div>
-`
+`,
+    contentFullUk: `
+     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_1706_24a94cf0488a23d20efa44fb0a6f2b7b-1024x571.jpg" alt="Звернення від Управи Об’єднання Українських Баптистських Церков США фото" class="article-inline-img" />
+        
+ <div class="event-video-wrapper">
+  <iframe 
+    src="https://www.youtube.com/embed/HcH1Q3C6Ce4" 
+    title="YouTube video" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen 
+    class="event-video" 
+    loading="lazy">
+  </iframe>
+</div>`,
   },
   {
     id: 'ev-027', slug: 'chick-fil-a-save-a-life-banquet-2020',
     titleEn: 'Chick-fil-A Franchisee Speaks at Save a Life Banquet',
+    titleUk: 'Жіноче служіння в Об’єднанні',
     publishedAt: '2020-11-16',
+    publishedAtUk: '2020-02-10',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/SALI_speaker3_2019-300x178.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/Stevens_ladies_meeting-768x474.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/chick-fil-a-franchisee-speaks-at-save-a-life-banquet/',
         contentFull: `
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/SALI_speaker3_2019-1024x608.jpg" alt="Speaker at the 4th annual Save a Life International fundraising banquet, Jenkintown, Pennsylvania, November 2, 2019" class="article-inline-img" />
@@ -1116,13 +1915,50 @@ Donations from a large and generous crowd surpassed the $100,000 fundraising goa
 <div class="history-page__image-caption" style="text-align: center; margin-top: 4px;">
 A prayer card lists contact information for Save a Life International.
 </div>
+`,
+    contentFullUk: `
+    <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Stevens_ladies_meeting-1024x632.jpg" alt="Сестри в Христі місцевих церков Харісбурга і Ланкастера мали чудовий час спілкування в приміщенні церкви м. Стівенс" class="article-inline-img" />
+    <div class="letterhead">
+  <p>28 вересня, 2019 року, сестри в Христі місцевих церков Гаррісбурга і Ланкастера мали чудовий час спілкування в приміщенні церкви м. Стівенс. Тема зустрічі: «Єднання в Христі».</p>
+</div>
+
+<div class="convention-highlight">
+  <p><strong>Сніданок мами-доньки</strong></p>
+  <p>20 жовтня, 2019 року, представники декількох церков зібралися, щоб разом провести час в спілкуванні і вивченні Біблії. На сніданок прибули з церкви «Благодать» (Warminster, PA), Української Баптистської Церкви (Lancaster, PA), Слов’янської Баптистської Церкви (Stevens, PA), Української Баптистської Церкви (Crum Lynne, PA) та церкви «Відродження» (Levittown, PA). Головним спікером була Алла Кісельова.</p>
+</div>
+    <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Mom-daughter_breakfast1.jpg" alt="Сніданок мами-доньки фото 1" class="article-inline-img" />
+    <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Mom-daughter_breakfast2.jpg" alt="Сніданок мами-доньки фото 2" class="article-inline-img" />
+    <div class="letterhead">
+  <p><strong>Сестринське спілкування в штаті Нью Джерсі</strong></p>
+  <p>10 листопада, 2019 року, сестри в Христі провели зустріч в Українській Баптистській Церкві у Вайнленді (Vineland, NJ).</p>
+</div>
+
+<div class="convention-highlight">
+  <p>Тема зустрічі: <strong>Віра в Бога дає мир в думках</strong>.</p>
+</div>
+    <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Vineland_ladies_meet.jpg" alt="Сестринське спілкування в штаті Нью Джерсі фото 1" class="article-inline-img" />
+    <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Vineland_ladies_sing-1024x599.jpg" alt="Сестринське спілкування в штаті Нью Джерсі фото 2" class="article-inline-img" />
+    <div class="letterhead">
+  <p><strong>Зустріч дівчаток в Крум Линні</strong></p>
+  <p>10 листопада, 2019 року, дівчата з 15 років і старше зібралися разом для прославлення Господа в Українській Баптистській Церкві м. Крум Линна. Цю зустріч спонсорувало жіноче служіння Об’єднання Українських Баптистських Церков у США, яке очолює Світлана Христенко.</p>
+</div>
+    <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Crum_Lynne_girls2-1024x768.jpg" alt="Зустріч дівчаток в Крум Линні фото 1" class="article-inline-img" />
+    <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Crum_Lynne_girls-1024x768.jpg" alt="Зустріч дівчаток в Крум Линні фото 2" class="article-inline-img" />
+<div class="letterhead">
+  <p><strong>Сестринський ретріт церкви міста Левіттаун</strong></p>
+  <p>Більше 40-а сестер з церкви «Відродження» (Levittown, PA) мали ретріт 21-23 листопада, 2019 року. Час, проведений разом, пройшов в атмосфері спілкування навколо слова Божого і в оточенні Божого творіння.</p>
+</div>
+    <img src="https://ukrbaptist.org/wp-content/uploads/2020/02/Levittown_retreat_0b43bb189fecd62aad1944657749004b-1024x605.jpg" alt="Сестринський ретріт церкви міста Левіттаун." class="article-inline-img" />
 `
   },
   {
     id: 'ev-028', slug: 'baptism-in-chicago-2020',
     titleEn: 'Baptism in Chicago',
+    titleUk: 'Місіонерська поїздка в Україну церкви м. Шарлот',
+    publishedAtUk: '2020-02-10',
     publishedAt: '2020-10-05',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/Chicago_baptism_2020-300x225.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/charlotte_small-768x432.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/baptism-in-chicago/',
     contentFull: `
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Chicago_baptism_2020.jpg" alt="Baptism in Chicago" class="article-inline-img" />
@@ -1138,13 +1974,43 @@ A prayer card lists contact information for Save a Life International.
   <p>The Lord’s Supper was celebrated the next day in the church building.</p>
 </div>
 <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Chicago_baptism_2020_pic2.jpg" alt="Baptism in Chicago" class="article-inline-img" />
+`,
+    contentFullUk: `
+    <img src=" https://ukrbaptist.org/wp-content/uploads/2022/05/charlotte_small-1024x576.jpg" alt="Місіонерська поїздка в Україну церкви м. Шарлот" class="article-inline-img" />
+    <div class="letterhead">
+  <p>Лето – благословенная пора увлекательного отдыха, общения с друзьями и веселых приключений. Время, когда ты набираешься новых сил и готов к свершению хороших дел. Наверное, все дети любят тепло, солнце и загородный отдых на свежем воздухе. Да, и не только дети, но и взрослые всегда рады использовать возможность, чтобы окунуться в богатый мир великолепной природы и пережить особое Божье присутствие в единении с ней…</p>
+  <p>С 24 июня по 6 июля, 2019 года, прошли два заезда оздоровительного лагеря «Надежда» для семей, которые служат детям-сиротам. Родители вместе с детьми смогли отдохнуть на берегу Азовского моря.</p>
+  <p>Лагерь был организован Служением «Надежда для сирот» при социальном комитете ВСЦ ЕХБ Украины совместно с церковью «Новая надежда» г. Шарлотт, штат Северная Каролина, США (пастор Василий Рудницкий). Служение по руководству лагерем взял на себя Алексей Иванов — ответственный за служение детям-сиротам в Украине. Координаторами лагеря была семья Алекса и Жанны Березовских, которые уже долгое время посвящают себя этому служению. Там, на месте, в США, они формируют команду, готовят программу, собирают ресурсы для лагеря, а потом еще и сами прилетают в Украину, чтобы максимально послужить детям-сиротам. Ну, как здесь не скажешь: «Слава Богу!»</p>
+</div>
+
+<div class="convention-highlight">
+  <p>В этом году на протяжении двух заездов в лагере смогли побывать 25 семей, которые привезли на оздоровление и духовное общение 150 детей из Винницкой, Запорожской, Днепровской, Черкасской, Кировоградской и Тернопольской областей.</p>
+  <p>Это было замечательное время отдыха, веселья, общения, пения, молитв и прославления Бога. Программа, в приготовлении которой участвовало 18 человек команды из США, была насыщенной и увлекательной. После отбоя, когда дети ложились спать, родители оставались на вечернее общение, которое проводила семья Максима и Илоны Трикоз. Зачастую такие беседы затягивались за полночь. У каждого было чем поделиться, рассказать о Божьих чудесах и выслушать полезные советы других приемных семей.</p>
+  <p>От таких драгоценных встреч семьи, которые служат детям-сиротам, насыщаются Божьей энергией, напитываются новыми силами, а также заряжаются оптимизмом и верой.</p>
+</div>
+
+<div class="signature-block">
+  <p>Семьи очень благодарны Богу за возможность отдохнуть от повседневных дел и пообщаться с единомышленниками. Так же они благодарят церковь «Новая надежда», без которой этот лагерь просто не состоялся бы. Особую благодарность просят выразить Алексу и Жанне Березовским, сердца которых были открытыми для всех и горели особой любовью на протяжении всего лагеря.</p>
+  <p>Дорогие друзья, давайте молиться о том, чтобы в следующем году как можно больше семей смогли приехать и отдохнуть вместе со своими детьми в таком лагере.</p>
+</div>
+    <h2>Фото Галерея</h2>
+    <div class="event-gallery">
+    <a href="https://ukrbaptist.org/wp-content/uploads/2020/02/charlotte_2.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2020/02/charlotte_2.jpg" alt="Місіонерська поїздка в Україну церкви м. Шарлот фото 1" class="event-gallery__image" loading="lazy" /></a>
+    <a href="https://ukrbaptist.org/wp-content/uploads/2020/02/charlotte_7.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2020/02/charlotte_7.jpg" alt="Місіонерська поїздка в Україну церкви м. Шарлот фото 2" class="event-gallery__image" loading="lazy" /></a>
+    <a href="https://ukrbaptist.org/wp-content/uploads/2020/02/charlotte_4.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2020/02/charlotte_4.jpg" alt="Місіонерська поїздка в Україну церкви м. Шарлот фото 3" class="event-gallery__image" loading="lazy" /></a>
+    <a href="https://ukrbaptist.org/wp-content/uploads/2020/02/charlotte_5.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2020/02/charlotte_5.jpg" alt="Місіонерська поїздка в Україну церкви м. Шарлот фото 4" class="event-gallery__image" loading="lazy" /></a>
+    <a href="https://ukrbaptist.org/wp-content/uploads/2020/02/Charlotte_boat_ride.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2020/02/Charlotte_boat_ride.jpg" alt="Місіонерська поїздка в Україну церкви м. Шарлот фото 5" class="event-gallery__image" loading="lazy" /></a>
+    </div>
 `
   },
   {
     id: 'ev-029', slug: 'appeal-to-churches-2020',
     titleEn: 'An Appeal to Churches',
+    titleUk: 'Банкет “Збережи життя”',
     publishedAt: '2020-10-05',
+    publishedAtUk: '2020-02-10',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/Picture1-1_01f5535895083f107992d69882fd572a-300x169.png',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/SALI_speaker3_2019-768x456.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/an-appeal-to-churches-ukr/',
     contentFull: `
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Picture1-1_01f5535895083f107992d69882fd572a.png" alt="An Appeal to Churches" class="article-inline-img" />
@@ -1158,13 +2024,41 @@ A prayer card lists contact information for Save a Life International.
     <iframe src="https://www.youtube.com/embed/2O-tohAzeV0" title="Звернення до Церков 2020" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="event-video" loading="lazy"></iframe>
   </div>
 </div>
-  `
+  `,
+    contentFullUk: `
+      <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/SALI_speaker3_2019-1024x608.jpg" alt="Банкет “Збережи життя” Фото" class="article-inline-img" />
+      <div class="letterhead">
+  <p>2 листопада, 2019 року, в Українському Центрі (Jenkintown, PA) пройшов четвертий банкет місії «Збережи життя».</p>
+  <p>На банкеті виступив з промовою Джін Онтджейс (Gene Ontjes), власник ресторану Chick-fil-A. Він розповів історію свого життя, як його мама була на межі того, щоб зробити аборт, але не зважаючи на тиск вирішила народити дитинку, тому містер Онтджейс вважає себе «вижившим від аборту». Спочатку він був у дитячому будинку, а згодом його усиновила сім’я. Свою природну маму він вперше зустрів, коли йому було 41 рік.</p>
+  <p>Також на банкеті були присутні музиканти Роберто і Маріселла Гобой, які виконали свої пісні.</p>
+</div>
+
+<div class="convention-highlight">
+  <p>На цьому банкеті була зібрана велика сума добровільних пожертв і була найбільша кількість гостей за чотири роки з різних штатів: Пенсильванії, Делавера, Іллінойсу, Нью-Джерсі, Каліфорнії.</p>
+  <p>Надія Гординська, президент місії «Збережи життя», є членом церкви «Відродження», яка входить в Об’єднання Українських Баптистських Церков у США. Вона подякувала всім, хто підтримує служіння, і розповіла про врятовані життя малюків.</p>
+</div>
+
+<div class="signature-block">
+  <p>Через місію надається допомога жінкам у кризових ситуаціях, пов’язаних з вагітністю, здійснюється просвітницька діяльність серед молодих жінок і звіщається Євангелія про Божу благодать.</p>
+  <p>Місія існує з 2015 року і за цей час було відкрито 5 центрів в Україні, а також по одному центру в Польщі та у Філадельфії (США).</p>
+</div>
+          <h2>Фото Галерея</h2>
+    <div class="event-gallery">
+    <a href="https://ukrbaptist.org/wp-content/uploads/2020/02/SALI_banquet_2019_Nadia_speaks.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2020/02/SALI_banquet_2019_Nadia_speaks.jpg" alt="Банкет “Збережи життя” фото 1" class="event-gallery__image" loading="lazy" /></a>
+    <a href="https://ukrbaptist.org/wp-content/uploads/2020/02/SALI_prayer_card.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2020/02/SALI_prayer_card.jpg" alt="Банкет “Збережи життя” фото 2" class="event-gallery__image" loading="lazy" /></a>
+    <a href="https://ukrbaptist.org/wp-content/uploads/2020/02/Godoy_singers.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2020/02/Godoy_singers.jpg" alt="Банкет “Збережи життя” фото 3" class="event-gallery__image" loading="lazy" /></a>
+    <a href="https://ukrbaptist.org/wp-content/uploads/2020/02/SALI_speaker_2019.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2020/02/SALI_speaker_2019.jpg" alt="Банкет “Збережи життя” фото 4" class="event-gallery__image" loading="lazy" /></a>
+    </div>
+`
   },
   {
     id: 'ev-030', slug: 'appeal-to-women-2020',
     titleEn: "An Appeal to Women from Ukrainian Baptist Convention of the US",
+    titleUk: 'Початок навчання для музикантів',
+    publishedAtUk: '2019-12-06',
     publishedAt: '2020-05-31',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_1709_1f0cb4ab7eb46924fc74b680d9fcc304-300x167.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2019/12/Seminar_group_participants-768x461.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/an-appeal-to-women-from-ukrainian-baptist-convention-of-the-us-ukr/',
     contentFull: `
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_1709_1f0cb4ab7eb46924fc74b680d9fcc304-1024x570.jpg" alt="An Appeal to Women from Ukrainian Baptist Convention of the US" class="article-inline-img" />
@@ -1174,13 +2068,45 @@ A prayer card lists contact information for Save a Life International.
     <iframe src="https://www.youtube.com/embed/3VzhPtVv5Iw" title="Звернення до жінок від Об'єднання Українських Баптистських Церков США" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="event-video" loading="lazy"></iframe>
   </div>
 </div>
-    `
+    `,
+    contentFullUk: `
+      <img src="https://ukrbaptist.org/wp-content/uploads/2019/12/Seminar_group_participants-1024x615.jpg" alt="Початок навчання для музикантів фото" class="article-inline-img" />
+      <div class="letterhead">
+  <p>Композитор, керівник музичного прославлення, регент і автор Джеймс Джензен (James D. Janzen) проводив семінар для музикантів в Українській Баптистській Церкві «Благодать» (Warminster, PA) з 3 по 5 жовтня 2019 року.</p>
+  <p>Семінар для музикантів під назвою «Псалми, гімни та духовні пісні. Шлях до єдності і духовного зростання» зібрав музикантів з різних церков. Організатором цього заходу був брат Іван Веленчук, керівник музичного відділу Об’єднання Українських Баптистських Церков у США.</p>
+</div>
+
+<div class="convention-highlight">
+  <p>Основою для викладу семінарів є два тексти з Листів апостола Павла:</p>
+  <p><em>«Слово Христове нехай пробуває в вас рясно, у всякій премудрості. Навчайте та напоумляйте самих себе! Вдячно співайте у ваших серцях Господеві псалми, гімни, духовні пісні!»</em> (Кол. 3:16)</p>
+  <p><em>«І не впивайтесь вином, в якому розпуста, але краще наповнюйтесь Духом, розмовляючи поміж собою псалмами, і гімнами, і піснями духовними, співаючи й граючи в серці своєму для Господа, дякуючи завжди за все Богові й Отцеві в Ім’я Господа нашого Ісуса Христа, корячися один одному у Христовім страху»</em> (Еф. 5:18-21).</p>
+  <p>У цих текстах апостол Павло закликає віруючих прославляти Бога в різноманітний спосіб через псалми, гімни і духовні пісні, щоб таким чином вони самі збудовувалися і зміцнювали церкву. Брат Джеймс Джензен зазначив, що такий підхід співзвучний з наукою Старого Завіту та Ісуса Христа: «люби Господа Бога всім серцем, всією душею і всім розумом». Людина створена багатосторонньою: дух, душа і тіло, тому поклоніння Господу має бути на різних рівнях, включаючи всю природу людського єства.</p>
+</div>
+
+<p>Під час семінару розпочала навчання група музикантів. У співпраці з Українською Баптистською Теологічною Семінарією (Україна, Львів) наше Об’єднання започаткувало навчання для лідерів музичного служіння. Це була перша сесія, на яку зібрались студенти з Pennsylvania (Пенсильванія), New Jersey (Нью-Джерсі), Ohio (Огайо) та Rhode Island (Род-Айленд).</p>
+
+<div class="signature-block">
+  <p>На семінарах та сесії також брали участь викладачі, композитори і керівники музичного служіння Володимир Хлиста, Олександр Крищук та Олександр Корчевний.</p>
+  <p>Управа Об’єднання Церков бажає Божого благословення всім студентам та викладачам і сподівається, що це навчання послужить збудуванню наших церков та прославленню Господа.</p>
+</div>
+        <h2>Фото Галерея</h2>
+    <div class="event-gallery">
+    <a href="https://ukrbaptist.org/wp-content/uploads/2019/12/Music_seminar.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/12/Music_seminar.jpg" alt="Початок навчання для музикантів фото 1" class="event-gallery__image" loading="lazy" /></a>
+    <a href="https://ukrbaptist.org/wp-content/uploads/2019/12/Seminar_group_participants.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/12/Seminar_group_participants.jpg" alt="Початок навчання для музикантів фото 2" class="event-gallery__image" loading="lazy" /></a>
+    <a href="https://ukrbaptist.org/wp-content/uploads/2019/12/Seminar_Janzen-scaled.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/12/Seminar_Janzen-scaled.jpg" alt="Початок навчання для музикантів фото 3" class="event-gallery__image" loading="lazy" /></a>
+    <a href="https://ukrbaptist.org/wp-content/uploads/2019/12/Seminary_class-scaled.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/12/Seminary_class-scaled.jpg" alt="Початок навчання для музикантів фото 4" class="event-gallery__image" loading="lazy" /></a>
+    <a href="https://ukrbaptist.org/wp-content/uploads/2019/12/Seminar_lunch-scaled.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/12/Seminar_lunch-scaled.jpg" alt="Початок навчання для музикантів фото 5" class="event-gallery__image" loading="lazy" /></a>
+    </div>
+`
   },
   {
     id: 'ev-031', slug: 'appeal-from-board-2020',
     titleEn: 'An Appeal from the Board of Ukrainian Baptist Convention of the US',
+    titleUk: 'Святкування 30-ліття церкви Норт Порт',
+    publishedAtUk: '2019-11-23',
     publishedAt: '2020-05-31',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_1706_24a94cf0488a23d20efa44fb0a6f2b7b-300x167.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/Congregation_sings-768x468.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/an-appeal-from-the-board-of-ukrainian-baptist-convention-of-the-us-ukr/',
     contentFull: `
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_1706_24a94cf0488a23d20efa44fb0a6f2b7b-1024x571.jpg" alt="An Appeal from the Board of Ukrainian Baptist Convention of the US" class="article-inline-img" />
@@ -1190,13 +2116,39 @@ A prayer card lists contact information for Save a Life International.
     <iframe src="https://www.youtube.com/embed/HcH1Q3C6Ce4" title="Звернення. Об'єднання Українських Баптистських Церков США" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="event-video" loading="lazy"></iframe>
   </div>
 </div>
-    `
+    `,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Congregation_sings-1024x625.jpg" alt="Святкування 30-ліття церкви Норт Порт фото" class="article-inline-img" />
+        <div class="letterhead">
+  <p>Українська Баптистська Церква м. North Port (Florida) відзначила 30-ліття свого існування. 27 жовтня відбулося святкове зібрання, присвячене Божій праці в цій церкві.</p>
+  <p>Понад 100 людей були присутніми на святкуванні, під час якого звершували молитви подяки, читання Святого Письма та разом прославляли Господа співом під проводом брата Леоніда Кушніра. Хор під керівництвом регента Юрія Трояновського також виконав два гімни: «Богові хвалу віддайте, алелуя» та «Церква Божа піднімайся».</p>
+  <p>Пастор церкви Овдій Хрипчук розпочав зібрання молитвою та читанням Євангелії від Матвія 16:13-16 і він також розповів про історію церкви. На святкуванні були присутні всі пастори, які звершували служіння в церкві, а це – Володимир Савчук (перший пастор і член церкви в даний час), Сергій Черняков (член церкви в даний час), Степан Зінчук (член церкви в даний час), Михайло Якубович (член церкви в даний час) і Віталій Бернадський.</p>
+</div>
+
+<div class="convention-highlight">
+  <p>Брат Михайло Якубович, який був пастором в церкві 10 років, відзначив, що церква збиралась у двох американських церквах до того, як в 2003 році придбала свій власний молитовний будинок.</p>
+  <p>Основну проповідь виголосив диякон церкви Степан Яковець на текст Євангелії від Матвія 16:18, зазначивши, що Господь є будівельником Церкви і Він її веде в цьому світі і захищає.</p>
+</div>
+
+<div class="signature-block">
+  <p>Програма святкового зібрання була збудовуючою і цікавою, а після закінчення всі присутні були запрошені на обід.</p>
+</div>
+     <h2>Фото Галерея</h2>
+    <div class="event-gallery">
+    <a href="https://ukrbaptist.org/wp-content/uploads/2019/11/North_Port_choir2_2019-scaled.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/11/North_Port_choir2_2019-scaled.jpg" alt="Святкування 30-ліття церкви Норт Порт фото 1" class="event-gallery__image" loading="lazy" /></a>
+    <a href="https://ukrbaptist.org/wp-content/uploads/2019/11/AA_Pastor_Chripczuk_speaks-scaled.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/11/AA_Pastor_Chripczuk_speaks-scaled.jpg" alt="Святкування 30-ліття церкви Норт Порт фото 2" class="event-gallery__image" loading="lazy" /></a>
+    <a href="https://ukrbaptist.org/wp-content/uploads/2019/11/Jakubovich_Oct_2019.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/11/Jakubovich_Oct_2019.jpg" alt="Святкування 30-ліття церкви Норт Порт фото 3" class="event-gallery__image" loading="lazy" /></a>
+    </div>
+`
   },
   {
     id: 'ev-032', slug: 'chicago-church-ordains-minister-2020',
     titleEn: 'Chicago Church Ordains a New Minister, 3 Deacons',
+    titleUk: 'Хрещення 2019 в Чікаго',
+    publishedAtUk: '2019-11-13',
     publishedAt: '2020-03-17',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/08/Ivanov_lead_pastor-300x300.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/Chi_baptism_2019-1-768x768.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/chicago-church-ordains-a-new-minister-3-deacons/',
     contentFull: `
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/08/Ivanov_lead_pastor.jpg" alt="Chicago Church Ordains a New Minister, 3 Deacons" class="article-inline-img" />
@@ -1226,13 +2178,36 @@ A prayer card lists contact information for Save a Life International.
 <div class="signature-block">
   <p>Ordination service at the Ukrainian Baptist Church of Chicago, March 15, 2020.</p>
 </div>
-`
+`,
+    contentFullUk: `
+      <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Chi_baptism_2019-1-1024x1024.jpg" alt="Хрещення 2019 в Чікаго фото 1" class="article-inline-img" />
+      <div class="letterhead">
+  <p>В Українській Баптистській Церкві м. Чикаго троє осіб прийняли хрещення в липні 2019.</p>
+  <p>Місцева церква особливо раділа з приводу приєднання до церкви трьох нових членів через хрещення 27 липня 2019 року. Сонячного дня в озері Роксолана Василишина, Михайло Повх та Маргарита Наливайко засвідчили свою віру в Ісуса Христа як особистого Спасителя.</p>
+  <p>Пастор Олександр Калінін звершив хрещення при підтримці диякона Василя Повха. Перед хрещенням відбулося святкове зібрання, на якому брав участь духовий оркестр під керівництвом Олександра Антонюка.</p>
+</div>
+
+<div class="convention-highlight">
+  <p>По завершенні всі присутні мали пікнік, який за звичай проходить щороку.</p>
+</div>
+      <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Chi_baptism_2019-1-1024x1024.jpg" alt="Пастор Олександр Калінін вручає сертифікати про хрещення Роксолані Василишиній (зліва), Маргариті Наливайко та Михайлу Повху." class="article-inline-img" />
+       <div class="history-page__image-caption" style="text-align: center; margin-top: 4px;">
+    Пастор Олександр Калінін вручає сертифікати про хрещення Роксолані Василишиній (зліва), Маргариті Наливайко та Михайлу Повху.
+    </div>
+    <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Chicago_baptism_1-768x558.jpg" alt="Диякон Василь Повх (зліва) допомагає в хрещенні свого сина, Михайла, пастору Олександру Калініну на Круглому Озері (Round Lake). " class="article-inline-img" />
+       <div class="history-page__image-caption" style="text-align: center; margin-top: 4px;">
+    Диякон Василь Повх (зліва) допомагає в хрещенні свого сина, Михайла, пастору Олександру Калініну на Круглому Озері (Round Lake). 
+    </div>
+    `
   },
   {
     id: 'ev-033', slug: 'winter-campers-snow-2020',
     titleEn: 'Snow and Cold Bring Joy to Winter Campers',
+    titleUk: 'Рукопокладання дияконів в Норт Порті, Флорида',
     publishedAt: '2020-01-27',
+    publishedAtUk: '2019-10-13',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/08/Camp_Joy_2020-300x200.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/Ordained_deacons_pastors_North_Port_3d409ecf857ab6b638f6379b5cd6072a-768x512.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/snow-and-cold-bring-joy-to-winter-campers/',
     contentFull: `
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/08/Camp_Joy_2020.jpg" alt="Snow and Cold Bring Joy to Winter Campers" class="article-inline-img" />
@@ -1252,13 +2227,33 @@ A prayer card lists contact information for Save a Life International.
   <p>During the retreat, Natalia Kuzmenko was engaged with children from preschool age to third grade. Daniel Wasilkiw was engaged with children from fourth to seventh grades.</p>
 </div>
 <img src="https://ukrbaptist.org/wp-content/uploads/2022/08/Piper_at_Camp_Joy.jpg" alt="A child enjoying the winter snow at Camp Joy retreat, Wisconsin, January 2020" class="article-inline-img" />
+    `,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Ordained_deacons_pastors_North_Port_3d409ecf857ab6b638f6379b5cd6072a.jpg" alt="Рукопокладання дияконів в Норт Порті, Флорида" class="article-inline-img" />
+        <div class="letterhead">
+  <p>Життя і події церкви міста Норт Порт, Флорида (North Port, FL). 29 вересня 2019 року відбулося рукопокладання двох братів на дияконське служіння. 28 вересня була зібрана презвітерія і проведено іспит для кандидатів у присутності голови Об’єднання пастора Романа Капрана і скарбника Об’єднання пастора Леоніда Близнюка.</p>
+</div>
+
+<div class="convention-highlight">
+  <p>В неділю, 29 вересня, молитовний дім наповнився людьми і в благословенній програмі взяли участь церковний хор і гості. В урочистій атмосфері перед церквою схилили коліна брат Сергій Пустовіт (Sergey Pustovit) з дружиною Людмилою (Ludmila) і брат Віктор Кращенко (Viktor Krashchenko) з дружиною Раїсою (Raisa).</p>
+  <p>Участь у молитві благословення взяли пастори місцевої церкви: Степан Зінчук, Володимир Савчук, Михайло Якубович і діючий пастор Овдій Хрипчук, а від Об’єднання Українських Євангельських Баптистських Церков – пастор Роман Капран і пастор Леонід Близнюк.</p>
+  <p>Рукопокладеним були вручені сертифікати, а також подарунки: Біблійні коментарі, а їхнім дружинам – букети квітів.</p>
+  <p>Після зібрання всі присутні були запрошені на святковий обід, під час якого продовжили спілкування.</p>
+</div>
+    <h2>Фото Галерея</h2>
+    <div class="event-gallery">
+    <a href="https://ukrbaptist.org/wp-content/uploads/2019/10/Ordaination_Krashchenko_ordination.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/10/Ordaination_Krashchenko_ordination.jpg" alt="Рукопокладання дияконів в Норт Порті, Флорида фото 1" class="event-gallery__image" loading="lazy" /></a>
+    <a href="https://ukrbaptist.org/wp-content/uploads/2019/10/Ordaination_Pustovit_ordination.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/10/Ordaination_Pustovit_ordination.jpg" alt="Рукопокладання дияконів в Норт Порті, Флорида фото 2" class="event-gallery__image" loading="lazy" /></a>
+    </div>
     `
   },
   {
     id: 'ev-034', slug: 'philadelphia-65th-anniversary-2019',
     titleEn: 'Philadelphia Church Observes Its 65th Anniversary',
+    titleUk: '74-й з’їзд вже став історією',
     publishedAt: '2019-12-26',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/08/Philly_church_65th-300x289.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_0937-768x432.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/philadelphia-church-observes-its-65th-anniversary/',
     contentFull: `
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/08/Philly_church_65th.jpg" alt="The First Ukrainian Evangelical Baptist Church of Philadelphia congregation at the 65th anniversary service, November 17, 2019" class="article-inline-img" style="max-width:560px;" />
@@ -1284,13 +2279,62 @@ A prayer card lists contact information for Save a Life International.
     The choir sings under the direction of Borys Voyevoda.
     </div>
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/08/Philly_65_program.jpg" alt="Program booklet for the 65th anniversary service of the First Ukrainian Evangelical Baptist Church of Philadelphia, November 17, 2019" class="article-inline-img" style="max-width:260px;" />
+`,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_0937-1024x576.jpg" alt="74-й з’їзд вже став історією фото" class="article-inline-img" />
+        <div class="letterhead">
+  <p>Слава Богу! 74-й з’їзд пройшов успішно. Сотні людей мали благословіння, відвідуючи семінари, слухаючи проповіді і прославляючи Господа співом.</p>
+  <p>Багато благословінь сплинуло під час 74-го річного з’їзду Українських Баптистських Церков у США, який проходив з 30 серпня по 1 вересня 2019 року у Філадельфії.</p>
+  <p>Семінари, дитячі активності, спікери з України та США, хори та дискусії були серед визначних подій поряд з урочистими зібраннями. Також лунали загальний спів, соло, дуети, тріо і поезія, яку написав Володимир Воєвода, 91-літній поет і композитор. Мало місце і вручення стипендій.</p>
+  <p>Голова Об’єднання, Роман Капран, представив бачення Об’єднання: <strong>Зростати, Збудовувати, Звіщати</strong>. Основним текстом з’їзду був вірш з 2-го Листа апостола Петра: «Щоб зростали в благодаті та пізнанні Господа нашого й Спасителя Ісуса Христа» (3:18).</p>
+  <p>Перша Українська Баптистська Церква міста Філадельфії продемонструвала гостинність у прийомі з’їзду. Жінки приготували смачний обід, каву та частування в перервах між семінарами, а чоловіки гарно організували розташування машин на парковці. У цю жарку пору року всі бажаючі мали вдосталь води, щоб втамувати спрагу.</p>
+  <p>Відкриття з’їзду відбулося на вечірньому зібранні в п’ятницю, 30 серпня, де лунали гімни у виконанні хору церкви міста Філадельфії, яким керував регент Володимир Майкут. Мік Стоквел (Mick Stockwell), гість з’їзду і довголітній місіонер в Україні, виголосив проповідь про важливість слідування за Господом.</p>
+</div>
+
+<h2>Семінари</h2>
+<div class="convention-highlight">
+  <p>31 серпня проходили збудовуючі семінари українською та англійською мовами.</p>
+  <p><strong>Англійською мовою:</strong> пастор Чамп Торнтон (Champ Thornton) зі штату Делавер говорив на тему «Чи достатньо проповідування? Втрачене слово в церкві сьогодні». Професор економіки Роман Шеремета з Клівленда чудово висвітлив тему «Вплив церкви на економіку і суспільство».</p>
+  <p><strong>Українською мовою:</strong> гості з України та пастори, які проживають у США: пастор Василь Фурта, заступник голови Союзу України – «Закономірність духовного зростання»; пастор Роман Кравчук, лідер молоді України – «Нерозбавлені відносини»; місіонер і пастор Андрій Бондаренко – «Послух Богу як стиль життя»; пастор В’ячеслав Палій – «Духовні жертви».</p>
+  <p>Коли батьки були на семінарах, діти мали свою програму, а саме «Клуб АВАНА» і Moon bounces.</p>
+</div>
+
+<h2>Молодіжне зібрання</h2>
+<div class="convention-highlight">
+  <p>У суботу ввечері проходило молодіжне зібрання в приміщенні школи (знятому для з’їзду). Проповіді лунали англійською та українською мовами (пастори Champ Thornton і Роман Кравчук), а музична програма була спрямована для прославлення Господа як у традиційному вигляді (у супроводі молодіжного хору під керівництвом Діани Савчук), так і в сучасній формі (виконання християнських пісень групою прославлення церкви «Відродження»).</p>
+  <p>Денис Січкар, керівник молоді Об’єднання, розповів про конференції та табори, де молодь зростає духовно і прославляє Бога, а також про служіння серед студентів, які приїздять літом до США з різних країн.</p>
+  <p>Після зібрання молодь мала спілкування, на якому проходив круглий стіл за участю братів Романа Кравчука, Романа Шеремети та Романа Капрана.</p>
+</div>
+
+<h2>Недільне урочисте зібрання</h2>
+<div class="convention-highlight">
+  <p>У неділю, 1 вересня, відбулося урочисте ранкове зібрання, на яке зібралися віруючі з багатьох церков для спільного прославлення Господа. Під час зібрання лунали гімни у виконанні об’єднаного хору під керівництвом Івана Веленчука, дует і християнська поезія.</p>
+  <p>Вітали наш з’їзд голови: Західного Українського Баптистського Об’єднання пастор Павло Дем’яник, Російсько-Українського Баптистського Союзу пастор Георгій Харлов, Всеукраїнського Братства в США пастор Володимир Вільчиця, а також директор відділу в США місії «Світло на сході» пастор Андрій Бондаренко.</p>
+  <p>Пастор з України Василь Фурта виголосив проповідь на тему «Зростати в Христі – це мені умалятись, а Йому відображатись» (Єв. від Івана 3:30). Під час з’їзду було вручення стипендій від Об’єднання трьом студентам, які є активними членами наших церков.</p>
+  <p>Ревізійна комісія зробила фінансовий звіт, а резолюційна комісія зачитала резолюцію з’їзду.</p>
+  <p>В кінці зібрання всі присутні пастори і голови Об’єднань звершили заключну молитву благословення.</p>
+</div>
+
+<div class="signature-block">
+  <p>74-й річний з’їзд Українських Баптистських Церков у США, 30 серпня – 1 вересня 2019 року.</p>
+</div>
+ <h2>Фото Галерея</h2>
+    <div class="event-gallery">
+    <a href="https://ukrbaptist.org/wp-content/uploads/2019/09/Conference_choir-scaled.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/09/Conference_choir-scaled.jpg" alt="74-й з’їзд вже став історією фото 1" class="event-gallery__image" loading="lazy" /></a>
+    <a href="https://ukrbaptist.org/wp-content/uploads/2019/09/IMG_0920-scaled.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/09/IMG_0920-scaled.jpg" alt="74-й з’їзд вже став історією фото 2" class="event-gallery__image" loading="lazy" /></a>
+    <a href="https://ukrbaptist.org/wp-content/uploads/2019/09/IMG_0939.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/09/IMG_0939.jpg" alt="74-й з’їзд вже став історією 3" class="event-gallery__image" loading="lazy" /></a>
+    <a href="https://ukrbaptist.org/wp-content/uploads/2019/09/IMG_0905-scaled.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/09/IMG_0905-scaled.jpg" alt="74-й з’їзд вже став історією фото 4" class="event-gallery__image" loading="lazy" /></a>
+    </div>
 `
   },
   {
     id: 'ev-035', slug: 'levittown-ladies-church-retreat-2019',
     titleEn: 'Levittown Ladies Attend a Church Retreat',
+    titleUk: 'Запрошення на 74-й з’їзд Об’єднання Церков',
+    publishedAtUk: '2019-08-09',
     publishedAt: '2019-12-23',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2020/02/Levittown_retreat_0b43bb189fecd62aad1944657749004b-300x177.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/74th_poster-768x543.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/levittown-ladies-attend-a-church-retreat/',
     contentFull: `
     <img src="https://ukrbaptist.org/wp-content/uploads/2020/02/Levittown_retreat_0b43bb189fecd62aad1944657749004b-1024x605.jpg" alt="Levittown Ladies Attend a Church Retreat" class="article-inline-img" />
@@ -1302,13 +2346,19 @@ A prayer card lists contact information for Save a Life International.
 <div class="convention-highlight">
   <p>The sisters in Christ were able to fellowship around the Word of God surrounded by God’s nature.</p>
 </div>
+`,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/74th_poster-1024x724.jpg" alt="Запрошення на 74-й з’їзд Об’єднання Церков" class="article-inline-img" />
 `
   },
   {
     id: 'ev-036', slug: 'girls-enjoy-crum-lynne-2019',
     titleEn: 'Girls Enjoy Time Together in Crum Lynne',
+    titleUk: 'Відвідування Церков в Шарлотті',
     publishedAt: '2019-12-22',
+    publishedAtUk: '2019-04-30',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/Crum_Lynne_girls-300x225.jpg',
+    thumbnailUrlUk: '',
     sourceUrl: 'https://ukrbaptist.org/en/girls-enjoy-time-together-in-crum-lynne/',
     contentFull: `  
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Crum_Lynne_girls-1024x768.jpg" alt="Young ladies from the Ukrainian Evangelical Baptist Church in Crum Lynne gathered for fellowship, November 16, 2019" class="article-inline-img" />
@@ -1316,13 +2366,29 @@ A prayer card lists contact information for Save a Life International.
   <p>Young ladies age 15 and older got together for a time of fellowship on November 16, 2019, at the Ukrainian Evangelical Baptist Church in Crum Lynne, Pennsylvania. The event was sponsored by the ladies’ ministry of the Ukrainian Evangelical Baptist Convention, headed by Svitlana Khrystenko.</p>
   </div>
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Crum_Lynne_girls2-1024x768.jpg" alt="Girls enjoying time together at the Crum Lynne church gathering, November 2019" class="article-inline-img" />
-    `
+    `,
+    contentFullUk: `
+    <div class="letterhead">
+  <p>Відвідування церков міста Шарлотт членами Управи Об’єднання відбулося 12-13 січня 2019 року. Брати Роман Капран, Віктор Кузьменко та Денис Січкар приймали участь в проповіді на недільному служінні в Першій Слов’янській Церкві міста Шарлотт, де пасторське служіння несе Василь Єремук, і в церкві «Нова надія», де пастором є Василь Рудницький. Роман Капран та Віктор Кузьменко провели семінари в Першій Слов’янській Церкві в суботу, 12 січня, а Денис Січкар мав зустріч з молоддю. Також брати мали зустріч з управою церкви «Нова надія» і розповіли про бачення і плани Об’єднання.</p>
+</div>
+    <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_5789-768x576.jpg" alt="Відвідування Церков в Шарлотті" class="article-inline-img" />
+
+ <div class="history-page__image-caption" style="text-align: center; margin-top: 4px;">
+Фото на згадку з братами Першої Слов’янської Церкви    </div>
+
+
+<div class="signature-block">
+  <p>Візит до церков міста Шарлотт, 12-13 січня 2019 року.</p>
+</div>`
   },
   {
     id: 'ev-037', slug: 'mother-daughter-breakfast-pennsylvania-2019',
     titleEn: 'Mother-Daughter Breakfast Held in Pennsylvania',
+    titleUk: 'Святкування Різдва в штаті Делавар',
+    publishedAtUk: '2019-04-12',
     publishedAt: '2019-12-18',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/08/Mom-daughter_wreath-287x300.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_5761-768x576.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/mother-daughter-breakfast-held-in-pennsylvania/',
     contentFull: `
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/08/Mom-daughter_wreath.jpg" alt="A mother and daughter holding an advent wreath at the Mother-Daughter Breakfast in Pennsylvania, October 26, 2019" class="article-inline-img" style="max-width:480px;" />
@@ -1342,26 +2408,67 @@ A prayer card lists contact information for Save a Life International.
     <a href="https://ukrbaptist.org/wp-content/uploads/2022/05/Mom-daughter_breakfast2.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Mom-daughter_breakfast2.jpg" alt="Mother-Daughter Breakfast Held in Pennsylvania 2" class="event-gallery__image" loading="lazy" /></a>
     <a href="https://ukrbaptist.org/wp-content/uploads/2022/05/Vineland_ladies_meet.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Vineland_ladies_meet.jpg" alt="Mother-Daughter Breakfast Held in Pennsylvania 3" class="event-gallery__image" loading="lazy" /></a>
     </div>
-  `
+  `,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_5761-1024x768.jpg" alt="Святкування Різдва в штаті Делавар" class="article-inline-img" />
+        <div class="letterhead">
+  <p>Вже стало традицією святкування Різдва в Делаварі згідно з православним календарем в січні. Понад 10 років проходять ці святкування, на які збираються люди з трьох штатів: Делавар, Пенсильванія та Меріленд. Основною метою святкування є проголошення Євангелії Ісуса Христа для тих, хто ще не пізнав Його як Спасителя, через проповідь та спів.</p>
+  <p>Кожного разу є нові люди і ті, хто були минулі рази. Постійними учасниками святкування є брати і сестри з міста Балтімор. Два роки поспіль вони привозять ляльковий театр.</p>
+</div>
+
+<div class="convention-highlight">
+  <p>Також невід’ємною частиною святкування є смачна їжа, а для дітей – надувні пригалки (батути), де вони проводять час з великим задоволенням.</p>
+</div>
+
+<div class="signature-block">
+  <p>Різдвяне святкування в Делаварі, січень.</p>
+</div>
+<h2>Фото Галерея</h2>
+    <div class="event-gallery">
+    <a href="https://ukrbaptist.org/wp-content/uploads/2019/04/IMG_5749.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/04/IMG_5749.jpg" alt="Святкування Різдва в штаті Делавар фото 1" class="event-gallery__image" loading="lazy" /></a>
+    <a href="https://ukrbaptist.org/wp-content/uploads/2019/04/IMG_5751.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/04/IMG_5751.jpg" alt="Святкування Різдва в штаті Делавар фото 2" class="event-gallery__image" loading="lazy" /></a>
+    <a href="https://ukrbaptist.org/wp-content/uploads/2019/04/IMG_5767_1.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/04/IMG_5767_1.jpg" alt="Святкування Різдва в штаті Делавар фото 3" class="event-gallery__image" loading="lazy" /></a>
+    </div>
+`
   },
   {
     id: 'ev-038', slug: 'ladies-meet-pennsylvania-2019',
     titleEn: 'Ladies Meet in Pennsylvania',
+    titleUk: 'Зустріч Розширеної Управи Об’єднання',
+    publishedAtUk: '2019-01-22',
     publishedAt: '2019-12-18',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/Stevens_ladies_meeting-300x185.jpg',
+    thumbnailUrlUk: '',
     sourceUrl: 'https://ukrbaptist.org/en/ladies-meet-in-pennsylvania/',
     contentFull: `
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Stevens_ladies_meeting-1024x632.jpg" alt="Ladies Meet in Pennsylvania" class="article-inline-img" />
     <div class="letterhead">
   <p>Sisters in Christ from churches in the Lancaster and Harrisburg areas gathered at the Slavic Baptist Church in Stevens, Pennsylvania, on September 28, 2019. The theme of the meeting was “Unity in Christ.” Ladies from several churches met at the Slavic Baptist Church in Stevens, Pennsylvania.</p>
 </div>
-`
+`,
+    contentFullUk: `
+    <div class="letterhead">
+  <p>8 грудня, 2018 року, відбулася розширена Управа Об’єднання, яку приймала церква в Ланкастері (Lancaster, PA), де пастором є Леонід Близнюк. Це була традиційна зустріч Управи з нетрадиційною формою проведення. Традиційними були дата (друга субота грудня) і ділова частина, на якій розглядалися такі питання: місія, бачення і цінності Управи Об’єднання; план подій на 2019 рік; бюджет Об’єднання.</p>
+</div>
+
+<div class="convention-highlight">
+  <p>Нетрадиційним є те, що вперше за існування Об’єднання на зустрічі Управи були пастори разом з дружинами.</p>
+  <p>Розпочалася Управа загальною молитвою, прославленням Господа співом і читанням слова Божого. Продовженням була ділова частина. А дружини пасторів мали свою програму. Світлана Христенко, голова жіночого відділу, разом з Галиною Близнюк організували відвідування музею амішів.</p>
+  <p>По закінченні Управи всі разом, пастори з дружинами, мали спільний обід в місцевому ресторані, після чого поїхали в християнський театр на виставу «Ісус».</p>
+</div>
+
+<div class="signature-block">
+  <p>Таким чином пройшла Управа, де поєдналися традиційність і нетрадиційність: пастори церков зібрались на розширену Управу Об’єднання, де присутніми були їхні дружини, після чого всі разом із захопленням дивилися постанову про життя, смерть і воскресіння Ісуса Христа.</p>
+</div>`
   },
   {
     id: 'ev-039', slug: '2-deacons-ordained-north-port-2019',
     titleEn: '2 Deacons Ordained in North Port',
+    titleUk: 'Церква міста Міннеаполіс пакує подарунки',
+    publishedAtUk: '2019-01-02',
     publishedAt: '2019-12-12',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/Ordained_deacons_pastors_North_Port_3d409ecf857ab6b638f6379b5cd6072a-300x200.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/download_1.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/2-deacons-ordained-in-north-port/',
     contentFull: `
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Ordained_deacons_pastors_North_Port_3d409ecf857ab6b638f6379b5cd6072a.jpg" alt="2 Deacons Ordained in North Port" class="article-inline-img" />
@@ -1389,16 +2496,37 @@ A prayer card lists contact information for Save a Life International.
     <a href="https://ukrbaptist.org/wp-content/uploads/2019/10/Ordaination_Krashchenko_ordination.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/10/Ordaination_Krashchenko_ordination.jpg" alt="2 Deacons Ordained in North Port 1" class="event-gallery__image" loading="lazy" /></a>
     <a href="https://ukrbaptist.org/wp-content/uploads/2019/10/Ordaination_Pustovit_ordination.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/10/Ordaination_Pustovit_ordination.jpg" alt="2 Deacons Ordained in North Port 2" class="event-gallery__image" loading="lazy" /></a>
     </div>
+`,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/download_1.jpg" alt="Церква міста Міннеаполіс пакує подарунки Фото" class="article-inline-img" />
+        <div class="letterhead">
+  <p>Різдво. Що вносить це свято в наш звичний плин життя? Ми загадуємо події двохтисячолітньої давнини, намагаючись уявити, а іноді і відобразити у наших різдвяних постановах учасників тих подій: Немовля, Марію, Йосипа і пастухів. Готуємо наші домівки та церкви, щоб мати гарний та приємний час. Звичайно, не забуваємо і про подарунки дітям та один одному. Але найкращий подарунок, який кожен з нас колись отримував – це Божий подарунок Неба, народжений для нас Спаситель. «Дяка Богові за невимовний дар Його!» (2Кор. 9:15)</p>
+  <p>Усвідомлюючи всю цінність такого незаслуженого подарунка, ми також стараємось подібним чином когось зробити щасливим. І для цього існують всі умови в країні, де ми живемо. Різноманітні проєкти такі як: «Різдвяна курка» в Єгипті, «Різдвяний подарунок» в СНД, чи «Operation Christmas Child» (OCC) по всьому світу спонукають нас бути вдячними Господу за отриманий від Нього подарунок та дарувати іншим щасливе Різдво – розповідаючи багатьом про Ісуса.</p>
+  <p>Листопад, 2018. Перша Українська Церква міста Міннеаполіс на протязі багатьох років приймає участь, пакуючи «shoeboxes» та приготовляючи їх для розсилки на складі OCC. Ось декілька світлин з цієї події в нашій церкві.</p>
+</div>
+
+<div class="convention-highlight">
+  <p><strong>Молитва подяки та благословення подарунків.</strong></p>
+  <p><strong>Команда Першої Української Баптистської Церкви на складі OCC.</strong></p>
+</div>
+<h2>Фото Галерея</h2>
+    <div class="event-gallery">
+    <a href="https://ukrbaptist.org/wp-content/uploads/2019/01/download.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/01/download.jpg" alt="Церква міста Міннеаполіс пакує подарунки фото 1" class="event-gallery__image" loading="lazy" /></a>
+    <a href="https://ukrbaptist.org/wp-content/uploads/2019/01/IMG_0770-1-scaled.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/01/IMG_0770-1-scaled.jpg" alt="Церква міста Міннеаполіс пакує подарунки фото 2" class="event-gallery__image" loading="lazy" /></a>
+    </div>
 `
   },
   {
     id: 'ev-040', slug: 'charlotte-church-mission-trip-ukraine-2019',
     titleEn: 'Charlotte Church Takes Mission Trip to Ukraine',
+    titleUk: 'Відвідування церкви в Сакраменто',
     publishedAt: '2019-12-01',
+    publishedAtUk: '2018-12-13',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/charlotte_small-300x169.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_5679-768x714.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/charlotte-church-takes-mission-trip-to-ukraine/',
     contentFull: `
-    <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/charlotte_small-1024x576.jpg" alt="Children and families at the Hope camp on the shores of the Sea of Azov, Ukraine, summer 2019" class="article-inline-img" />
+    <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/charlotte_small-1024x576.jpg" alt="Charlotte Church Takes Mission Trip to Ukraine class="article-inline-img" />
   <div class="letterhead">
   <p>Summer is a blessed time for an exciting vacation, chatting with friends and fun adventures. It’s also a time when you are gaining new strength and ready to do good deeds. Probably, all children love warmth, sun and outdoor recreation out in the country. And not only children, but adults also are always happy to use the opportunity to plunge into the rich world of magnificent nature and experience God’s special presence in unity with it.</p>
   <p>From June 24 to July 6, 2019, two sessions of the “Hope” health camp were held for families who serve orphans. Parents with their children were able to relax on the shores of the Sea of Azov.</p>
@@ -1425,15 +2553,31 @@ A prayer card lists contact information for Save a Life International.
     <a href="https://ukrbaptist.org/wp-content/uploads/2020/02/charlotte_4.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2020/02/charlotte_4.jpg" alt="Charlotte Church Takes Mission Trip to Ukraine 4" class="event-gallery__image" loading="lazy" /></a>
     <a href="https://ukrbaptist.org/wp-content/uploads/2020/02/charlotte_2.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2020/02/charlotte_2.jpg" alt="Charlotte Church Takes Mission Trip to Ukraine 5" class="event-gallery__image" loading="lazy" /></a>
     </div>
+`,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_5679-1024x951.jpg" alt="'Відвідування церкви в Сакраменто" class="article-inline-img" />
+        <div class="letterhead">
+  <p>На нарадах Управи в жовтні було прийняте рішення відвідати всі церкви Об’єднання між з’їздами. На початку грудня (1-3 грудня, 2018) відбулася поїздка голови Управи Об’єднання та його заступника до 1-ї Української Баптистської Церкви м. Сакраменто, де пастором є брат Валентин Вавренюк.</p>
+</div>
+
+<div class="convention-highlight">
+  <p>Брати Роман Капран, голова Об’єднання, Іоанн Устенко, заступник голови Об’єднання, та В’ячеслав Перепелиця, диякон церкви «Відродження» (Levittown, PA), у суботу (1 грудня) мали зустріч з братерською радою церкви, де представили місію, бачення і цінності Управи Об’єднання та подальші плани у співпраці церков. У першій половині дня Роман Капран провів навчання для проповідників на тему «Пояснювальна проповідь». У неділю Іоанн Устенко і Роман Капран приймали участь у служінні проповіддю на ранковому зібранні.</p>
+</div>
+
+<div class="signature-block">
+  <p>Таким чином було започатковано відвідування церков нашого Об’єднання членами Управи.</p>
+</div>
 `
- 
   },
   // PAGE 3
   {
     id: 'ev-041', slug: 'music-seminar-philadelphia-2019',
     titleEn: 'Music Seminar Held in Philadelphia Area',
+    titleUk: 'Святкування Дня Подяки в Чікаго',
+    publishedAtUk: '2018-11-13',
     publishedAt: '2019-11-13',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2019/12/Seminar_group_participants-300x180.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_5681_e2d631422966195e48c1775c7e1b1dba-768x433.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/music-seminar-held-in-philadelphia-area/',
     contentFull: `
     <img src="https://ukrbaptist.org/wp-content/uploads/2019/12/Seminar_group_participants-1024x615.jpg" alt="Group photo of music ministry seminar participants at Grace Ukrainian Baptist Church, Warminster, Pennsylvania, October 2019" class="article-inline-img" />
@@ -1462,13 +2606,37 @@ A prayer card lists contact information for Save a Life International.
     <a href="https://ukrbaptist.org/wp-content/uploads/2019/12/Music_seminar.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/12/Music_seminar.jpg" alt="Music Seminar Held in Philadelphia Area 3" class="event-gallery__image" loading="lazy" /></a>
     <a href="https://ukrbaptist.org/wp-content/uploads/2019/12/Seminary_class-scaled.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/12/Seminary_class-scaled.jpg" alt="Music Seminar Held in Philadelphia Area 4" class="event-gallery__image" loading="lazy" /></a>
     </div>
+`,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_5681_e2d631422966195e48c1775c7e1b1dba-1024x577.jpg" alt="Святкування Дня Подяки в Чікаго Фото" class="article-inline-img" />
+        <div class="letterhead">
+  <p>Українська Баптистська Церква м. Чикаго відзначила День Подяки додатковим зібранням та спілкуванням. Багато церков не мають зібрань на День Подяки (в Америці завжди четвертий четвер у листопаді), але Українська Баптистська Церква м. Чикаго зібралася вранці в четвер, 22 листопада, щоб подякувати Богові за Його численні благословення.</p>
+</div>
+
+<div class="convention-highlight">
+  <p>У наступну неділю тема вдячності Богові за всі Його благословення продовжувалась під час звичайного зібрання вранці, за участю духового оркестру та музикальної групи “Народжений Знов” (“Born Again”).</p>
+  <p>Пізніше церква відвідала один з відомих ресторанів у передмісті міста, де 241 людина куштувала смачну їжу в сімейному колі згідно з традицією Дня Подяки.</p>
+  <p>Також була представлена музично-літературна програма, разом із співом чоловічого хору.</p>
+</div>
+
+<div class="signature-block">
+  <p>Багато людей відзначили, що святкування Дня Подяки було приємним спілкуванням для всієї церкви.</p>
+</div>
+<h2>Фото Галерея</h2>
+    <div class="event-gallery">
+    <a href="https://ukrbaptist.org/wp-content/uploads/2018/11/Pastor_Kalinin_table.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2018/11/Pastor_Kalinin_table.jpg" alt="Святкування Дня Подяки в Чікаго фото 1" class="event-gallery__image" loading="lazy" /></a>
+    <a href="https://ukrbaptist.org/wp-content/uploads/2018/11/IMG_5682.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2018/11/IMG_5682.jpg" alt="Святкування Дня Подяки в Чікаго фото 2" class="event-gallery__image" loading="lazy" /></a>
+    </div>
 `
   },
   {
     id: 'ev-042', slug: 'north-port-30th-anniversary-2019',
     titleEn: 'North Port Church Marks Its 30th Anniversary',
+    titleUk: '73-й З’їзд Об’єднання',
+    publishedAtUk: '2018-10-23',
     publishedAt: '2019-11-06',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/Congregation_sings-300x183.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_5489_1a1239996e919f2f22b88b9c8557029c-768x576.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/north-port-church-marks-its-30th-anniversary/',
     contentFull: `  
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Congregation_sings-1024x625.jpg" alt="Congregation singing at the 30th anniversary service of the Ukrainian Baptist Church of North Port, Florida, October 27, 2019" class="article-inline-img" />
@@ -1493,16 +2661,50 @@ A prayer card lists contact information for Save a Life International.
   <p>Congregation sings: After singing a duet, former members Alex Zinchuk and his wife lead the congregation in a song.</p>
   <p>Jakubovich Oct 2019: Rev. Michael Jakubovich, who served as pastor of the church for about 10 years, talks about the history of the North Port church.</p>
 </div>
-`
+`,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_5489_1a1239996e919f2f22b88b9c8557029c-1024x768.jpg" alt="73-й З’їзд Об’єднання" class="article-inline-img" />
+        <div class="letterhead">
+  <p>Молодь була всюди. Вони були на сцені. Вони були в залі. Вони були «за кулісами». Молодь служила і допомагала іншим, а також прославляла Господа. Велика кількість молоді з великою посвятою і ентузіазмом прийняла участь у проведенні 73-го з’їзду Українських Євангельсько-Баптистських Церков у США, який проходив у Левіттауні (Levittown, PA) з 31 серпня по 2 вересня, 2018 року.</p>
+  <p>Молоді люди з різних церков співали, грали на музичних інструментах, проповідували, служили і працювали в різноманітних сферах, що сприяло великому успіху в проведенні з’їзду, який приймала церква «Відродження».</p>
+  <p>Група прославлення цієї церкви заохочувала всіх до загального співу як українською, так і англійською мовами, виконуючи нові пісні, які раніше не звучали на з’їздах. Також в хорі церкви «Відродження» молодь складає більшу частину. Він приймав участь на зібранні в п’ятницю (31 серпня), коли було відкриття з’їзду. Хором і музичним служінням в церкві «Відродження» керує Алік Гонтар.</p>
+  <p>Молодіжний хор з Першої Української Баптистської Церкви м. Філадельфії під керівництвом Діани Савчук прославляв Господа співом на молодіжному зібранні в суботу (1 вересня), яке проходило в місцевій школі. Визначними в програмі молоді були тріо сестер, проповідь керівника молоді та студента семінарії Павла Ващишина з церкви м. Крум Линна (Crum Lynne, PA) і соло Аліни Рабчук з церкви «Благодать» (Warminster, PA). Лідер молоді Об’єднання Денис Січкар був ведучим програми молодіжного зібрання.</p>
+  <p>В 10-хвилинному відео Денис показав служіння і активності молоді за минулий рік, серед яких були представлені Pizza House Ministry (Rehoboth Beach, DE), Coffee House Ministry (Ocean City, NJ) та J-1 Café Ministry (Atlantic City, NJ), де наша молодь свідчила про Ісуса Христа студентам з різних країн світу.</p>
+  <p>Молодь складала значну частину аудиторії, яка налічувала близько 650 людей, за підрахунками пастора. На протязі всього з’їзду молодих людей можна було побачити за пультом озвучення та відео проектуванні на екран, в обслузі за столами, в регістраційній службі, і що особливо – в догляді за дітьми під час семінарів.</p>
+  <p>Ранкове зібрання проходило також в школі, і за звичаєм всі віруючі з навколишніх церков збираються разом. Чоловічий хор з Першої Української Баптистської Церкви під керівництвом Володимира Майкута (Philadelphia, PA), хор з церкви «Благодать» під керівництвом Івана Веленчука (Warminster, PA) і група прославлення з церкви «Відродження» (Levittown, PA) оспівували Господнє Ім’я.</p>
+</div>
+
+<div class="convention-highlight">
+  <p>Гаслом з’їзду і основною темою проповідей були слова <strong>«Наш незмінний Христос»</strong>, що базуються на біблійному тексті Євреям 13:8: <em>«Ісус Христос вчора, сьогодні і повіки той самий»</em>.</p>
+</div>
+
+<h2>Запрошені спікери та обрання нової управи</h2>
+<p>Цього разу запрошеними промовцями були Олександр Савич і Єлисей Пронін з Української Теологічної Баптистської Семінарії (представники з України) та Вадим Дашкевич, пастор Української Баптистської Церкви (Sacramento, CA). Їхні проповіді і семінари під час з’їзду були великим благословінням для багатьох людей. Також на з’їзді були присутні пастори нашого Об’єднання, які привітали делегатів і гостей, а пастор Ігор Завірюха представляв Західне Об’єднання.</p>
+
+<div class="convention-highlight">
+  <p>На з’їзді делегати обрали <strong>Романа Капрана</strong> новим головою Об’єднання і <strong>Віктора Кузьменка</strong> заступником голови по внутрішній місії. <strong>Світлана Христенко</strong> була підтверджена як голова жіночого комітету. Вище згадані брати і сестра обрані на термін 2 роки. Інші члени Управи залишаються з тими самими уповноваженнями.</p>
+</div>
+
+<p><strong>Роман Капран</strong> несе пасторське служіння в штаті Делавер, 50 років, прибув до США 20 років тому. Він і його дружина Іра мають двоє дітей. Навчався в семінарії в Україні та США. Викладає в багатьох християнських школах і коледжах.</p>
+<p><strong>Віктор Кузьменко</strong> є пастором Української Баптистської Церкви (Chicago, IL), 55 років, прибув до США 20 років тому. Він і його дружина Ірина мають троє дітей. Брат Кузьменко має сертифікат пастора-консультанта від Комітету Професійного Християнського Пасторського Консультування.</p>
+
+<div class="signature-block">
+  <p>Всі, хто має бажання підтримати служіння Об’єднання Українських Баптистських Церков у США (місіонерство, семінарія у Львові, літній дитячий табір, молодіжне служіння, проведення семінарів, відвідування церков), можуть надіслати пожертву на <strong>Ukrainian Missionary and Bible Society</strong> за адресою скарбника:</p>
+  <p>Rev. Leonid Bliznyuk, P.O. Box 353, East Petersburg, PA 17520-0353 USA.</p>
+</div>
+    `
   },
   {
     id: 'ev-043', slug: 'baptism-chicago-2019',
     titleEn: '2019 Baptism in Chicago',
+    titleUk: 'Відео про табір «Перлина»',
+    publishedAtUk: '2018-10-14',
     publishedAt: '2019-11-05',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/Chi_baptism_2019-300x300.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/2017-Youth-Camp-Picture_16d26af24762cb2f782db3279f9a137a-768x576.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/2019-baptism-in-chicago/',
     contentFull: `
-    <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Chi_baptism_2019-1024x1024.jpg" alt="Three new believers baptized at the Ukrainian Baptist Church of Chicago, July 27, 2019" class="article-inline-img" style="max-width:600px;" />
+    <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Chi_baptism_2019-1024x1024.jpg" alt="Three new believers baptized at the Ukrainian Baptist Church of Chicago, July 27, 2019" class="article-inline-img" />
 
     <div class="history-page__image-caption" style="text-align: center; margin-top: 4px;">
     The Ukrainian Baptist Church of Chicago baptized three persons in July 2019.
@@ -1517,13 +2719,33 @@ A prayer card lists contact information for Save a Life International.
   <p>Chi baptism 2019 1: Pastor Kalinin presents Certificates of Baptism to Roksolana Vasilishina (left), Margaryta Nalyvayko and Michael Povh.</p>
   <p>Chicago baptism 1: Deacon Vasily Povh (left) assists in the baptism of his son, Michael, with Pastor Kalinin in Round Lake.</p>
 </div>
-    `
+    `,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/2017-Youth-Camp-Picture_16d26af24762cb2f782db3279f9a137a.jpg" alt="Табір «Перлина»" class="article-inline-img" />
+        <div class="event-videos">
+  <div class="event-video-wrapper">
+    <iframe src="https://www.youtube.com/embed/BcPqQtF1nTY" title="YouTube video 1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="event-video" loading="lazy"></iframe>
+  </div>
+  <div class="event-video-wrapper">
+    <iframe src="https://www.youtube.com/embed/Wgt6tKwosFE" title="YouTube video 2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="event-video" loading="lazy"></iframe>
+  </div>
+  <div class="event-video-wrapper">
+    <iframe src="https://www.youtube.com/embed/MKX0Dv5NxUU" title="YouTube video 3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="event-video" loading="lazy"></iframe>
+  </div>
+  <div class="event-video-wrapper">
+    <iframe src="https://www.youtube.com/embed/vkjHgKcdKWc" title="YouTube video 4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="event-video" loading="lazy"></iframe>
+  </div>
+</div>
+`
   },
   {
     id: 'ev-044', slug: 'baptism-minneapolis-2019',
     titleEn: '2019 Baptism in Minneapolis',
+    titleUk: 'Хрещення у Міннеаполісі 2019',
+    publishedAtUk: '2018-09-30',
     publishedAt: '2019-09-30',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/Minneapolis_baptism_2019_11e821f457a9694784c8487a297afe48-300x184.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/Minneapolis_baptism_2019_11e821f457a9694784c8487a297afe48-768x472.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/2019-baptism-in-minneapolis/',
     contentFull: `   
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Minneapolis_baptism_2019_11e821f457a9694784c8487a297afe48-1024x630.jpg" alt="Five young believers baptized at the First Ukrainian Evangelical Baptist Church of Minneapolis, March 3, 2019" class="article-inline-img" />
@@ -1541,13 +2763,33 @@ Five young people were baptized by faith at the First Ukrainian Evangelical Bapt
 <div class="convention-highlight">
   <p>Wonderful singing by the church choir enhanced the service; first with “I Believe” (O Lord, you illuminate the sky with thousands of stars) and at the conclusion with “You’re a Holy God.”</p>
 </div>
-    `
+    `,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/Minneapolis_baptism_2019_11e821f457a9694784c8487a297afe48-1024x630.jpg" alt="П’ять молодих людей склали обіцянку Богові доброго сумління" class="article-inline-img" />
+        <div class="letterhead">
+  <p>В неділю, 3 березня 2019 р. на урочистому богослужінні Першої Української Євангельської Баптистської Церкви м. Міннеаполіс було звершено Святе Водне Хрещення по вірі.</p>
+  <p>П’ять молодих людей: Денисенко Діма, Макаренко Ніка, Єремейчук Наталія, Мустяца Наталія, Мустяца Глаша, під чудовий спів церковного хору «Тисячі зір ти засвічуєш в небі о Господи» склали обіцянку Богові доброго сумління! Церква і небо стали свідками тих коротких, але важливих і глибоких слів, які промовляли ці молоді люди: «Вірую!» і «Обіцяю!»</p>
+  <p>Хрещення звершував перший пастор ПУЄБЦ м. Міннеаполіс Мельничук І. В.</p>
+</div>
+
+<div class="convention-highlight">
+  <p>З добрими побажаннями і наставленнями до нових членів церкви, а також до всіх присутніх, звернулись пастор Фартушний В. Л. і пастор Каплоухий В. Г. На протязі усього урочистого служіння звучали прославлення Господа Ісуса Христа через вірші, пісні, побажання, наставлення для нових членів церкви і для всіх присутніх на поклонінні.</p>
+  <p>Одна з думок, яка прозвучала, – що ці п’ять молодих «душ», які заключили завіт з Господом через святе водне хрещення, це плід нашого Господа Ісуса Христа, який Він буде бачити «через муки Своєї душі» (кн. пр. Ісаї 53:11).</p>
+</div>
+
+<div class="signature-block">
+  <p>Хор завершив урочисте служіння перед лицем Бога чудовим співом пісні «Ти Святий Бог».</p>
+</div>
+`
   },
   {
     id: 'ev-045', slug: '74th-conference-history-2019',
     titleEn: '74th Conference Is History',
+    titleUk: 'Запрошення на 73-й З’їзд Об’єднання',
+    publishedAtUk: '2018-08-23',
     publishedAt: '2019-09-02',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_0937-300x169.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/73-ziizd_b3f1d5716abda1fe98d0cb62e4cb2cb8-768x549.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/74th-conference-is-history/',
     contentFull: `
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_0937-1024x576.jpg" alt="74th Annual Conference of the Ukrainian Evangelical Baptist Convention, Philadelphia, Labor Day weekend 2019" class="article-inline-img" />
@@ -1594,23 +2836,63 @@ Five young people were baptized by faith at the First Ukrainian Evangelical Bapt
     <a href="https://ukrbaptist.org/wp-content/uploads/2019/09/Conference_choir-scaled.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/09/Conference_choir-scaled.jpg" alt="74th Conference Is History 3" class="event-gallery__image" loading="lazy" /></a>
     <a href="https://ukrbaptist.org/wp-content/uploads/2019/09/IMG_0905-scaled.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/09/IMG_0905-scaled.jpg" alt="74th Conference Is History 4" class="event-gallery__image" loading="lazy" /></a>
     </div>
-    `
+    `,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/73-ziizd_b3f1d5716abda1fe98d0cb62e4cb2cb8.jpg" alt=Запрошення на 73-й З’їзд Об’єднання фото" class="article-inline-img" />
+        <div class="letterhead">
+  <p>Шановні брати та сестри! Запрошуємо Вас відвідати 73-й З’їзд Об’єднання Українських Баптистських Церков в США.</p>
+</div>
+<div class="convention-highlight">
+  <p>Ви можете отримати більше інформації, переглянувши відео.</p>
+</div>
+<div class="event-video-wrapper">
+  <iframe 
+    src="https://www.youtube.com/embed/naVxVyT4YGY" 
+    title="YouTube video" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen 
+    class="event-video" 
+    loading="lazy">
+  </iframe>
+</div>
+`
   },
   {
     id: 'ev-046', slug: 'invitation-74th-convention-2019',
     titleEn: 'The Invitation to the 74th Convention',
+    titleUk: 'Святкування 90-ліття Дмитра Воєводи',
+    publishedAtUk: '2018-05-01',
     publishedAt: '2019-08-09',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/74th_poster-300x212.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_4879-768x1010.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/the-invitation-on-74th-convention/',
     contentFull: `
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/74th_poster-1024x724.jpg" alt="Invitation to the 74th Annual Convention of the Ukrainian Evangelical Baptist Convention, Philadelphia, Labor Day weekend 2019" class="article-inline-img" />
-    `
+    `,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_4879.jpg" alt="Дмитро Воєвода" class="article-inline-img" />
+        <div class="letterhead">
+  <p>Дмитро Воєвода народився в Україні в далекому 1928 році. З 1947 по 1994 роки він проживав у Львові, поки його сім’я не переїхала до Сполучених Штатів. В 1947 році він прийняв водне хрещення і брав активну участь в церковному служінні, особливо в церковному хорі. Бог обдарував брата Воєводу винятковим талантом: без формальної музичної освіти він почав писати музику і слова до неї. В загальному рахунку, брат Воєвода написав близько 100 гімнів. В додаток, він допомагав у редагуванні понад 400 християнських гімнів та пісень.</p>
+</div>
+
+<div class="convention-highlight">
+  <p>Незважаючи на всі труднощі, брат Воєвода посвячено служив Господу і Його церкві. Тяжкі умови життя не похитнули його посвяту; після роботи на заводі він часто спішив в церкву на співанки, а писати свої твори йому приходилось на колінах, тому що проживав у маленькій квартирі. Брат Воєвода посвячено виконував служіння диригента хору в львівській баптистській церкві протягом 44 років в нелегкий період, за часів Радянського Союзу.</p>
+  <p>Також брат Воєвода написав велику кількість віршів, які були надруковані в трьох книжках. Його вклад як композитора, поета, диригента хору є дуже визначним. Навіть в свої 90 років він є активним членом церкви, що виявляється в його участі при складанні християнських радіопрограм, які транслюються у філадельфійській окрузі українською мовою.</p>
+</div>
+
+<div class="signature-block">
+  <p>Побажаємо Дмитру Воєводі благословінь в прославленні нашого Господа.</p>
+</div>
+`
   },
   {
     id: 'ev-047', slug: '28th-baptist-convention-ukraine-2019',
     titleEn: '28th Baptist Convention in Ukraine',
+    titleUk: 'Пасхальне поздоровлення від Об’єднання Українських Баптистських Церков США',
+    publishedAtUk: '2018-03-27',
     publishedAt: '2019-06-18',
     thumbnailUrl: '',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/empty_tomb23456-768x413.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/28th-baptist-convention-in-ukraine/',
     contentFull: `
    <div class="letterhead">
@@ -1627,13 +2909,19 @@ Five young people were baptized by faith at the First Ukrainian Evangelical Bapt
     <iframe src="https://www.youtube.com/embed/O2uUnxzmCz4" title="Відеоогляд 28-го з'їзду ВСЦ ЄХБ. Підсумки. Результати" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="event-video" loading="lazy"></iframe>
   </div>
 </div>
-  `
+  `,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/empty_tomb23456.jpg" alt="Пасхальне поздоровлення від Об’єднання Українських Баптистських Церков США" class="article-inline-img" />
+`
   },
   {
     id: 'ev-048', slug: 'visit-churches-charlotte-2019',
     titleEn: 'The Visit of Churches in Charlotte',
+    titleUk: 'Пам’яті Івана Ковальчука',
     publishedAt: '2019-04-30',
+    publishedAtUk: '2018-01-06',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/08/IMG_6122-768x576.jpg',
+    thumbnailUrlUk: '',
     sourceUrl: 'https://ukrbaptist.org/en/the-visit-of-churches-in-charlotte/',
     contentFull: `    
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/08/IMG_6122.jpg" alt="Convention leaders with members of the First Slavic Baptist Church of Charlotte, North Carolina, January 12-13, 2019" class="article-inline-img" />
@@ -1644,14 +2932,22 @@ Five young people were baptized by faith at the First Ukrainian Evangelical Bapt
 <div class="convention-highlight">
   <p>On Pictures: (1) The picture for memory with brother of the First Slavic Church. (2) Pastor Vasily Rudnitsky presented families which took children from Ukraine.</p>
 </div>
-
-`
+`,
+    contentFullUk: `
+    <p>
+  <a href="https://subscription.ukrweekly.com/2018/01/the-rev-dr-john-kovalchuk-78-retired-leader-of-ukrainian-baptists/" target="_blank" rel="noopener noreferrer">
+    The Rev. Dr. John Kovalchuk, 78, retired leader of Ukrainian Baptists
+  </a>
+</p>`
   },
   {
     id: 'ev-049', slug: 'christmas-celebration-delaware-2019',
     titleEn: 'Christmas Celebration in Delaware',
+    titleUk: 'Різдвяне Вітання від Об’єднання Українських Баптистських Церков в США',
     publishedAt: '2019-04-19',
+    publishedAtUk: '2017-12-23',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_5761-768x576.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/mary-holding-baby-jesus-swindle_1604227_inl.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/christmas-celebration-in-delaware/',
     contentFull: `    
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_5761-768x576.jpg" alt="Christmas celebration gathering at the Ukrainian Baptist church community in Delaware, January 2019" class="article-inline-img" />
@@ -1669,13 +2965,19 @@ Five young people were baptized by faith at the First Ukrainian Evangelical Bapt
     <a href="https://ukrbaptist.org/wp-content/uploads/2019/04/IMG_5751.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/04/IMG_5751.jpg" alt="Christmas Celebration in Delaware 2" class="event-gallery__image" loading="lazy" /></a>
     <a href="https://ukrbaptist.org/wp-content/uploads/2019/04/IMG_5767_1.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/04/IMG_5767_1.jpg" alt="Christmas Celebration in Delaware 3" class="event-gallery__image" loading="lazy" /></a>
     </div>
+`,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/mary-holding-baby-jesus-swindle_1604227_inl.jpg" alt="Різдвяне Вітання від Об’єднання Українських Баптистських Церков в США" class="article-inline-img" />
 `
   },
   {
     id: 'ev-050', slug: 'associations-board-expanded-format-2019',
     titleEn: "The Association's Board Meets in an Expanded Format",
+    titleUk: '72-й З’їзд Об’єднання Баптистських Церков США',
+    publishedAtUk: '2017-11-30',
     publishedAt: '2019-01-22',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/08/IMG_5676-768x576.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/04/IMG_4136_5f733925a53c5b9570e1016f9fabde51-768x576.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/the-association-s-board-meets-in-an-expanded-format/',
     contentFull: `    
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/08/IMG_5676-768x576.jpg" alt="Pastors and their wives at the expanded board meeting of the Ukrainian Evangelical Baptist Convention, Lancaster, Pennsylvania, December 8, 2018" class="article-inline-img" />
@@ -1688,14 +2990,47 @@ Five young people were baptized by faith at the First Ukrainian Evangelical Bapt
 <div class=”convention-highlight”>
   <p>After the executive board meeting, the board and other pastors with their wives ate lunch together at a local restaurant, after which they went to a Christian theater to see the play “Jesus.” In this way, the board meeting united traditionalism and non-traditionalism: pastors of the churches gathered at the expanded board meeting, where their wives were present, after which they all watched with fascination the stage play about the life, death and resurrection of Jesus Christ.</p>
 </div>
+`,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/04/IMG_4136_5f733925a53c5b9570e1016f9fabde51-1024x768.jpg" alt="72-й З’їзд Об’єднання Баптистських Церков США" class="article-inline-img" />
+        <div class="letterhead">
+  <p>На цьому З’їзді до Управи Об’єднання долучилися деякі нові обличчя. На ділових нарадах у суботу, 2 вересня, у приміщенні церкви Дім Євангелія (Richland, NJ) на посаду секретаря Об’єднання на трирічний термін був обраний пастор Ігор Мельничук (Minneapolis, MN). Брат Роман Капран, який несе служіння благовісника у церкві Crum Lynne (PA), був обраний на посаду заступника Голови Об’єднання по внутрішній місії. А Іоанн Устенко, пастор церкви Відродження (Levittown, PA), був обраний на такий же термін заступником Голови по зовнішній місії. Пастор Анатолій Мошковський, діючий Голова Об’єднання, погодився взяти на себе роль виконуючого обов’язки Голови Об’єднання ще на один рік у зв’язку з тим, що ніхто із кандидатів не погодився балотуватися на посаду Голови Об’єднання. Пастор Леонід Близнюк (Lancaster, PA) був переобраний на посаду скарбника Об’єднання. Сестра Віра Бондаренко (Levittown, PA) буде продовжувати своє служіння у якості координатора сестринського служіння в Об’єднанні. Того ж дня, тільки вечором, молодь обрала Дениса Січкаря (Philadelphia, PA) своїм новим лідером.</p>
+</div>
 
-`
+<div class="convention-highlight">
+  <p>З’їзд проходив під знаменами святкування 500-ліття Реформації, саме про це і були всі проповіді та семінари. Головним промовцем на З’їзді був заступник Голови Союзу Баптистів в Україні, пастор Ігор Бандура. У суботу він виклав семінар на тему «Тільки вірою», а в неділю він звернувся до усіх делегатів З’їзду з головною проповіддю на тему «Тільки Христос».</p>
+  <p>В суботу зранку брат Роман Капран провів семінар на тему «Здобутки Реформації», вказавши на історичні і практичні паралелі та відмінності реформації церков.</p>
+</div>
+
+<h2>Молодіжне служіння</h2>
+<div class="convention-highlight">
+  <p>У суботу ввечері, під час молодіжного служіння, пастор Кевін Марсіко (Kevin Marcico) зі штату Maryland виголосив потужну проповідь. Він представляв на З’їзді Північно-Американський Місійний Комітет (North American Mission Board), який у свою чергу є місійним відділом Конвенцій Південних Баптистів (Southern Baptist Convention). Пастор Марсіко вжив цікаву ілюстрацію, викликавши із залу одного хлопчика і попросив пронести по залу важкого рюкзака, в якому, як потім виявилося, був великий камінь. Проповідь базувалася на уривку з Послання до Євреїв 12:1-2: «Тож і ми, мавши навколо себе велику таку хмару свідків, скиньмо всякий тягар та гріх, що обплутує нас, та й біжім з терпеливістю до боротьби, яка перед нами, дивлячись на Ісуса, на Начальника й Виконавця віри, що замість радости, яка була перед Ним, перетерпів хреста, не звертавши уваги на сором, і сів по правиці престолу Божого».</p>
+  <p>Ще одну чудову проповідь на цьому ж служінні сказав Денис Канчурін, один з пасторів церкви Levittown (PA). Тема його проповіді була «Тільки Писання». Денис говорив про авторитет та силу Писання.</p>
+</div>
+
+<h2>Музичне служіння</h2>
+<div class="convention-highlight">
+  <p>У п’ятницю ввечері чудово співав хор з місцевої церкви Дім Євангелії під управлінням Андрія Летушко. Серед пісень, які особливо сподобалися слухачам, були «Отче наш», «Ти мій притулок є», «Великі та дивні діла Твої, Господи».</p>
+  <p>Чудово звучав у суботу ввечері та в неділю вранці зведений хор під керуванням Івана Веленчука з церкви Благодать, м. Вормінстер, Пенсільванія. Слухачам сподобалися деякі нові пісні та аранжування, включаючи «Прокидайся раненько», Псалом 24, «Величне і святе Твоє Ім’я», «Твоя любов», «Ласка чудова Божа», «Вірую» та «Блаженний муж». Група поклоніння чудово заохочувала усіх учасників З’їзду у пісенному поклонінні Богові. Багато пісень співали як українською, так і англійською мовами. Серед них такі як «Покликуймо Господа», «Бо Він живе».</p>
+  <p>Не можна не згадати у цьому звіті і про Джейн Летушко, яка дуже зворушливо виконала соло на суботньому служінні.</p>
+</div>
+
+<h2>Проповіді та привітання</h2>
+<p>Тему «Тільки благодаттю» представив у своїй проповіді пастор Віктор Щипайло (Philadelphia, PA). На З’їзді з проповідями та святковими привітаннями до учасників звернулися також пастори: Анатолій Сахан (Vineland, NJ); Юрій Ковч, пастор церкви, яка приймала З’їзд; Юрій Голас (Sacramento, CA); В’ячеслав Палій, церква Новий Шлях (Baltimore, MD) та Павло Дем’яник, Голова Західного Об’єднання Українських Церков у США та пастор церкви Жива Надія (Vancouver, WA).</p>
+
+<div class="signature-block">
+  <p>З’їзд, який тривав з 1-го по 3-є вересня, приймала церква Дім Євангелії у місті Richland, NJ. Служіння в суботу ввечері та в неділю вранці проводилися в актовому залі місцевої школи (Buena Regional High School).</p>
+</div>
+        `
   },
   {
     id: 'ev-051', slug: 'minneapolis-shoeboxes-2019',
     titleEn: "Minneapolis Church Packs 'Shoeboxes'",
+    titleUk: 'Місійне служіння через Coffee House та Pizza House',
+    publishedAtUk: '2017-10-17',
     publishedAt: '2019-01-02',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/download_1.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_4623-768x432.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/minneapolis-church-packs-shoeboxes/',
     contentFull: `    
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/download_1.jpg" alt="Members of the First Ukrainian Evangelical Baptist Church of Minneapolis packing Operation Christmas Child shoeboxes, November 2018" class="article-inline-img" />
@@ -1714,13 +3049,38 @@ Five young people were baptized by faith at the First Ukrainian Evangelical Bapt
     <a href="https://ukrbaptist.org/wp-content/uploads/2019/01/IMG_0770-1-scaled.jpg" class="event-gallery__item" target="_blank" rel="noopener noreferrer"><img src="https://ukrbaptist.org/wp-content/uploads/2019/01/IMG_0770-1-scaled.jpg" alt="Minneapolis Church Packs 'Shoeboxes' 2" class="event-gallery__image" loading="lazy" /></a>
    </div>
   
+`,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_4623-1024x576.jpg" alt="Місійне служіння через Coffee House та Pizza House фото 1" class="article-inline-img" />
+        <div class="letterhead">
+  <p>Цього року проходив Coffee House in Ocean City (NJ) та Pizza House in Rehoboth Beach (DE). Основна мета Coffee House та Pizza House – це місійне служіння серед інтернаціональних студентів, які приїздять з різних країн на літо в США.</p>
+</div>
+
+<h2>Coffee House in Ocean City (NJ)</h2>
+<div class="convention-highlight">
+  <p>Визначним є те, що Coffee House in Ocean City (NJ) відзначив 10 років свого існування. Молодь з трьох церков Вайнленда (Vineland, NJ) разом підготовлює і проводить це служіння щовівторка в приміщенні Ocean City Baptist Church. Кожного разу до 100 студентів приходило на Coffee House, де вони чули євангельську проповідь та свідоцтво про Ісуса Христа, а також спілкувалися, грали в ігри і отримували допомогу у вигляді продуктів.</p>
+</div>
+
+<h2>Pizza House in Rehoboth Beach (DE)</h2>
+<div class="convention-highlight">
+  <p>Pizza House in Rehoboth Beach (DE) проходив прямо на пляжі також по вівторках. В цьому служінні приймала участь молодь з церков Крум Линна (Crum Lynne, PA), Філадельфії (Philadelphia, PA), Делавара (Delaware), Балтімора (Baltimore, MD) та Левіттауна (Levittown, PA). Під час Pizza House студенти їли піцу, співали разом з нашою молоддю християнські пісні, слухали євангельську проповідь, спілкувалися і грали у волейбол. Допомога продуктами була невід’ємною частиною цього служіння також.</p>
+</div>
+
+<div class="signature-block">
+  <p>Через Coffee House та Pizza House Ministries наша молодь могла засвідчити багатьом молодим людям про Ісуса Христа і цим прославляти Його Ім’я. Якщо Господь продовжить життя, наступного року ми продовжимо це служіння для слави Бога!</p>
+</div>
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_3935-1024x768.jpg" alt="Місійне служіння через Coffee House та Pizza House фото 2" class="article-inline-img" />
+
 `
   },
   {
     id: 'ev-052', slug: 'visiting-church-sacramento-2018',
     titleEn: 'Visiting the Church in Sacramento',
+    titleUk: 'Хрещення в Ланкастері',
+    publishedAtUk: '2017-10-17',
     publishedAt: '2018-12-13',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_5679-768x714.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_4624_f131a06fb52f65f7a839d23add89241a-768x513.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/visiting-the-church-in-sacramento/',
     contentFull: `    
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_5679-768x714.jpg" alt="Convention president Roman Kapran and vice president Ioann Ustenko visiting the First Ukrainian Baptist Church of Sacramento, December 1-3, 2018" class="article-inline-img" />
@@ -1732,13 +3092,27 @@ Five young people were baptized by faith at the First Ukrainian Evangelical Bapt
   <p>Roman Kapran, president of the convention, Ioann Ustenko, vice president of the convention, and Vyacheslav Perepelytsya, deacon at the Regeneration Church (Levittown, PA), met with the board of the 1st Ukrainian Baptist Church on Saturday (December 1). They presented to the church board the mission, vision, and values of the convention’s board and a plan for future church cooperation. During the first half of the day, Roman Kapran led training for preachers on the topic “Expository Preaching.” On Sunday, Ioann Ustenko and Roman Kapran preached at the morning worship service.</p>
   <p>In this way, members of the board started the visit of churches of the convention.</p>
 </div>
-  `
+  `,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_4624_f131a06fb52f65f7a839d23add89241a-1024x683.jpg" alt=" Фото людей які прийняли хрещення в Ланкастері" class="article-inline-img" />
+        <div class="letterhead">
+  <p>Імена тих, хто приймав хрещення: Катерина Данкулич, Ванесса Лакатош, Анна Рідкодим, Роман Шумило, Тимофій Кондрак, Євгеній Танчун з церкви Філадельфії, та Петро Воронцов, Роман Близнюк, Тетяна Келлі з церкви Ланкастера. Пастори Леонід Близнюк і Віктор Щипайло звершили хрещення на озері.</p>
+</div>
+
+<div class="convention-highlight">
+  <p>Після цього пастори Анатолій Мошковський, Леонід Близнюк, Віктор Щипайло, Дмитро Логін і Володимир Гонак помолились над тими, хто були охрещені.</p>
+  <p>Багато людей зібралось на свято хрещення, яке мали разом дві церкви в парку. Після хрещення було служіння на відкритому повітрі, де новохрещені вперше приймали участь у Вечері Господній разом з церквою.</p>
+</div>
+`,
   },
   {
     id: 'ev-053', slug: 'thanksgiving-celebration-chicago-2018',
     titleEn: 'Thanksgiving Celebration in Chicago',
+    titleUk: 'Випуск групи в Шарлотт',
     publishedAt: '2018-12-13',
+    publishedAtUk: '2017-07-25',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_5681_e2d631422966195e48c1775c7e1b1dba-768x433.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/04/FullSizeRender_3_e0c8342bed19ba3806bb30f951fc00e5-768x577.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/thanksgiving-celebration-in-chicago/',
     contentFull: `    
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_5681_e2d631422966195e48c1775c7e1b1dba-768x433.jpg" alt="Banquet room at the Thanksgiving 2018 celebration of the Ukrainian Baptist Church of Chicago at Maggiano's Little Italy, November 2018" class="article-inline-img" />
@@ -1761,14 +3135,31 @@ Picture 2: Pastor Kalinin and his wife Maria with some of their family.
   <div class="history-page__image-caption" style="text-align: center; margin-top: 4px;">
 Pastor Kalinin and his wife Maria with some of their family.
   </div>
+`,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/04/FullSizeRender_3_e0c8342bed19ba3806bb30f951fc00e5-1024x769.jpg" alt="Випуск групи в Шарлотт" class="article-inline-img" />
+        <div class="letterhead">
+  <p>В першій половині дня Вадім Мошковський, Генадій Мар’янов, Дмитро Гринчак та Віктор Ільницький захистили дипломні роботи і отримали ступінь бакалавра.</p>
+</div>
 
+<div class="convention-highlight">
+  <p>До складу приймальної комісії входили такі брати: Анатолій Мошковський, Ярослав Пиж, Ігор Бандура, Володимир Кондор і Роман Капран.</p>
+  <p>Ще 8 випускників отримали сертифікат: Анатолій та Ірина Бережняк, Анатолій та Жанна Березовські, Роман Бублик, Раїса Годнюк, Даниїл Стащак і Олег Задіган.</p>
+</div>
+
+<div class="signature-block">
+  <p>По закінченні церемонії вручення дипломів, випускники разом із своїми сім’ями, члени приймальної комісії та запрошені мали гарну та смачну вечерю.</p>
+</div>
 `
   },
   {
     id: 'ev-054', slug: '73rd-annual-convention-2018',
     titleEn: '73rd Annual Convention',
+    titleUk: '10-та Конференція Служителів на Флориді',
     publishedAt: '2018-10-24',
+    publishedAtUk: '2017-05-10',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_5489_1a1239996e919f2f22b88b9c8557029c-768x576.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/04/Retreat_f51ed742e74f1ce0f67b598a6426039d-768x410.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/73-rd-annual-convention/',
     contentFull: `    
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_5489_1a1239996e919f2f22b88b9c8557029c-768x576.jpg" alt="73rd Annual Convention of the Ukrainian Evangelical Baptist Convention, Philadelphia, Labor Day weekend 2018" class="article-inline-img" />
@@ -1801,13 +3192,26 @@ Pastor Kalinin and his wife Maria with some of their family.
 <div class="signature-block">
   <p>Anyone interested in supporting the work of the UEBC — such as missionaries, the Lviv seminary, camps for youth and children, visiting and assisting local churches, and convention expenses – may write a check payable to Ukrainian Missionary and Bible Society and may send it to Rev. Leonid Bliznyuk, P.O. Box 353, East Petersburg, PA 17520-0353 USA.</p>
 </div>
+`,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/04/Retreat_f51ed742e74f1ce0f67b598a6426039d-1024x546.jpg" alt="10-та Конференція Служителів на Флориді" class="article-inline-img" />
+        <div class="letterhead">
+  <p>Учасниками конференції (ретриту) були представники 15 церков двох Українських Баптистських Об’єднань в США. Також були гості з України: Валерій Антонюк, Голова Союзу Баптистських Церков України, та Михайло Храпак, пастор центральної церкви м. Житомир.</p>
+</div>
+
+<div class="convention-highlight">
+  <p>Під час ретриту в основному обговорювалася реформація як історична, так і сучасна, її вплив на суспільство і наші церкви. На зустрічі 29 квітня брати прийняли рішення відносно інкорпорації видавництва «Дороги Правди» в США.</p>
+</div>
 `
   },
   {
     id: 'ev-055', slug: 'videos-camp-pearl-2018',
     titleEn: 'Videos about Camp Pearl',
+    titleUk: 'Пасхальне поздоровлення',
     publishedAt: '2018-10-14',
+    publishedAtUk: '2017-04-13',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/2017-Youth-Camp-Picture_16d26af24762cb2f782db3279f9a137a-300x225.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/04/he-is-risen-2_688e7c24a063326074d9ea58b541bc6a.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/video/',
     contentFull: `   
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/2017-Youth-Camp-Picture_16d26af24762cb2f782db3279f9a137a.jpg" alt="Youth campers at Camp Pearl, summer youth camp of the Ukrainian Baptist Convention, 2017" class="article-inline-img" />
@@ -1826,13 +3230,22 @@ Pastor Kalinin and his wife Maria with some of their family.
     <iframe src="https://www.youtube.com/embed/vkjHgKcdKWc" title="Camp Pearl 2014" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="event-video" loading="lazy"></iframe>
   </div>
 </div>
-`
+`,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/04/he-is-risen-2_688e7c24a063326074d9ea58b541bc6a.jpg" alt="Пасхальне поздоровлення" class="article-inline-img" />
+        <div class="convention-highlight">
+  <p>Віра у воскресіння Ісуса Христа – це віра в те: що я можу змінитися силою Божою, що мої чи наші проблеми можуть вирішитися в Бозі, що розбите серце може зцілитися в Господі, що зруйнована сім’я може об’єднатися в Христі, що слабке тіло може окріпнути в Тому, Хто його створив.</p>
+</div>
+`,
   },
   {
     id: 'ev-056', slug: 'ukrainian-weekly-baptists-elect-president-2018',
     titleEn: 'The Ukrainian Weekly – Ukrainian Baptists Elect New President',
+    titleUk: 'Молодіжна конференція «Активна Віра»',
     publishedAt: '2018-09-25',
+    publishedAtUk: '2017-04-13',
     thumbnailUrl: '',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/04/IMG_3448_423419bd6121ec867a22bb0c73e421cc-768x576.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/the-ukrainian-weekly-ukrainian-baptists-elect-new-president/',
     contentFull: ` 
     <div class="history-page__image-caption" style="text-align: center; margin-top: 4px;">
@@ -1841,23 +3254,56 @@ Pastor Kalinin and his wife Maria with some of their family.
     </p>
     </div>
     <img src="https://ukrbaptist.org/wp-content/uploads/2024/11/Ukr-Weekly-article-UEBC-768x635.jpg" alt="The Ukrainian Weekly article about the election of Rev. Roman Kapran as new president of the Ukrainian Evangelical Baptist Convention, September 2018" class="article-inline-img" style="max-width:500px;" />
-  `
+  `,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/04/IMG_3448_423419bd6121ec867a22bb0c73e421cc-1024x768.jpg" alt="Молодіжна конференція «Активна Віра» фото" class="article-inline-img" />
+        <div class="event-video-wrapper">
+  <iframe 
+    src="https://www.youtube.com/embed/ruAQxIB2-zQ" 
+    title="YouTube live video" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen 
+    class="event-video" 
+    loading="lazy">
+  </iframe>
+</div>
+`
   },
   {
     id: 'ev-057', slug: 'invitation-73rd-convention-2018',
     titleEn: 'An Invitation to the 73rd Convention',
+    titleUk: 'Відвідування брата Івана Ковальчука',
+    publishedAtUk: '2017-04-13',
     publishedAt: '2018-08-23',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/73-ziizd_b3f1d5716abda1fe98d0cb62e4cb2cb8-768x549.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/04/FullSizeRender-6_77ee849dc17c98b800185be6a4f8b1ea.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/an-invitation-to-73-rd-convention/',
     contentFull: `    
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/73-ziizd_b3f1d5716abda1fe98d0cb62e4cb2cb8-768x549.jpg" alt="Invitation poster for the 73rd Annual Convention of the Ukrainian Evangelical Baptist Convention, Levittown, Pennsylvania, Labor Day 2018" class="article-inline-img" />
- `
+ `,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/04/FullSizeRender-6_77ee849dc17c98b800185be6a4f8b1ea.jpg" alt="Відвідування брата Івана Ковальчука" class="article-inline-img" />
+        <div class="letterhead">
+  <p>Подружжя Ковальчуків очікувало і з радістю готувалось до візиту братів. Брат Іван та сестра Женя проживають в околиці міста Даллас, штат Техас, в будинку для старших людей.</p>
+</div>
+
+<div class="convention-highlight">
+  <p>Після перенесеного інсульту, а також з розвитком хвороби «паркінсон», брат Іван фізично дуже ослаб. Незважаючи на свій стан, під час зустрічі брат Іван звершив дійсно пасторську молитву, в якій згадав про наші церкви, молодших служителів, а також просив Господа за майбутність Об’єднання і церков.</p>
+</div>
+
+<div class="signature-block">
+  <p>Брат Іван та його дружина Женя вітають усі церкви зі святом Пасхи та бажають всім Господнього благословіння в праці по поширенню Доброї Новини.</p>
+</div>
+`
   },
   {
     id: 'ev-058', slug: '90th-birthday-dmitro-voyevoda-2018',
     titleEn: "Celebrating the 90th Birthday of Dmitro Voyevoda",
+    titleUk: 'Семінар по Реформації',
+    publishedAtUk: '2017-03-29',
     publishedAt: '2018-05-01',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_4879-768x1010.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/04/Seminar_105f451abd57aad3e8637ceef1adf2af-768x546.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/celebrating-the-90th-birthday-of-dmitro-voyevoda/',
     contentFull: `    
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_4879-768x1010.jpg" alt="Portrait of Dmitro Voyevoda, composer of over 100 hymns and choir director for 44 years, celebrating his 90th birthday, 2018" class="article-inline-img" style="max-width:480px;" />
@@ -1874,23 +3320,52 @@ Pastor Kalinin and his wife Maria with some of their family.
 <div class="signature-block">
   <p>We wish Dmitro Voyevoda blessings in glorifying our Lord.</p>
 </div>
+`,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/04/Seminar_105f451abd57aad3e8637ceef1adf2af-1024x728.jpg" alt="Семінар по Реформації Фото" class="article-inline-img" />
+        <div class="letterhead">
+  <p>А 22 березня брат Сергій Санніков робив презентацію «Слов’янського Біблійного Коментаря» в молитовному будинку м. Крум Линн (Crum Lynne, PA). Він є головним редактором цього однотомного видання. Визначним є те, що коментарі на всі Книги Біблії та статті до коментаря писали наші вітчизняні автори.</p>
+</div>
+
+<div class="convention-highlight">
+  <p>В презентації брав участь брат Роман Капран, один з авторів, який писав коментар на Лист Римлянам.</p>
+</div>
+<div class="event-video-wrapper">
+  <iframe 
+    src="https://www.youtube.com/embed/aX4IAh5DZps" 
+    title="YouTube video" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen 
+    class="event-video" 
+    loading="lazy">
+  </iframe>
+</div>
 `
   },
   {
     id: 'ev-059', slug: 'easter-greetings-2018',
+    titleUk: 'Навчання для слави Господа',
     titleEn: 'Easter Greetings from the Ukrainian Baptist Convention of the USA',
+    publishedAtUk: '2017-03-13',
     publishedAt: '2018-03-27',
     thumbnailUrl: "https://ukrbaptist.org/wp-content/uploads/2022/05/empty_tomb23456-768x413.jpg",
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/04/FullSizeRender-3_1551e3c4ca195bea2a1d7f6c04e197ef-768x376.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/easter-greetings-from-the-ukrainian-baptist-convention-of-the-usa/',
     contentFull: `    
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/empty_tomb23456-768x413.jpg" alt="Empty tomb illustration for Easter greetings from the Ukrainian Baptist Convention of the USA, 2018" class="article-inline-img" />
-    `
+    `,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/04/FullSizeRender-3_1551e3c4ca195bea2a1d7f6c04e197ef-768x376.jpg" alt="Навчання для слави Господа Фото" class="article-inline-img" />
+`
   },
   {
     id: 'ev-060', slug: 'in-memory-john-kovalchuk-2018',
     titleEn: 'In Memory of John Kovalchuk',
+    titleUk: 'Хрещення у Міннеаполісі',
     publishedAt: '2018-01-06',
+    publishedAtUk: '2017-01-29',
     thumbnailUrl: '',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/04/IMG_3159_8cac34477bad9e62d74a6edb41f82e9a.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/in-memory-of-john-kovalchuk-biography/',
     contentFull: `   
     <div class="history-page__image-caption" style="text-align: center; margin-top: 4px;">
@@ -1898,35 +3373,68 @@ Pastor Kalinin and his wife Maria with some of their family.
     <a href="https://subscription.ukrweekly.com/2018/01/the-rev-dr-john-kovalchuk-78-retired-leader-of-ukrainian-baptists/" target="_blank" rel="noopener noreferrer" style="color: var(--color-topbar-bg);">The Rev. Dr. John Kovalchuk, 78, retired leader of Ukrainian Baptists  </a>
     </p>
     </div> 
-  
+`,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/04/IMG_3159_8cac34477bad9e62d74a6edb41f82e9a.jpg" alt="Три дівчини прийняли хрещення у Міннеаполісі" class="article-inline-img" />
 `
   },
   // PAGE 4
   {
     id: 'ev-061', slug: 'christmas-greetings-convention-committee-2017',
     titleEn: 'Christmas Greetings of the Convention Committee',
+    titleUk: '«Служіння любові» церкви м. Міннеаполіс',
+    publishedAtUk: '2017-01-28',
     publishedAt: '2017-12-24',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/mary-holding-baby-jesus-swindle_1604227_inl-300x247.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/04/IMG_2178_8ad5631a597a5b6e6190026a3daca0c0.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/christmas-greetings-of-the-convention-committee/',
     contentFull: `    
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/mary-holding-baby-jesus-swindle_1604227_inl-300x247.jpg" alt="Christmas greetings from the Ukrainian Baptist Convention of the USA, 2017" class="article-inline-img" />
-    `
+    `,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/04/IMG_2178_8ad5631a597a5b6e6190026a3daca0c0.jpg" alt="«Служіння любові» церкви м. Міннеаполіс" class="article-inline-img" />
+        <div class="letterhead">
+  <p>Час, через який проходять наші близькі, рідні, брати та сестри, важкий і ми віримо, що Бог дає нам можливість для проявлення Своєї любові через Своїх дітей.</p>
+</div>
+
+<div class="convention-highlight">
+  <p>«Тож тому, поки маємо час, усім робімо добро, а найбільш одновірним!» (Гал. 6:10)</p>
+</div>
+
+<p>2017 рік – це рік нових можливостей, і наша церква планує продовжувати місійне служіння по відправці допомоги в Україну. Ми називаємо це «Служіння Любові», тому будемо раді разом з Вами послужити народу України в Ім’я Господа Ісуса Христа.</p>
+
+<div class="signature-block">
+  <p>З пропозиціями та побажаннями звертатись: Михайло Комендант<br/>
+  тел.: 952-649-0196<br/>
+  email: kommike02@gmail.com</p>
+</div>
+`
   },
   {
     id: 'ev-062', slug: 'coffee-house-pizza-house-ministry-2017',
     titleEn: 'Coffee House and Pizza House Ministry',
+    titleUk: 'Різдв’яне Поздоровлення',
+    publishedAtUk: '2016-12-21',
     publishedAt: '2017-11-17',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_4623-300x169.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/04/ChristBirthChristmas.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/coffee-house-and-pizza-house-ministry/',
     contentFull: `
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_4623-1024x576.jpg" alt="Coffee House and Pizza House Ministry, 2017" class="article-inline-img" />
+    `,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/04/ChristBirthChristmas.jpg" alt="Різдв’яне Поздоровлення фото" class="article-inline-img" />
+
     `
   },
   {
     id: 'ev-063', slug: 'baptism-in-lancaster-2017',
     titleEn: 'Baptism in Lancaster',
+    titleUk: 'Рукопокладання нових дияконів',
+    publishedAtUk: '2016-12-11',
     publishedAt: '2017-11-17',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_4624_f131a06fb52f65f7a839d23add89241a-300x200.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/04/IMG_3156_f310c87af97f16e8ec82dc0c628bcbf6-768x576.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/baptism-in-lancaster/',
     contentFull: `
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/05/IMG_4624_f131a06fb52f65f7a839d23add89241a-1024x683.jpg" alt="Nine new believers baptized in a lake by Pastors Leonid Blyznyuk and Viktor Shchipailo at the Ukrainian Evangelical Baptist Church of Lancaster, 2017" class="article-inline-img" />
@@ -1938,13 +3446,19 @@ Pastor Kalinin and his wife Maria with some of their family.
   <p>Pastors Leonid Blyznyuk and Viktor Shchipailo conducted the baptism in a lake. After that, pastors Anatoly Moshkovsky, Leonid Blyznyuk, Viktor Shchipailo, Dmytro Login, and Volodimir Gonak led a prayer with blessings over those baptized.</p>
   <p>A lot of people gathered to celebrate the baptism. The two churches celebrated this together at a park. After the baptism there was a worship service in the open air, and the newly baptized participated in the Lord’s Supper, for the first time, with the church.</p>
 </div>
-`
+`,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/04/IMG_3156_f310c87af97f16e8ec82dc0c628bcbf6-1024x768.jpg" alt="Nine new believers baptized in a lake by Pastors Leonid Blyznyuk and Viktor Shchipailo at the Ukrainian Evangelical Baptist Church of Lancaster, 2017" class="article-inline-img" />
+        `,
   },
   {
     id: 'ev-064', slug: '10th-conference-ministers-florida-2017',
     titleEn: '10th Conference of Ministers in Florida',
+    titleUk: 'Сесія групи УБТС',
+    publishedAtUk: '2016-11-18',
     publishedAt: '2017-05-10',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/04/Retreat_f51ed742e74f1ce0f67b598a6426039d-300x160.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/04/IMG_3096-1024x768.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/10th-conference-of-ministers-in-florida/',
     contentFull: `    
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/04/Retreat_f51ed742e74f1ce0f67b598a6426039d-300x160.jpg" alt="Representatives from 15 churches at the 10th Conference of Ministers, Florida, April 2017" class="article-inline-img" />
@@ -1956,13 +3470,19 @@ Pastor Kalinin and his wife Maria with some of their family.
 <div class="convention-highlight">
   <p>During the conference, the main discussion was about both the historical and the contemporary reformation, and its impact on our society and churches. On April 29th, a decision was made concerning the incorporation, in the United States, of the publisher “Way of Truth”.</p>
 </div>
+`,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/04/IMG_3096-1024x768.jpg" alt="Representatives from 15 churches at the 10th Conference of Ministers, Florida, April 2017" class="article-inline-img" />
 `
   },
   {
     id: 'ev-065', slug: 'active-faith-youth-conference-2017',
     titleEn: '"Active Faith" Youth Conference',
+    titleUk: 'Молитися за новообраного Президента',
+    publishedAtUk: '2016-11-13',
     publishedAt: '2017-04-13',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/04/IMG_3448_423419bd6121ec867a22bb0c73e421cc-300x225.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2022/04/stars-932873_640.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/active-faith-youth-conference/',
     contentFull: `    
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/04/IMG_3448_423419bd6121ec867a22bb0c73e421cc-300x225.jpg" alt="Young believers at the Active Faith Youth Conference, Ukrainian Baptist Convention, April 2017" class="article-inline-img" />
@@ -1973,19 +3493,96 @@ Pastor Kalinin and his wife Maria with some of their family.
   </div>
   
 </div>
-  `
+  `,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2022/04/stars-932873_640.jpg" alt="Young believers at the Active Faith Youth Conference, Ukrainian Baptist Convention, April 2017" class="article-inline-img" />
+        <div class="letterhead">
+  <p>Апостол Павло доручив церкві молитися за уряд країни:</p>
+</div>
+
+<div class="convention-highlight">
+  <p>«Отже, перш над усе я благаю чинити молитви, благання, прохання, подяки за всіх людей, за царів та за всіх, хто при владі, щоб могли ми проводити тихе й мирне життя в усякій побожності та чистоті. Бо це добре й приємне Спасителеві нашому Богові, що хоче, щоб усі люди спаслися, і прийшли до пізнання правди» (1 Тим. 2:1-4).</p>
+</div>
+
+<p>В цьому тексті Писання християни покликані молитися за царів і за всіх людей на високих посадах незалежно від їх політичної ідеології та переконань.</p>
+
+<p>В цьому світі, коли люди, включно з урядовцями, схвильовані обставинами, погрозами, безнадійністю, то ми маємо унікальну можливість відображати мир, який приносить Євангеліє в серця віруючих: «тихе й мирне життя в усякій побожності та чистоті» (1 Тим. 2:2), а також сприяти, щоб люди, в тому числі урядовці, прийшли до пізнання правди та отримали спасіння від нашого Господа Ісуса Христа.</p>
+
+<h2>Деякі поради, як ми можемо молитися за обраного президента та членів уряду:</h2>
+
+<div class="convention-highlight">
+  <ul>
+    <li><strong>Моліться за мудрість та розуміння:</strong> щоб він розумів наслідки кожного прийнятого рішення щодо життя країни та світу. Моліться за мудрість в призначенні членів Верховного Суду та інших важливих урядовців, які можуть впливати на подальший напрямок розвитку країни.</li>
+    <li><strong>Моліться за розсудливість</strong> в прийнятті всіх рішень та відкритість до добрих порад від благочестивих дорадників. Моліться, щоб він у смиренні працював та служив на благо інших людей, а не для егоїстичної вигоди.</li>
+    <li><strong>Моліться про захист</strong> президента від зла, захист від ворогів, за здоров’я та загальну безпеку.</li>
+    <li><strong>Моліться за мужність</strong> перед лицем незгод та небезпеки. Моліться, щоб він був сміливий у прагненні служити країні.</li>
+    <li><strong>Моліться за спасіння президента:</strong> згідно з 1 Тим. 2:1-4 ми молимося за спасіння всіх людей, включно з лідерами нашої країни. Бажання Господа Ісуса Христа і наше також, щоб президент та інші лідери правдиво пізнали Ісуса Христа, покаялися в своєму гріху та наповнювалися Словом Божим.</li>
+  </ul>
+</div>
+
+<p>Апостол Павло стверджує, що немає влади, як не від Бога. <strong>Рим.13:1</strong> «Нехай кожна людина кориться вищій владі, бо немає влади, яка не від Бога, а влади існуючі встановлені від Бога» (Рим. 13:1). Правителі можуть думати, що вони визначають все. Але ми, християни, знаємо, що нічого не може статися без Бога. Бог установив ідею уряду: «влади існуючі встановлені від Бога».</p>
+
+<p>Ми бачимо прояв Божої сили на протязі всього Писання:</p>
+
+<div class="convention-highlight">
+  <p>«Хіба ви не знаєте, чи ви не чули, чи вам не сповіщено здавна було, чи ви не зрозуміли підвалин землі? Він є Той, Хто сидить понад кругом землі, а мешканці її – немов та сарана. Він небо простяг, мов тканину тонку, і розтягнув він його, мов намета на мешкання. Він Той, Хто князів обертає в ніщо, робить суддів землі за марноту…» (Ісаї 40:21-23)</p>
+</div>
+
+<p>Наш уряд ніколи не буде таким, яким ми хочемо. Наші президенти ніколи не будуть такими, які задовольнять всіх. Але ми можемо повністю покладати надію на Бога тепер та бути впевненими щодо майбутнього. Ісус повернеться знову, і ніхто та ніщо не зможе бути перешкодою на Його шляху:</p>
+
+<div class="convention-highlight">
+  <p>«І побачив я небо відкрите. І ось білий кінь, а Той, Хто на ньому сидів, зветься Вірний і Правдивий, і Він справедливо судить і воює. А з уст Його виходив гострий меч, щоб ним бити народи. І Він пастиме їх залізним жезлом. І Він буде топтати чавило вина лютого гніву Бога Вседержителя! І Він має на шаті й на стегнах Своїх написане ім’я: “Цар над царями, і Господь над панами”» (Об. 19:11, 15-16).</p>
+</div>
+
+<p>Є обставини, коли ми, християни, не можемо підкорятися владі, якщо її рішення йде в пряме протистояння з вищою владою Бога. Але аж до другого приходу Ісуса Христа за церквою, нашою відповідальністю буде молитва за існуючу владу для добра країни та спасіння людей.</p>
+
+<div class="signature-block">
+  <p><strong>Анатолій Мошковський</strong><br/>9 листопада 2016</p>
+</div>
+`
   },
   {
     id: 'ev-066', slug: 'visit-to-ivan-kovalchuk-2017',
     titleEn: 'Visit to Brother Ivan Kovalchuk',
+    titleUk: '71-й З’їзд Об’єднання в Клівленді',
+    publishedAtUk: '2016-10-30',
     publishedAt: '2017-04-13',
     thumbnailUrl: 'https://ukrbaptist.org/wp-content/uploads/2022/04/FullSizeRender-6_77ee849dc17c98b800185be6a4f8b1ea-300x276.jpg',
+    thumbnailUrlUk: 'https://ukrbaptist.org/wp-content/uploads/2016/10/IMG_2786-2_faccf7b42b15823f7445c25ec5301cb8.jpg',
     sourceUrl: 'https://ukrbaptist.org/en/visit-to-brother-ivan-kovalchuk/',
     contentFull: `    
     <img src="https://ukrbaptist.org/wp-content/uploads/2022/04/FullSizeRender-6_77ee849dc17c98b800185be6a4f8b1ea-300x276.jpg" alt="Convention leaders visiting brother Ivan Kovalchuk at his home, April 2017" class="article-inline-img" style="max-width:300px;" />
     <div class="letterhead">
   <p>After his stroke, as well as the development of Parkinson’s disease, John’s physical health has deteriorated. Despite his condition, during the meeting brother John did truly pastoral prayer, in which he remembered our churches, younger ministers, and asked the Lord to bless the future of our Convention, as well as churches.</p>
   <p>Brother John and his wife want to greet all the churches with the Easter celebration, and wish for all to have the Lord’s blessing in the spreading of the Good News.</p>
+</div>
+`,
+    contentFullUk: `
+        <img src="https://ukrbaptist.org/wp-content/uploads/2016/10/IMG_2786-2_faccf7b42b15823f7445c25ec5301cb8.jpg" alt="71-й З’їзд Об’єднання в Клівленді" class="article-inline-img" />
+        <div class="letterhead">
+  <p>Основна увага була зосереджена на проповіді про:</p>
+</div>
+
+<div class="convention-highlight">
+  <ul>
+    <li>“Повернення до Слова Божого” (Віктор Пилипчук)</li>
+    <li>“Повернення до єдності” (Ігор Мельничук)</li>
+    <li>“Повернення до біблійних цінностей” (Василь Куманський)</li>
+    <li>“Повернення до відваги” (Давид Летушко)</li>
+    <li>“Повернення до справжніх стосунків з Богом” (д-р Дон Бетс)</li>
+    <li>“Повернення до першої любові” (Олександр Калінін)</li>
+    <li>“Повернення до великого доручення” (В’ячеслав Нестерук)</li>
+  </ul>
+</div>
+
+<p>Під час з’їзду була обрана номінаційна комісія для пошуку наступного проводу нашого Об’єднання.</p>
+
+<div class="convention-highlight">
+  <p>Хочеться особливо відзначити оркестр з міста Чикаго за гарну музику на славу Господу, а також висловлюємо вдячність всім учасникам музичної програми.</p>
+</div>
+
+<div class="signature-block">
+  <p>Надіюсь, у всіх делегатів та гостей з’їзду залишились приємні спогади про гостинність місцевої церкви, а також про смачну українську страву.</p>
 </div>
 `
   },
